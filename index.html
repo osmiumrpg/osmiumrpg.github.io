@@ -1,1 +1,33 @@
-Hello world
+<html>
+    <head>
+        <title>
+            Osmium: Galaxies of Fantasy Adventure
+        </title>
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $( document ).ready(function() {
+                console.log( "ready!" );
+            });
+        </script>
+    </head>
+    <body>
+        <!--Navigation bar-->
+            <div id="nav-placeholder">
+
+            </div>
+
+            <script>
+                $(function(){
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+        <!--end of Navigation bar-->
+        <div>
+            Frank and beans!
+        </div>
+    </body>
+</html>

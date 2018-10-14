@@ -34,3 +34,7 @@ span.proficiency {
 span.challenge {
     color: #7D1821;
 }
+
+tr.rolled td, tr.rolled th {
+    background-color: orange;
+}

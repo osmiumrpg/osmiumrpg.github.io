@@ -3,12 +3,34 @@
     src: url("fonts/eote.otf") format("opentype");
 }
 
-span.boost {
+span.dice {
     font-family: EotE;
-    color: #72CDDC;
-    font-weight: bold;
     text-shadow: -1px -1px 0 #000,
-		           1px -1px 0 #000,
-                  -1px  1px 0 #000, 
-                   1px  1px 0 #000;
-		          }
+		          1px -1px 0 #000,
+                 -1px  1px 0 #000, 
+                  1px  1px 0 #000;
+}
+
+span.boost {
+    color: #72CDDC;
+}
+
+span.setback {
+    color: #000000;
+}
+
+span.ability {
+    color: #41ad49;
+}
+
+span.difficulty {
+    color: #6C2A84;
+}
+
+span.proficiency {
+    color: #FFE800;
+}
+
+span.challenge {
+    color: #7D1821;
+}

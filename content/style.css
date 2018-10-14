@@ -1,0 +1,14 @@
+@font-face {
+    font-family: EotE;
+    src: url("fonts/eote.otf") format("opentype");
+}
+
+span.boost {
+    font-family: EotE;
+    color: #72CDDC;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,
+		           1px -1px 0 #000,
+                  -1px  1px 0 #000, 
+                   1px  1px 0 #000;
+		          }

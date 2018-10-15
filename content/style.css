@@ -38,3 +38,22 @@ span.challenge {
 tr.rolled td, tr.rolled th {
     background-color: orange;
 }
+
+a {
+    color: red;
+    font-weight: bold;
+}
+
+.pop {
+    cursor: pointer;
+}
+
+.pop-info
+{
+    color: blue;
+}
+
+.pop-link
+{
+    color: purple;
+}

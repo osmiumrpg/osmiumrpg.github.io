@@ -35,14 +35,20 @@ span.challenge {
     color: #7D1821;
 }
 
+/* Tables */
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: aliceblue;
+ }
+
 tr.rolled td, tr.rolled th {
     background-color: orange;
 }
 
-a {
+/* a {
     color: red;
     font-weight: bold;
-}
+} */
 
 .pop {
     cursor: pointer;

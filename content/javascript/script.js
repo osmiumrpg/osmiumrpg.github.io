@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     $("#nav-placeholder").load("https://emersonp.github.io/nav.html");
-    $("[data-toggle=popover]").popover({
+    $('[data-toggle="popover"]').popover({
         container: 'body',
         trigger: 'focus'
     });

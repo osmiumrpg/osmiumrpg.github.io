@@ -36,14 +36,14 @@ span.challenge {
 }
 
 /* Tables */
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-   background-color: aliceblue;
- }
-
-tr.rolled td, tr.rolled th {
+.rolled>td, .rolled>th {
     background-color: orange;
 }
+
+.table-striped>tbody>tr:not(.rolled):nth-child(odd)>td, 
+.table-striped>tbody>tr:not(.rolled):nth-child(odd)>th {
+   background-color: aliceblue;
+ }
 
 /* a {
     color: red;

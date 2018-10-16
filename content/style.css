@@ -45,6 +45,10 @@ span.challenge {
    background-color: aliceblue;
  }
 
+ td {
+     font-size: 1em;
+ }
+
 /* a {
     color: red;
     font-weight: bold;

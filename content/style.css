@@ -3,6 +3,16 @@
     src: url("fonts/eote.otf") format("opentype");
 }
 
+body {
+    background-color: linen;
+}
+
+div.read-aloud {
+    background-color: #A0E5CE;
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 span.dice {
     font-family: EotE;
     text-shadow: -1px -1px 0 #000,

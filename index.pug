@@ -1,0 +1,93 @@
+html
+    head
+        title Osmium: Galaxies of Fantasy Adventure
+
+        // Third party
+        script(src='https://code.jquery.com/jquery-3.3.1.min.js',
+            integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=',
+            crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', 
+            integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q',
+            crossorigin='anonymous')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
+            integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl',
+            crossorigin='anonymous')
+        link(rel='stylesheet', 
+            href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css',
+            integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm',
+            crossorigin='anonymous')
+        
+        // Files
+        link(href='content/style.css', rel='stylesheet', type='text/css')
+        script(src='content/javascript/script.js')
+    body
+        #nav-placeholder
+        .container &nbsp;
+            .row
+                h1 Osmium
+            .row
+                h2 Galaxies of Fantasy Adventure
+            .row
+                p The Osmium Universe is one of infinite possibilities, a kitchen-sink where awesome is dialed to 11. The GM should be a fan of their players, and the players should be excited to play in the universe, so the universe has to be epic enough for the players to feel truly grandiose against the backdrop.
+            .row
+                .card
+                    .card-header
+                        h4
+                            | Shalespear III Encounters 
+                            button#btn-shalespear-encounters.btn(data-toggle='collapse', data-target='#div-shalespear-encounters' onclick="toggleCollapseArrow('shalespear-encounters');") &ndash;
+                    #div-shalespear-encounters.collapse.show
+                        table#tbl-shalespear-encounters.table.table-striped
+                            thead
+                                tr
+                                    th(scope="col") d10
+                                    th(scope="col") Encounter
+                                    th 
+                                        button(onclick="rollOnTable('tbl-shalespear-encounters');", style="float: right;") Roll
+                            tbody
+                                tr
+                                    th(scope="row") 1
+                                    td(colspan='2') A wandering priest of Esther the Gentle, offering healing and alms in return for hours of communal prayer.
+                                tr
+                                    th(scope="row") 2
+                                    td(colspan='2') A group of drunk Human mercenaries looking for entertainment, possibly a fight.
+                                tr
+                                    th(scope="row") 3
+                                    td(colspan='2') A Vrar drug-dealer offering various forms of escape.
+                                tr
+                                    th(scope="row") 4
+                                    td(colspan='2') A Summer Elf beggar with her baby, imploring the PCs for money or a trip off the planet.
+                                tr
+                                    th(scope="row") 5
+                                    td(colspan='2') A Human flees a group of Hegemony mercenaries. The Human is a smuggler whose imported goods were not quite up to snuff (a matter in dispute)
+                                tr
+                                    th(scope="row") 6
+                                    td(colspan='2') A group of Summer Elf mercenaries spread wreaths and ashes on the shore of the island, saying goodbye to a lost compatriot who wanted to be laid to rest on the mercenary party island.
+                                tr
+                                    th(scope="row") 7
+                                    td(colspan='2') A very drunk Minotaur mercenary wants everybody to come in to a tavern and drink their fill on her.
+                                tr
+                                    th(scope="row") 8
+                                    td(colspan='2') A sad and tipsy Human veteran throws rocks into the ocean, offering to share their tales of adventure for a few pennies.
+                                tr
+                                    th(scope="row") 9
+                                    td(colspan='2') A Vrar woman drags an Elf in manacles through the street. She will not brook questions about her endeavor.
+                                tr
+                                    th(scope="row") 10
+                                    td(colspan='2')
+                                        | A Human pilot begs for a little fuel matter, enough to get him to 
+                                        a.pop.pop-info(data-toggle="popover", tabindex="0", title="Popover title", 
+                                        data-content="And here's some amazing content. It's very engaging. Right?") Breadbasket
+                                        | .
+            .row
+                .card
+                    table#tbl-second-table.table.table-striped
+                        thead
+                            tr
+                                th(scope="col") d10
+                                th(scope="col") Encounter
+                                th 
+                                    button(onclick="rollOnTable('tbl-second-table');", style="float: right;") Roll
+                        tbody
+                            tr
+                                th(scope="row") 1
+                                td(colspan='2') A second table to test rolling function.

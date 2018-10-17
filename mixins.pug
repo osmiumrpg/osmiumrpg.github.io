@@ -15,13 +15,9 @@ mixin header
         integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm',
         crossorigin='anonymous')
     
-    // Files
-    link(href='content/style.css', rel='stylesheet', type='text/css')
-    script(src='content/javascript/script.js')
-
 mixin navbar
     nav.navbar.navbar-expand-lg.navbar-light.bg-light
-        a.navbar-brand(href="#") Osmium
+        a.navbar-brand(href="/index.html") Osmium
         button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent",
             aria-expanded="false" aria-label="Toggle navigation")
             span.navbar-toggler-icon
@@ -43,4 +39,4 @@ mixin navbar
                 li.nav-item
                     a.nav-link.disabled(href="#") Disabled
                 li.nav-item
-                    a.nav-link(href="#") Adventures
+                    a.nav-link(href="./adventures/hotlanta.html") Adventures

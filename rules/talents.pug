@@ -15,7 +15,8 @@ html
             .col-md-8.col-12
                 h1 Talents
                 p The following talents are available in the Osmium setting. This list supersedes the talents available in the Genesys Core Rules (though it does incorporate most of them).
-                h3 Tags
+                p(style="text-align: center;") #[a(href='#tier-1') Tier 1] | #[a(href='#tier-2') Tier 2] | #[a(href='#tier-3') Tier 3] | #[a(href='#tier-4') Tier 4] | #[a(href='#tier-5') Tier 5]
+                h3#tags Tags
                 p In order to help search for talents that might be of use to your character, each talent is tagged. Searching for a [TAG] should help you jump through talents that you’re looking for.
                 p There may be  talents that have no tags, if no current tags make sense.
                 p The current tags are:
@@ -31,7 +32,7 @@ html
                     li [Brawl] – 
                         em With use of the Brawl skill.
                     li [Combat] – 
-                        em If this is the kind of thing that would get Brawl, Melee, and Range tags, I’m just shortcutting to Combat. Search for both your type of thing and combat.
+                        em If this is the kind of thing that would get Brawl, Melee, and Range tags, I’m just shortcutting to Combat. Search for both your type of thing and Combat.
                     li [Computers] – 
                         em teh hakzors.
                     li [Cyber] – 
@@ -59,14 +60,14 @@ html
                     li [Vehicles] – 
                         em Wheelpeople.
 
-                h3 Tier 1
+                h3#tier-1 Tier 1
                 h6 All-Terrain Driver
                 +talentstat('1', 'Passive','No','[Vehicles]')
                 p Do not suffer usual penalties for driving through difficult terrain when using Piloting.
 
-                h6 Bed-side Manner
+                h6 Bedside Manner
                 +talentstat('1', 'Passive', 'Yes', '[Medicine]')
-                p When a patient under your character’s care heals wounds from natural rest, they heal additional wounds equal to twice your character’s ranks in Bed-side Manner.
+                p When a patient under your character’s care heals wounds from natural rest, they heal additional wounds equal to twice your character’s ranks in Bedside Manner.
 
                 h6 Black Market Contacts
                 +talentstat('1', 'Active (Incidental)', 'Yes', '[Skulduggery]')
@@ -78,10 +79,32 @@ html
                 
                 h6 Brace
                 +talentstat('1', 'Active (Maneuver)', 'Yes', '[Athleticism]')
-                p As a maneuver, the character may Brace themself. This allows a character to remove #[span.setback b] per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult.
+                p As a maneuver, the character may Brace themself. This allows a character to remove #[span.dice.setback b] per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult.
 
                 h6 Bullrush
                 +talentstat('1', 'Active (Incidental)', 'No', '[Brawl], [Melee]')
                 p When your character makes a Brawl or Melee combat check after using a maneuver to engage a target, you may spend #[span.genesys aaa] or #[span.genesys t] to use this talent to knock the target prone and move them up to one range band away from your character.
 
+                h6 Call 'Em
+                +talentstat('1', 'Passive', 'No', '[Ranged]')
+                p Do not add #[span.setback.dice b] to combat checks due to the use of the Aim maneuver.
 
+                h6 Catfall
+                +talentstat('1','Passive','Yes', '[Athleticism], [Tough]')
+                p When rolling Athletics or Coordination to reduce damage from falling, add #[span.dice.boost b]. In addition, reduce damage and strain suffered from a fall by 1 per rank of Catfall.
+
+                h6 Challenge!
+                +talentstat('1', 'Active (Maneuver)', 'Yes', '[Brawl], [Melee]')
+                p Once per encounter, your character may use this talent to choose a number of adversaries within short range no greater than your character’s ranks in Challenge! (a minion group counts as a single adversary for this purpose). Until the encounter ends or your character is incapacitated, these adversaries add #[span.dice.boost b] to combat checks targeting your character and #[span.dice.setback bb] to combat checks targeting other characters.
+
+                h6 Clever Retort
+                +talentstat('1', 'Active (Incidental, Out of Turn)', 'No', '[Social]')
+                p Once per encounter, your character may use this talent to add automatic #[span.genesys hh] to another character’s social skill check.
+
+                h6 Dark Insight
+                +talentstat('1', 'Active (Incidental)', 'No', '[Magic]')
+                p You may use Lore as your character’s Magical Strength Skill (for example, replacing Science in Blue Magic).
+
+                h6 Defensive Sysops
+                +talentstat('1', 'Passive', 'No', '[Computers]')
+                p When attempting to defend a computer system against intrusion (or when someone attempts to hack a computer owned or programmed by your character) your character adds #[span.dice.setback bb] to their opponent’s checks. If your character has access to the computer system when the intrusion takes place, they are automatically aware of the intrusion.

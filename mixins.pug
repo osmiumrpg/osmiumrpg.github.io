@@ -40,3 +40,18 @@ mixin navbar
                     a.nav-link.disabled(href="#") Disabled
                 li.nav-item
                     a.nav-link(href="/adventures/hotlanta.html") Adventures
+
+mixin talentstat(tier, activation, ranked, tags)
+    .talent-stat
+        p
+            strong Tier: 
+            span= tier
+        p
+            strong Activation: 
+            span= activation
+        p
+            strong Ranked: 
+            span= ranked
+        p 
+            strong Tags: 
+            span= tags

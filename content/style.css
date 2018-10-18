@@ -3,6 +3,11 @@
     src: url("fonts/eote.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Genesys;
+    src: url("fonts/Genesys.ttf") format("TrueType");
+}
+
 body {
     background-color: linen;
 }
@@ -11,12 +16,14 @@ div.read-aloud {
     background-color: #A0E5CE;
     font-size: 1.4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: yellow;
+    border-width: thick;
 }
 
 h1 {
     color: #1ABEEF;
-    font-variant: uppercase;
-    font-size: 42pts;
+    text-transform: uppercase;
+    font-size: 3.5em;
 }
 
 h1 + p:first-letter, h2 + p:first-letter {
@@ -34,7 +41,7 @@ h2 {
     color: #1ABEEF;
     font-variant: small-caps;
     display: table;
-    font-size: 32pts;
+    font-size: 2.66em;
 }
 
 h2:after {
@@ -46,12 +53,45 @@ h2:after {
     margin-left:20px;
 }
 
-h4 talent {
-    text-align: center;
+h3 {
+    color: #1ABEEF;
+    font-variant: small-caps;
+    display: table;
+    font-size: 2em;
+}
+
+h4 {
+    /* text-align:center; */
+    color: #ed9629;
+    font-variant: small-caps;
+    display: table;
+    font-size: 1.66em;
+}
+
+h5 {
+    color: #326DA1;
+    font-variant: small-caps;
+    display: table;
+    font-size: 1.3em;
+}
+
+h6 {
+    color: #ea702b;
+    font-variant: small-caps;
+    display: table;
+    font-size: 1.3em;
+    border-bottom: 1px solid #ea702b;
 }
 
 p {
     font-size: 1em;
+}
+.talent-stat>p:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.talent-stat p {
+    font-size: .92em;
 }
 
 span.dice {
@@ -60,6 +100,10 @@ span.dice {
 		          1px -1px 0 #000,
                  -1px  1px 0 #000, 
                   1px  1px 0 #000;
+}
+
+span.genesys {
+    font-family: Genesys;
 }
 
 span.boost {

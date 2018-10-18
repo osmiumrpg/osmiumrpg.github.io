@@ -1,4 +1,3 @@
-
 include /mixins.pug
 html
     head
@@ -11,8 +10,78 @@ html
 
     body
         +navbar
-        .container &nbsp;
-            .row
-                .col-2
-                .col-8
-                    h5.talent Talent One
+        .row
+            .col-md-2
+            .col-md-8.col-12
+                h1 Talents
+                p The following talents are available in the Osmium setting. This list supersedes the talents available in the Genesys Core Rules (though it does incorporate most of them).
+                h3 Tags
+                p In order to help search for talents that might be of use to your character, each talent is tagged. Searching for a [TAG] should help you jump through talents that you’re looking for.
+                p There may be  talents that have no tags, if no current tags make sense.
+                p The current tags are:
+                ul 
+                    li [Adventurer] – 
+                        em For general purpose adventuring awesomeness, including luck.
+                    li [Athleticism] – 
+                        em For feats of Athletics, Coordination, and movement.
+                    li [Awareness] – 
+                        em See and spotting things.
+                    li [Beasts] – 
+                        em We Tarzan now, bois.
+                    li [Brawl] – 
+                        em With use of the Brawl skill.
+                    li [Combat] – 
+                        em If this is the kind of thing that would get Brawl, Melee, and Range tags, I’m just shortcutting to Combat. Search for both your type of thing and combat.
+                    li [Computers] – 
+                        em teh hakzors.
+                    li [Cyber] – 
+                        em Cybernetic enhancement. Not yet in active development.
+                    li [Knowledge] – 
+                        em Knowing things.
+                    li [Leader] – 
+                        em Warlord talents, that benefit your allies in combat. Either inspiration, or tanking.
+                    li [Magic] – 
+                        em Spellcasting shenanigans, and magic resistance.
+                    li [Mechanics] – 
+                        em Fixin’ things.
+                    li [Medicine] – 
+                        em Healing people.
+                    li [Melee] – 
+                        em Swords. Boards, also.
+                    li [Ranged] – 
+                        em Have gun, will travel.
+                    li [Skulduggery] – 
+                        em General roguishness. Not just the skill; anything suspect in the eyes of the law, or morality.
+                    li [Social] – 
+                        em Face talents.
+                    li [Tough] – 
+                        em Not-dying oriented talents.
+                    li [Vehicles] – 
+                        em Wheelpeople.
+
+                h3 Tier 1
+                h6 All-Terrain Driver
+                +talentstat('1', 'Passive','No','[Vehicles]')
+                p Do not suffer usual penalties for driving through difficult terrain when using Piloting.
+
+                h6 Bed-side Manner
+                +talentstat('1', 'Passive', 'Yes', '[Medicine]')
+                p When a patient under your character’s care heals wounds from natural rest, they heal additional wounds equal to twice your character’s ranks in Bed-side Manner.
+
+                h6 Black Market Contacts
+                +talentstat('1', 'Active (Incidental)', 'Yes', '[Skulduggery]')
+                p When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50 percent of base cost per reduction.
+
+                h6 Bought Info
+                +talentstat('1', 'Active (Action)', 'No', '[Skulduggery]')
+                p When making any Knowledge skill check, your character can instead use this talent to spend an amount of currency equal to fifty times the difficulty of the check and automatically succeed on the Knowledge check with one uncanceled #[span.genesys s] (instead of rolling). At your GM’s discretion, your character may not be able to use Bought Info if the information is particularly sensitive or difficult to find, or buying it doesn’t make narrative sense. The GM will tell you how long it takes to find an expert for sale.
+                
+                h6 Brace
+                +talentstat('1', 'Active (Maneuver)', 'Yes', '[Athleticism]')
+                p As a maneuver, the character may Brace themself. This allows a character to remove #[span.setback b] per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult.
+
+                h6 Bullrush
+                +talentstat('1', 'Active (Incidental)', 'No', '[Brawl], [Melee]')
+                p When your character makes a Brawl or Melee combat check after using a maneuver to engage a target, you may spend #[span.genesys aaa] or #[span.genesys t] to use this talent to knock the target prone and move them up to one range band away from your character.
+
+

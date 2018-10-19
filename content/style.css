@@ -37,6 +37,10 @@ div.read-aloud {
     margin-top: 10px;
 }
 
+div.read-aloud>p:last-child {
+    margin-bottom: 0rem;
+}
+
 h1 {
     color: #1ABEEF;
     text-transform: uppercase;

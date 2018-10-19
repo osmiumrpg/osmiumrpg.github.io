@@ -12,13 +12,41 @@ body {
     background-color: linen;
 }
 
-div.read-aloud {
+/* div.read-aloud {
     background-color: #A0E5CE;
     font-size: 1.4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-color: yellow;
     border-width: thick;
+} */
+
+div.card {
+    margin-top: 10px;
 }
+div.read-aloud {
+    display:block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6em;
+    font-style: italic;
+    color: rgb(230,0,0);
+    border: 1px dotted rgb(230,0,0);
+    border-radius:30px;
+    padding:15px;
+    position:relative;
+    margin-top: 10px;
+}
+
+div.read:before {
+    content:'';
+    position:absolute;
+    display:block;
+    border: 1px dotted rgb(230,0,0);
+    border-radius:30px;
+    left:2px;
+    top:2px;
+    right:2px;
+    bottom:2px;
+    }
 
 h1 {
     color: #1ABEEF;
@@ -143,6 +171,14 @@ span.challenge {
 
  td {
      font-size: 1em;
+ }
+
+ .card-header button {
+     float: right;
+ }
+
+ .card-header h5 {
+     float: left;
  }
 
 /* a {

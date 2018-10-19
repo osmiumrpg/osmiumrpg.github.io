@@ -12,8 +12,8 @@ html
         +navbar
         .container-fluid
             .row
-                .hidden-xs.col-md-2
-                .col-md-8.col-12
+                .hidden-xs.col-lg-2
+                .col-lg-8.col-12
                     h1 Talents
                     p The following talents are available in the Osmium setting. This list supersedes the talents available in the Genesys Core Rules (though it does incorporate most of them).
                     p(style="text-align: center;") #[a(href='#tier-1') Tier 1] | #[a(href='#tier-2') Tier 2] | #[a(href='#tier-3') Tier 3] | #[a(href='#tier-4') Tier 4] | #[a(href='#tier-5') Tier 5]
@@ -64,7 +64,7 @@ html
                     h3#tier-1 Tier 1
                     h6 All-Terrain Driver
                     +talentstat('1', 'Passive','No','[Vehicles]')
-                    p Do not suffer usual penalties for driving through difficult terrain when using Piloting.
+                    p Your character does not suffer usual penalties for driving through difficult terrain when using Piloting.
 
                     h6 Bedside Manner
                     +talentstat('1', 'Passive', 'Yes', '[Medicine]')
@@ -72,7 +72,7 @@ html
 
                     h6 Black Market Contacts
                     +talentstat('1', 'Active (Incidental)', 'Yes', '[Skulduggery]')
-                    p When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50 percent of base cost per reduction.
+                    p When purchasing illegal goods, your character may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50 percent of base cost per reduction.
 
                     h6 Bought Info
                     +talentstat('1', 'Active (Action)', 'No', '[Skulduggery]')
@@ -80,7 +80,7 @@ html
                     
                     h6 Brace
                     +talentstat('1', 'Active (Maneuver)', 'Yes', '[Athleticism]')
-                    p As a maneuver, the character may Brace themself. This allows a character to remove #[span.dice.setback b] per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult.
+                    p As a maneuver, your character may Brace themself. This allows a character to remove #[span.dice.setback b] per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult.
 
                     h6 Bullrush
                     +talentstat('1', 'Active (Incidental)', 'No', '[Brawl], [Melee]')
@@ -88,11 +88,11 @@ html
 
                     h6 Call 'Em
                     +talentstat('1', 'Passive', 'No', '[Ranged]')
-                    p Do not add #[span.setback.dice b] to combat checks due to the use of the Aim maneuver.
+                    p Your character does not add #[span.setback.dice b] to combat checks due to the use of the Aim maneuver.
 
                     h6 Catfall
                     +talentstat('1','Passive','Yes', '[Athleticism], [Tough]')
-                    p When rolling Athletics or Coordination to reduce damage from falling, add #[span.dice.boost b]. In addition, reduce damage and strain suffered from a fall by 1 per rank of Catfall.
+                    p When rolling Athletics or Coordination to reduce damage from falling, your character adds #[span.dice.boost b]. In addition, reduce damage and strain suffered from a fall by 1 per rank of Catfall.
 
                     h6 Challenge!
                     +talentstat('1', 'Active (Maneuver)', 'Yes', '[Brawl], [Melee]')
@@ -104,8 +104,25 @@ html
 
                     h6 Dark Insight
                     +talentstat('1', 'Active (Incidental)', 'No', '[Magic]')
-                    p You may use Lore as your character’s Magical Strength Skill (for example, replacing Science in Blue Magic).
+                    p Your character may use Lore as your character’s Magical Strength Skill (for example, replacing Science in Blue Magic).
 
                     h6 Defensive Sysops
                     +talentstat('1', 'Passive', 'No', '[Computers]')
                     p When attempting to defend a computer system against intrusion (or when someone attempts to hack a computer owned or programmed by your character) your character adds #[span.dice.setback bb] to their opponent’s checks. If your character has access to the computer system when the intrusion takes place, they are automatically aware of the intrusion.
+
+                    h6 Deflect Spell
+                    +talentstat('1', 'Active (Incidental, Out of Turn)', 'Yes', '[Magic]')
+                    p When your character suffers a hit from a magic based combat check, after damage is calculated but before soak is applied (so immediately after Step 3 of Perform a Combat check, Core Rules page 102), your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Deflect Spell. This talent can only be used once per hit.
+
+                    h6 Desperate Recovery
+                    +talentstat('1', 'Passive', 'No', '[Tough')
+                    p Before your character heals strain at the end of an encounter, if their strain is more than half of their strain threshold, they heal two additional strain.
+
+                    h6 Duelist
+                    +talentstat('1', 'Passive', 'No', '[Brawl], [Melee]')
+                    p Your character adds #[span.dice.boost b] to their melee combat checks while engaged with a single opponent. Your character adds #[span.dice.boost b] to their melee combat checks while engaged with three or more opponents.
+
+                    h6 Dungeoneer
+                    +talentstat('1', 'Passive', 'Yes', '[Adventurer], [Awareness]')
+                    p After your character makes a Perception or Vigilance check to notice, identify, or avoid a threat in a cavern, subterranean ruin, or similar location, your character cancels a number of uncanceled #[span.genesys h] no greater than your character's ranks in Dungeoneer.
+

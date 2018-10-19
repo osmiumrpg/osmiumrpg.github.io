@@ -5,7 +5,7 @@ mixin footer
             .col-lg-8.col-12
                 p 
                     strong Last Update: 
-                    | October 19, 2018; 11:22
+                    | October 19, 2018; 12:29
 
 mixin header
     // Meta
@@ -39,8 +39,11 @@ mixin navbar
                 li.nav-item.active
                     a.nav-link(href="#") Home 
                         span.sr-only (current)
-                li.nav-item
-                    a.nav-link(href="/rules/talents.html") Rules
+                li.nav-item.dropdown
+                    a#navbarDropdown.nav-link.dropdown-toggle(href="#", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Rules
+                        a.dropdown-item(href="/rules/house.html") House Rules
+                        a.dropdown-item(href="/rules/talents.html") Talents
+                    .dropdown-menu(aria-labelledby="navbarDropdown")
                 li.nav-item.dropdown
                     a#navbarDropdown.nav-link.dropdown-toggle(href="#", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Universe
                     .dropdown-menu(aria-labelledby="navbarDropdown")

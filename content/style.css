@@ -28,25 +28,14 @@ div.read-aloud {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.6rem;
     font-style: italic;
-    color: rgb(230,0,0);
-    border: 1px dotted rgb(230,0,0);
+    background-color: lavenderblush;
+    color: green;
+    border: 3px double green;
     border-radius:30px;
-    padding:15px;
+    padding:10px 15px 10px 15px;
     position:relative;
     margin-top: 10px;
 }
-
-div.read:before {
-    content:'';
-    position:absolute;
-    display:block;
-    border: 1px dotted rgb(230,0,0);
-    border-radius:30px;
-    left:2px;
-    top:2px;
-    right:2px;
-    bottom:2px;
-    }
 
 h1 {
     color: #1ABEEF;
@@ -89,7 +78,6 @@ h3 {
 }
 
 h4 {
-    /* text-align:center; */
     color: #ed9629;
     font-variant: small-caps;
     display: table;
@@ -161,6 +149,10 @@ span.challenge {
 }
 
 /* Tables */
+.table {
+    margin-bottom: 0rem;
+}
+
 .rolled>td, .rolled>th {
     background-color: orange;
 }
@@ -180,6 +172,8 @@ span.challenge {
 
  .card-header h5 {
      float: left;
+     margin-bottom: 0rem;
+     margin-top: 0.5rem;
  }
 
 /* a {

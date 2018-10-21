@@ -201,5 +201,6 @@ span.challenge {
 
 /* IMAGES */
 .img-career {
-    float: right; margin: 0em 1em 2em 1em;
+    float: right; 
+    margin: 0em 0em 2em 1em;
 }

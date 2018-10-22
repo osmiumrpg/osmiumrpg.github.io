@@ -190,10 +190,9 @@ span.challenge {
      margin-top: 0.5rem;
  }
 
-/* a {
-    color: red;
-    font-weight: bold;
-} */
+/* 
+    POPOVERS
+*/
 
 .pop {
     cursor: pointer;
@@ -201,7 +200,8 @@ span.challenge {
 
 .pop-info
 {
-    color: blue;
+    color: green;
+    text-decoration: underline dotted;
 }
 
 .pop-link
@@ -209,7 +209,10 @@ span.challenge {
     color: purple;
 }
 
-/* IMAGES */
+/* 
+    IMAGES 
+*/
+
 .img-career {
     float: right; 
     margin: 0rem 0rem 2rem 1rem;

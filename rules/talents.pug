@@ -399,7 +399,7 @@ html(lang="en")
                     h6 Fighter’s Stance
                     +talentstat('2', 'Active (Incidental)', 'No', '[Brawl], [Melee], [Tough]')
                     p When making a combat check, if your character has performed the 
-                        a.pop.pop-info(data-toggle="popover", tabindex="0", title="Guarded Stance Maneuver",                             data-content="Gain Melee Defense 1 and a setback to your combat checks.") Guarded Stance maneuver 
+                        a.pop.pop-info(data-toggle="popover", data-html="true" tabindex="0", title="Guarded Stance Maneuver",                             data-content="Gain Melee Defense 1, and <span class='dice setback'>b</span> to your combat checks.") Guarded Stance maneuver 
                         | this turn, you may suffer 1 strain to ignore the penalties of the Guarded Stance maneuver.
                     // Source: CCC-ESP77
 
@@ -462,7 +462,7 @@ html(lang="en")
                     
                     h6 Knockdown
                     +talentstat('2', 'Passive', 'No', '[Brawl], [Melee]')
-                    h6 After hitting with a melee attack, may spend a #[span.genesys t] to knock the target prone.
+                    p After hitting with a melee attack, may spend a #[span.genesys t] to knock the target prone.
                     // Sources: ABGR, ACRB, EBGR, ECRB
 
                     h6 Knows the Ropes
@@ -584,10 +584,10 @@ html(lang="en")
                     
                     h6 Unarmed Parry
                     +talentstat('2', 'Passive', 'No', '[Brawl]')
-                    h6 May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1).
+                    p May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1).
                     // Source: ND
                     
-                    Unstoppable
+                    h6 Unstoppable
                     +talentstat('2', 'Passive', 'No', '[Tough]')
                     p If a Critical Injury roll is 1 or reduced to 1, do not receive the critical injury.
                     // Source: ACRB

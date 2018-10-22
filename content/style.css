@@ -204,3 +204,64 @@ span.challenge {
     float: right; 
     margin: 0rem 0rem 2rem 1rem;
 }
+
+/* STAT LAYOUT */
+.archetype {
+    background-image: url('https://www.gmbinder.com/images/wk1XTwj.png');
+    height:62px;
+    width:329px;
+    background-size:100%;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+    }
+
+.archetype .bra {
+    position:relative;
+    left:14px;
+    top:6px;
+    text-align:center;
+    display:inline-block;
+    width:25px;
+}
+
+.archetype .agi {
+    position:relative;
+    left:42px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.archetype .int {
+    position:relative;
+    left:68px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+.archetype .cun {
+    position:relative;
+    left:95px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.archetype .wil {
+    position:relative;
+    left:122px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.archetype .pre {
+    position:relative;
+    left:148px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}

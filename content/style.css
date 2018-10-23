@@ -192,6 +192,9 @@ span.challenge {
 
  thead th {
      background-color: #F7941E;
+     font-family: 'Bebas Neue';
+     font-weight: bold;
+     color: white;
  }
 
 /* 

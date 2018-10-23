@@ -69,7 +69,7 @@ h1 {
     font-size: 3.5rem;
 }
 
-h1 + p:first-letter, h2 + p:first-letter {
+/* h1 + p:first-letter, h2 + p:first-letter {
     font-size: 3.5rem;
     font-family: Garamond, serif;
     font-weight: 800;
@@ -78,7 +78,7 @@ h1 + p:first-letter, h2 + p:first-letter {
     margin-right:2px;
     margin-top:-5px;
     float:left;
-}
+} */
 
 h2 {
     color: #1ABEEF;

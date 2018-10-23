@@ -89,6 +89,8 @@ html(lang="en")
                                         td No
                                         td No 
                                         td Yes
+
+
                     h2 Spellbook
                     p Here's a collection of spells for players to model their effects after.
                     h3 Blue Magic
@@ -97,3 +99,21 @@ html(lang="en")
                         em A bolt of pure force launches from your hand.
                     +spellstat('Attack', 'Short (but not Engaged)', 'dd', 'No')
                     p #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].
+
+                    h4 Firebolt
+                    p 
+                        em A bolt of pure force, so energized it erupts into plasma as it finds your foe.
+                    +spellstat('Attack with Fire', 'Short (but not Engaged)', 'ddd', 'No')
+                    p #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t]. The attack gains the Burn quality (GCB 87) with a rating equal to your character’s ranks in Science.
+
+                    h4 Glimmering Shield
+                    p 
+                        em You surround an ally with a barrier of pure magic, slightly opaque to the outside world.
+                    +spellstat('Barrier with Add Defense', 'Short', 'ddd', 'Yes')
+                    p #[strong Effect:] If the check is successful, until the end of the character’s next turn, reduce the damage of all hits the target suffers by one, and further reduce it by one for every uncanceled #[span.genesys ss] in the spell check beyond the first. The target increases their melee and ranged defense by 1 (to a maximum of 4).
+
+                    h4 Gravitic Well
+                    p 
+                        em You warp gravity around your friend, causes punches and bullets to veer off course.
+                    +spellstat('Barrier with Gravitic', 'Short', 'ddd', 'Yes')
+                    p #[strong Effect:] If the check is successful, until the end of the character’s next turn, reduce the damage of all hits the target suffers by one, and further reduce it by one for every uncanceled #[span.genesys ss] in the spell check beyond the first. The target’s engaged enemies automatically disengage from the target, and may not engage while the spell persists.

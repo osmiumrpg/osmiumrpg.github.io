@@ -7,12 +7,9 @@ $( document ).ready(function() {
 });
 
 var rollOnTable = function(tableid) {
-    console.log("tableid: " + tableid);
     $('#' + tableid + ' tr').removeClass('rolled');
     var rowCount = document.getElementById(tableid).rows.length;
     var row = Math.floor(Math.random() * (rowCount - 1) + 1);
-    console.log("rowCount: " + rowCount);
-    console.log("row: " + row);
     $('#' + tableid + ' tr').eq(row).addClass('rolled');
 };
 

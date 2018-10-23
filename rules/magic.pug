@@ -40,3 +40,52 @@ html(lang="en")
                                         td(scope="row") Red Magic
                                         td Willpower
                                         td Science 
+                    p 
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Available Spell Actions
+                            button#btn-available-spell-actions.btn(data-toggle='collapse', data-target='#div-available-spell-actions' onclick="toggleCollapseArrow('magic-attributes');") &ndash;
+                        #div-available-spell-actions.collapse.show
+                            table#tbl-available-spell-actions.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Spell Action
+                                        th(scope="col") Blue Magic
+                                        th(scope="col") Purple Magic 
+                                        th(scope="col") Red Magic 
+                                tbody
+                                    tr
+                                        td(scope="row") Magical Attack
+                                        td Yes
+                                        td Yes
+                                        td No
+                                    tr
+                                        td(scope="row") Augment
+                                        td No
+                                        td Yes
+                                        td Yes
+                                    tr
+                                        td(scope="row") Barrier
+                                        td Yes
+                                        td No 
+                                        td Yes
+                                    tr
+                                        td(scope="row") Conjure
+                                        td TBD
+                                        td TBD
+                                        td TBD
+                                    tr
+                                        td(scope="row") Curse
+                                        td No
+                                        td Yes 
+                                        td Yes
+                                    tr
+                                        td(scope="row") Dispel
+                                        td Yes
+                                        td Yes
+                                        td No 
+                                    tr
+                                        td(scope="row") Heal
+                                        td No
+                                        td No 
+                                        td Yes

@@ -72,3 +72,18 @@ mixin talentstat(tier, activation, ranked, tags)
         p 
             strong Tags: 
             span= tags
+
+mixin spellstat(action, activation, difficulty, concentration)
+    .spell-stat
+        p
+            strong Action: 
+            span= action
+        p
+            strong Range: 
+            span= range
+        p
+            strong Difficulty: 
+            span.dice.difficulty= difficulty
+        p 
+            strong Concentration: 
+            span= concentration

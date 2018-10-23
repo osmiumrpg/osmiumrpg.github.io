@@ -95,8 +95,5 @@ html(lang="en")
                     h4 Magic Missile
                     p 
                         em A bolt of pure force launches from your hand.
-                    p #[strong Action:] Attack #[br]
-                    | #[strong Range:] Short (but not Engaged) #[br]
-                    | #[strong Difficulty:] #[span.dice.difficulty dd] #[br]
-                    | #[strong Concentration:] No #[br]
-                    | #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].
+                    +spellstat('Attack', 'Short (but not Engaged)', 'dd', 'No')
+                    p #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].

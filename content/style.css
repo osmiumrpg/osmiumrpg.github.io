@@ -51,6 +51,18 @@ div.read-aloud>p:last-child {
     margin-bottom: 0rem;
 }
 
+.talent-stat>p:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.talent-stat p {
+    font-size: .92em;
+}
+
+.spell-stat p {
+    margin-bottom: 0rem;
+}
+
 h1 {
     color: #1ABEEF;
     text-transform: uppercase;
@@ -111,18 +123,6 @@ h6 {
     display: table;
     font-size: 1.3rem;
     border-bottom: 1px solid #ea702b;
-}
-
-/* p {
-    font-size: 1rem;
-} */
-
-.talent-stat>p:not(:last-child) {
-    margin-bottom: 0px;
-}
-
-.talent-stat p {
-    font-size: .92em;
 }
 
 span.dice {

@@ -1,0 +1,42 @@
+
+include /mixins.pug
+html(lang="en")
+    head
+        title Osmium: Galaxies of Fantasy Adventure
+        +header
+
+        // My Files
+        link(href='./../content/style.css', rel='stylesheet', type='text/css')
+        script(src='./../content/javascript/script.js')
+
+    body
+        +navbar
+        .container-fluid
+            .row
+                .hidden-xs.col-lg-2
+                .col-lg-8.col-12
+                    h1 Magic
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Attributes and Strength Skills
+                            button#btn-magic-attributes.btn(data-toggle='collapse', data-target='#div-magic-attributes' onclick="toggleCollapseArrow('magic-attributes');") &ndash;
+                        #div-magic-attributes.collapse.show
+                            table#tbl-magic-attributes.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Magic
+                                        th(scope="col") Attribute
+                                        th(scope="col") Strength Skill
+                                tbody
+                                    tr
+                                        td(scope="row") Blue Magic
+                                        td Intellect
+                                        td Science
+                                    tr
+                                        td(scope="row") Purple Magic
+                                        td Cunning
+                                        td Lore
+                                    tr
+                                        td(scope="row") Red Magic
+                                        td Willpower
+                                        td Science 

@@ -168,7 +168,7 @@ span.challenge {
 }
 
 .rolled>td, .rolled>th {
-    background-color: orange;
+    background-color: #58D68D;
 }
 
 .table-striped>tbody>tr:not(.rolled):nth-child(odd)>td, 
@@ -188,6 +188,10 @@ span.challenge {
      float: left;
      margin-bottom: 0rem;
      margin-top: 0.5rem;
+ }
+
+ thead th {
+     background-color: #F7941E;
  }
 
 /* 

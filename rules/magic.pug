@@ -142,3 +142,56 @@ html(lang="en")
                         em With a frosted breath, you utter the words chill your target’s very soul.
                     +spellstat('Curse with Enervate', 'Short', 'ddd', 'Yes')
                     p #[strong Effect:] Until the end of the caster’s next turn, the target decreases all ability checks by #[span.dice.ability d]. Whenever they take strain, they take 1 additional strain.
+
+                    // Spell Action Tables
+                    h2 Spell Action Tables
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Available Spell Actions
+                            button#btn-magical-attack-action.btn(data-toggle='collapse', data-target='#div-magical-attack-action' onclick="toggleCollapseArrow('magical-attack-action');") &ndash;
+                        #div-magical-attack-action.collapse.show
+                            table#tbl-magical-attack-action.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Additional Effect
+                                        th(scope="col") Diff Mod 
+                                tbody
+                                    tr 
+                                        td(scope="row") #[strong Blast:] The attack gains the Blast quality with a rating equal to your character’s ranks in their Strength Skill.
+                                        td +#[span.dice.difficulty d]
+                                    tr 
+                                        td(scope="row") #[strong Close Combat:] May select a target engaged with your character.	+d
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Deadly:] The attack gains a Critical rating of 2. The attack also gains the Vicious quality with a rating equal to the character’s ranks in their Strength Skill.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Fire:] #[em Blue Magic only. ] The attack gains the Burn quality (GCB 87) with a rating equal to your character’s ranks in their Strength Skill.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Ice:] The attack gains the Ensnare quality (GCB 87) with a rating equal to the character’s ranks in their Strength Skill.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Impact:] The attack gains the Knockdown quality (GCB 88). The attack also gains the Disorient quality (GCB 87) with a rating equal to the character’s ranks in their Strength skill.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Lightning:] #[em Blue Magic only. ] The attack gains the Stun quality (GCB 88) with a rating equal to the character's ranks in their Strength Skill. The attack also gains the Auto-fire quality (GCB 86). (You must increase the difficulty by one to use the Auto-fire quality in addition to the increase for the Lightning modifier.)
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Manipulative:] If the attack hits, you may spend #[span.genesys a] to move the target up to one range band in any direction.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Non-Lethal:] Purple Magic only. The attack gains the Stun Damage quality (GCB 88).
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Range:] Increase the range of the spell by one range band. This may be added multiple times, increasing the range by one range band each time.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Destructive:] The attack gains the Sunder quality (GCB 88). The attack also gains the Pierce quality (GCB 88) with a rating equal to the character's ranks in their Strength Skill.
+                                        td +#[span.dice.difficulty dd]
+                                    tr
+                                        td(scope="row") #[strong Empowered:] The attack deals damage equal to twice the characteristic linked to the skill (instead of dealing damage equal to the characteristic). If the attack has the Blast quality, it affects all characters within short range, instead of engaged. 
+                                        td +#[span.dice.difficulty dd]
+                                    tr
+                                        td(scope="row") #[strong Poisonous:] #[em Purple Magic only. ] If the attack deals damage, the target must immediately make a #[strong Hard (#[span.dice.difficulty ddd]) Resilience check] or suffer wounds equal to the character's ranks in Lore, and strain equal to the character's ranks in Lore. This counts as a poison.
+                                        td +#[span.dice.difficulty dd]

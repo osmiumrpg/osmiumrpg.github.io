@@ -95,25 +95,50 @@ html(lang="en")
                     p Here's a collection of spells for players to model their effects after.
                     h3 Blue Magic
                     h4 Magic Missile
-                    p 
+                    p(style="margin-bottom: 0.5rem;") 
                         em A bolt of pure force launches from your hand.
-                    +spellstat('Attack', 'Short (but not Engaged)', 'dd', 'No')
-                    p #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].
+                    +spellstat('Attack', 'Short (but not Engaged)', 'd', 'No')
+                    p #[strong Effect:] You deal damage to the target equal to your Intellect, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].
 
                     h4 Firebolt
-                    p 
+                    p(style="margin-bottom: 0.5rem;") 
                         em A bolt of pure force, so energized it erupts into plasma as it finds your foe.
-                    +spellstat('Attack with Fire', 'Short (but not Engaged)', 'ddd', 'No')
-                    p #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t]. The attack gains the Burn quality (GCB 87) with a rating equal to your character’s ranks in Science.
+                    +spellstat('Attack with Fire', 'Short (but not Engaged)', 'dd', 'No')
+                    p #[strong Effect:] You deal damage to the target equal to your Intellect, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t]. The attack gains the Burn quality (GCB 87) with a rating equal to your character’s ranks in Science.
 
                     h4 Glimmering Shield
-                    p 
+                    p(style="margin-bottom: 0.5rem;") 
                         em You surround an ally with a barrier of pure magic, slightly opaque to the outside world.
                     +spellstat('Barrier with Add Defense', 'Short', 'ddd', 'Yes')
                     p #[strong Effect:] If the check is successful, until the end of the character’s next turn, reduce the damage of all hits the target suffers by one, and further reduce it by one for every uncanceled #[span.genesys ss] in the spell check beyond the first. The target increases their melee and ranged defense by 1 (to a maximum of 4).
 
                     h4 Gravitic Well
-                    p 
+                    p(style="margin-bottom: 0.5rem;") 
                         em You warp gravity around your friend, causes punches and bullets to veer off course.
                     +spellstat('Barrier with Gravitic', 'Short', 'ddd', 'Yes')
                     p #[strong Effect:] If the check is successful, until the end of the character’s next turn, reduce the damage of all hits the target suffers by one, and further reduce it by one for every uncanceled #[span.genesys ss] in the spell check beyond the first. The target’s engaged enemies automatically disengage from the target, and may not engage while the spell persists.
+
+                    h3 Purple Magic
+                    h4 Eldritch Blast
+                    p(style="margin-bottom: 0.5rem;")
+                        em You strike your target with shadow made manifest.
+                    +spellstat('Attack', 'Short (but not Engaged)', 'd', 'No')
+                    p #[strong Effect:] You deal damage to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].
+
+                    h4 Vicious Mockery
+                    p(style="margin-bottom: 0.5rem;")
+                        em No one knows how to make words cut like the fey, especially when they lace their words with psychic power.
+                    +spellstat('Attack with Non-Lethal', 'Short (but not Engaged)', 'dd', 'No')
+                    p #[strong Effect:] You deal Stun Damage (Core Rules page 88) to the target equal to your Cunning, plus 1 damage per uncanceled #[span.genesys s]. You may not deal criticals except with a #[span.genesys t].
+
+                    h4 Sylphan Speed
+                    p(style="margin-bottom: 0.5rem;")
+                        em Your target becomes slightly blurred as it gains the speed of the wind spirits.
+                    +spellstat('Augment with Haste and Swift', 'Short (can target self)', 'dddd', 'Yes')
+                    p #[strong Effect:] Until the end of the caster’s next turn, the target increases all ability checks by #[span.dice.ability d]. They gain a free extra maneuver (though they still cannot take more than 2 maneuvers), and the target is not affected by difficult terrain, nor can they be immobilized.
+
+                    h4 Curse of Cold
+                    p(style="margin-bottom: 0.5rem;")
+                        em With a frosted breath, you utter the words chill your target’s very soul.
+                    +spellstat('Curse with Enervate', 'Short', 'ddd', 'Yes')
+                    p #[strong Effect:] Until the end of the caster’s next turn, the target decreases all ability checks by #[span.dice.ability d]. Whenever they take strain, they take 1 additional strain.

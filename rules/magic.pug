@@ -145,9 +145,16 @@ html(lang="en")
 
                     // Spell Action Tables
                     h2 Spell Action Tables
+                    h3 Magical Attack 
+                    p #[strong Concentration:] No
+                    p #[strong Skills:] Blue Magic, Purple Magic
+                    p Magic attacks are combat checks, and they follow the normal rules for performing a combat check, on Core Rules page 101, using the character’s magic skill instead of a combat skill.
+                    p When making a magic attack, the character must select one target at short range (but not engaged). The default difficulty of the check is #[strong Easy (#[span.dice.difficulty d])]. The attack deals damage equal to the characteristic linked to the skill used to make the attack (so if the character uses Blue Magic, they would deal damage equal to their Intellect), plus 1 damage per uncanceled #[span.genesys s]. The attack has no set Critical rating, so you may only inflict a Critical Injury with a #[span.genesys t].
+                    p Before making a magic attack check, choose any number of additional effects listed on the Additional Effects table. These effects are added to the attack.
+
                     .card
                         .card-header.d-table-cell.align-middle
-                            h5 Available Spell Actions
+                            h5 Magical Attack Additional Effects
                             button#btn-magical-attack-action.btn(data-toggle='collapse', data-target='#div-magical-attack-action' onclick="toggleCollapseArrow('magical-attack-action');") &ndash;
                         #div-magical-attack-action.collapse.show
                             table#tbl-magical-attack-action.table.table-striped
@@ -195,3 +202,34 @@ html(lang="en")
                                     tr
                                         td(scope="row") #[strong Poisonous:] #[em Purple Magic only. ] If the attack deals damage, the target must immediately make a #[strong Hard (#[span.dice.difficulty ddd]) Resilience check] or suffer wounds equal to the character's ranks in Lore, and strain equal to the character's ranks in Lore. This counts as a poison.
                                         td +#[span.dice.difficulty dd]
+                    h4 Curse
+                    p #[strong Concentration:] Yes
+                    p #[strong Skills:] Purple Magic, Red Magic
+                    p This action represents the combat use of curse magic. Your character selects one target within short range, then makes a magic skill check. The default difficulty of the check is #[strong Average (#[span.dice.difficulty dd])]. If it is successful, until the end of the character’s next turn, the target decreases the ability of any skill checks they make by one (in effect, this means they remove one #[span.dice.ability d] from their checks).
+
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Curse Additional Effects
+                            button#btn-curse-action.btn(data-toggle='collapse', data-target='#div-curse-attack-action' onclick="toggleCollapseArrow('curse-action');") &ndash;
+                        #div-curse-action.collapse.show
+                            table#tbl-curse-action.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Additional Effect
+                                        th(scope="col") Diff Mod 
+                                tbody
+                                    tr 
+                                        td(scope="row") #[strong Enervate:] If a target suffers strain for any reason, they suffer 1 additional strain.
+                                        td +#[span.dice.difficulty d]
+                                        td(scope="row") #[strong Misfortune:] After the target makes a check, you may change 1 #[span.dice.setback b] to a face displaying a #[span.genesys f].
+                                        td +#[span.dice.difficulty d]
+                                        td(scope="row") #[strong Range:[] Increase the range of the spell by one range band. This may be added multiple times, increasing the range by one range band each time.
+                                        td +#[span.dice.difficulty d]
+                                        td(scope="row") #[strong Additional Target:] The spell affects one additional target within range of the spell. In addition, after casting the spell, you may spend #[span.genesys a] to affect one additional target within range of the spell (and may trigger this multiple times, spending #[span.genesys a] each time).
+                                        td +#[span.dice.difficulty dd]
+                                        td(scope="row") #[strong Cripple:] #[em Red Magic only. ] The target’s strain and wound thresholds are reduced by an amount equal to the character’s ranks in their Strength Skill. This effect may not be combined with the additional target effect.
+                                        td +#[span.dice.difficulty dd]
+                                        td(scope="row") #[strong Doom:] #[em Purple Magic only. ] After a target makes a check, you may change any one die in the pool not displaying a #[span.genesys t] or #[span.genesys d] to a different face.
+                                        td +#[span.dice.difficulty dd]
+                                        td(scope="row") #[strong Paralyze:] The target is staggered for the duration of the spell. This affect may not be combined with the additional target effect.
+                                        td +#[span.dice.difficulty ddd]

@@ -87,7 +87,9 @@ html(lang="en")
 
                     h6 Call 'Em
                     +talentstat('1', 'Passive', 'No', '[Ranged]')
-                    p Your character does not add #[span.setback.dice b] to combat checks due to the use of the Aim maneuver.
+                    p Your character does not add #[span.setback.dice b] to combat checks due to the use of the 
+                        a.pop.pop-info(data-toggle="popover", data-html="true" tabindex="0", title="Targeting Specific Items", data-content="Normally, when targeting a specific item, you add <span class='dice setback'>bb</span> to your roll (or <span class='dice setback'>b</span> if taking two Aim maneuvers).") Aim maneuver
+                        | . 
 
                     h6 Catfall
                     +talentstat('1','Passive','Yes', '[Athleticism], [Tough]')

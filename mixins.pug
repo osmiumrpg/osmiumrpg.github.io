@@ -44,19 +44,21 @@ mixin navbar
                         a.dropdown-item(href="/rules/house.html") House Rules
                         a.dropdown-item(href="/rules/careers.html") Careers
                         a.dropdown-item(href="/rules/magic.html") Magic
+                        a.dropdown-item(href="/rules/skills.html") Skills
                         a.dropdown-item(href="/rules/species.html") Species
                         a.dropdown-item(href="/rules/talents.html") Talents
-                li.nav-item.dropdown
-                    a#navbarDropdown.nav-link.dropdown-toggle(href="#", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Universe
-                    .dropdown-menu(aria-labelledby="navbarDropdown")
-                        a.dropdown-item(href="#") People
-                        a.dropdown-item(href="#") Places
-                        .dropdown-divider
-                        a.dropdown-item(href="#") Things
-                li.nav-item
-                    a.nav-link.disabled(href="#") Disabled
-                li.nav-item
-                    a.nav-link(href="/adventures/hotlanta.html") Adventures
+                //-
+                    li.nav-item.dropdown
+                        a#navbarDropdown.nav-link.dropdown-toggle(href="#", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Universe
+                        .dropdown-menu(aria-labelledby="navbarDropdown")
+                            a.dropdown-item(href="#") People
+                            a.dropdown-item(href="#") Places
+                            .dropdown-divider
+                            a.dropdown-item(href="#") Things
+                    li.nav-item
+                        a.nav-link.disabled(href="#") Disabled
+                    li.nav-item
+                        a.nav-link(href="/adventures/hotlanta.html") Adventures
 
 mixin talentstat(tier, activation, ranked, tags)
     .talent-stat

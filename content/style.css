@@ -31,7 +31,8 @@ body {
 } */
 
 div.card {
-    margin-top: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 div.read-aloud {
     display:block;

@@ -24,34 +24,37 @@ html(lang="en")
                             h5 Melee Weapons
                             button#btn-melee-weapons.btn(data-toggle='collapse', data-target='#div-melee weapons' onclick="toggleCollapseArrow('melee-weapons');") &ndash;
                         #div-melee-weapons.collapse.show
-                            table#tbl-melee-weapons.table.table-striped
-                                thead
-                                    tr
-                                        th(scope="col") Name
-                                        th(scope="col") Skill
-                                        th(scope="col") Damage 
-                                        th(scope="col") Crit
-                                        th(scope="col") Range
-                                        th(scope="col") Encumbrance 
-                                        th(scope="col") Price
-                                        th(scope="col") Rarity 
-                                        th(scope="col") Hardpoints 
-                                        th(scope="col") Special 
-                                tbody
-                                    +gear-weapon('Brass Knuckles', 'Brawl', '+1', '3','Engaged','0','20','1','0','')
-                                    +gear-weapon('Rapier', 'Melee', '+0', '2','Engaged','0','250','5','1','Accurate 1, Defensive 2')
-                                    +gear-weapon('Combat Knife', 'Melee', '+1', '3','Engaged','0','20','1','0','')
-                                    +gear-weapon('Spear', 'Melee', '+2', '4','Engaged','2','90','2','1','Accurate 1, Defensive 1')
-                                    +gear-weapon('Sword', 'Melee', '+2', '2','Engaged','3','250','3','1','Defensive 1, Pierce 1')
-                                    +gear-weapon('Axe', 'Melee', '+3', 3,'Engaged',2,150,3,1,'Vicious 1')
-                                    +gear-weapon('Shield', 'Melee', '+0', 6,'Engaged',1,75,3,1,'Defensive 1, Deflection 1, Inaccurate 1, Knockdown')
-                                    +gear-weapon('Shield, Large', 'Melee', '+1', 5,'Engaged',2,200,4,2,'Defensive 2, Deflection 2, Inaccurate 2, Knockdown')
-                                    +gear-weapon('Shield, Riot', 'Melee', '+2', 5,'Engaged',2,300,4,2,'Cumbersome 4 Defensive 2, Deflection 2, Inaccurate 1, Knockdown, Reinforced')
-                                    +gear-weapon('Mace / Hammer', 'Melee', '+3', 4,'Engaged',4,250,5,1,'Accurate 1, Defensive 2')
-                                    +gear-weapon('Greataxe', 'Melee', '+4', 3,'Engaged',4,350,5,3,'Cumbersome 3, Pierce 2, Vicious 2')
-                                    +gear-weapon('Greathammer', 'Melee', '+4', 4,'Engaged',5,350,5,3,'Cumbersome 3, Disorient 2, Knockdown, Vicious 2')
-                                    +gear-weapon('Greatsword', 'Melee', '+4', 2,'Engaged',3,300,5,3,'Defensive 1, Pierce 1, Unwieldy 3')
-                                    +gear-weapon('Stunstick', 'Melee', '+4', 5,'Engaged',2,50,4,0,'Stun Damage')
-                                    +gear-weapon('Whip', 'Melee', '+4', 4,'Short',3,150,2,0,'Ensnare 1, Unwieldy 2')
-                                    //-
-                                        +gear-weapon('Baton', 'Melee', '+2', 5,'Engaged',2,50,3,1,'Disorient 2')
+                            .table-responsive
+                                table#tbl-melee-weapons.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Name
+                                            th(scope="col") Skill
+                                            th(scope="col") Damage 
+                                            th(scope="col") Crit
+                                            th(scope="col") Range
+                                            th(scope="col") Encumbrance 
+                                            th(scope="col") Price
+                                            th(scope="col") Rarity 
+                                            th(scope="col") Hardpoints 
+                                            th(scope="col") Special 
+                                    tbody
+                                        +gear-weapon('Brass Knuckles', 'Brawl', '+1', '3','Engaged','0','20','1','0','')
+                                        +gear-weapon('Rapier', 'Melee', '+0', '2','Engaged','0','250','5','1','Accurate 1, Defensive 2')
+                                        +gear-weapon('Combat Knife', 'Melee', '+1', '3','Engaged','0','20','1','0','')
+                                        +gear-weapon('Spear', 'Melee', '+2', '4','Engaged','2','90','2','1','Accurate 1, Defensive 1')
+                                        +gear-weapon('Sword', 'Melee', '+2', '2','Engaged','3','250','3','1','Defensive 1, Pierce 1')
+                                        +gear-weapon('Axe', 'Melee', '+3', 3,'Engaged',2,150,3,1,'Vicious 1')
+                                        +gear-weapon('Shield', 'Melee', '+0', 6,'Engaged',1,75,3,1,'Defensive 1, Deflection 1, Inaccurate 1, Knockdown')
+                                        +gear-weapon('Shield, Large', 'Melee', '+1', 5,'Engaged',2,200,4,2,'Defensive 2, Deflection 2, Inaccurate 2, Knockdown')
+                                        +gear-weapon('Shield, Riot', 'Melee', '+2', 5,'Engaged',2,300,4,2,'Cumbersome 4 Defensive 2, Deflection 2, Inaccurate 1, Knockdown, Reinforced')
+                                        +gear-weapon('Mace / Hammer', 'Melee', '+3', 4,'Engaged',4,250,5,1,'Accurate 1, Defensive 2')
+                                        +gear-weapon('Greataxe', 'Melee', '+4', 3,'Engaged',4,350,5,3,'Cumbersome 3, Pierce 2, Vicious 2')
+                                        +gear-weapon('Greathammer', 'Melee', '+4', 4,'Engaged',5,350,5,3,'Cumbersome 3, Disorient 2, Knockdown, Vicious 2')
+                                        +gear-weapon('Greatsword', 'Melee', '+4', 2,'Engaged',3,300,5,3,'Defensive 1, Pierce 1, Unwieldy 3')
+                                        +gear-weapon('Stunstick', 'Melee', '+4', 5,'Engaged',2,50,4,0,'Stun Damage')
+                                        +gear-weapon('Whip', 'Melee', '+4', 4,'Short',3,150,2,0,'Ensnare 1, Unwieldy 2')
+                                        //-
+                                            +gear-weapon('Baton', 'Melee', '+2', 5,'Engaged',2,50,3,1,'Disorient 2')
+
+        +footer

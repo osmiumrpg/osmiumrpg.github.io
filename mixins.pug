@@ -93,7 +93,7 @@ mixin spellstat(action, range, difficulty, concentration)
             strong Concentration: 
             span= concentration
 
-mixin gear-weapon(name, skill, damage, crit, range, encumbrance, price, rarity, hardpoint, special)
+mixin gear-weapon(name, skill, damage, crit, range, encumbrance, price, rarity, hardpoints, special)
     tr
         td(scope="row")= name
         td= skill
@@ -103,5 +103,25 @@ mixin gear-weapon(name, skill, damage, crit, range, encumbrance, price, rarity, 
         td= encumbrance
         td= price
         td= rarity
+        td= hardpoints 
+        td= special
+
+mixin gear-armor(name, melee, ranged, soak, encumbrance, price, rarity, hardpoints, special)
+    tr
+        td(scope="row")= name
+        td= melee
+        td= ranged
+        td= soak
+        td= encumbrance
+        td= price
+        td= rarity
         td= hardpoint 
+        td= special
+
+mixin gear-other(name, price, encumbrance, rarity, special)
+    tr
+        td(scope="row")= name
+        td= price
+        td= encumbrance
+        td= rarity
         td= special

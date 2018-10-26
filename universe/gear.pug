@@ -92,4 +92,65 @@ html(lang="en")
                                         +gear-weapon('Assault Rifle', 'Ranged (Projectile)',9,3,'Long',5,1325,7,3,'Autofire')
                                         +gear-weapon('Sniper Rifle', 'Ranged (Projectile)',12,2,'Extreme',5,2500,7,3,'Accurate 2, Pierce 1, Prepare 2')
 
-        +footer
+                    h2 Armor
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Personal Armor
+                            button#btn-armor.btn(data-toggle='collapse', data-target='#div-armor' onclick="toggleCollapseArrow('armor');") &ndash;
+                        #div-armor.collapse.show
+                            .table-responsive
+                                table#tbl-armor.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Name
+                                            th(scope="col") Defense, Melee
+                                            th(scope="col") Defense, Ranged
+                                            th(scope="col") Soak
+                                            th(scope="col") Encumbrance
+                                            th(scope="col") Price
+                                            th(scope="col") Rarity 
+                                            th(scope="col") Hardpoints 
+                                            th(scope="col") Special 
+                                    tbody
+                                        +gear-armor('Dense Clothing', 0, 0, 1, 1, 50, 0, 0, '')
+                                        +gear-armor('Technical Vest', 0, 0, 1, 3, 300, 5, 3, '')
+                                        +gear-armor('Padded Armor', 0, 0, 2, 2, 500, 1, 0, '')
+                                        +gear-armor('Combat Vest', 1, 1, 1, 3, 1000, 6, 1, '')
+                                        +gear-armor('Heavy Combat Armor', 1, 1, 2, 6, 5000, 7, 4, '')
+                                        +gear-armor('Carapace Armor', 0, 0, 3, 3, 2500, 5, 3, '')
+                                        +gear-armor('Specialist Armor Set', 0, 0, 1, 3, 1500, 7, 1, 'When a character acquires this armour, they nominate one skill for it be permanently specialised for. The wearer then upgrades any skill check that matches the armour’s specialisation.')
+                                        //-
+                                            +gear-armor('Power Armor', 2, 2, 2, 8, 10000, 10, 5, 'The wearer increases their Brawn attribute by +1. However, they apply two bb to any Coordination or Stealth checks.')
+                                            +gear-armor('Wingsuit', 0, 0, 1, 3, 1500, 7, 1, 'Wearer takes no falling damage, assuming they’re able to open both arms to extend the gliding membrane. Wearer can also make extended gliding leaps if they’re launching from a high enough point.')
+
+                    h2 Gear
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Other Gear
+                            button#btn-other-gear.btn(data-toggle='collapse', data-target='#div-other-gear' onclick="toggleCollapseArrow('other-gear');") &ndash;
+                        #div-other-gear.collapse.show
+                            .table-responsive
+                                table#tbl-other-gear.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Name
+                                            th(scope="col") Price
+                                            th(scope="col") Encumbrance
+                                            th(scope="col") Rarity 
+                                            th(scope="col") Special 
+                                    tbody
+                                        +gear-other('Autohealers',50,0,2,'')
+                                        +gear-other('Backpack',25,'+4',3,'')
+                                        +gear-other('Disguise Kit',150,1,5,'')
+                                        +gear-other('Lock Bypass Kit',250,1,4,'')
+                                        +gear-other('Medkit, Emergency',100,1,1,'')
+                                        +gear-other('Medkit, Standard',500,2,3,'')
+                                        +gear-other('Memescape Interface, Standard',100,0,3,'')
+                                        +gear-other('Space Suit',100,4,1,'+2 Rarity planet-side')
+                                        +gear-other('Toolkit',350,4,2,'')
+                                        +gear-other("Traveler's Pack",75,3,3,'')
+                                        +gear-other("Walkie Talkies",200,0,4,'')
+                                        +gear-other("Ritual Components",200,2,5,'')
+                                        +gear-other("Ritual Components, Refill",75,0,4,'')
+
+            +footer

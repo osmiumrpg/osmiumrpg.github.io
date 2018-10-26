@@ -145,6 +145,7 @@ html(lang="en")
 
                     // Spell Action Tables
                     h2 Spell Action Tables
+
                     h3 Magical Attack 
                     p #[strong Concentration:] No
                     p #[strong Skills:] Blue Magic, Purple Magic
@@ -202,6 +203,78 @@ html(lang="en")
                                     tr
                                         td(scope="row") #[strong Poisonous:] #[em Purple Magic only. ] If the attack deals damage, the target must immediately make a #[strong Hard (#[span.dice.difficulty ddd]) Resilience check] or suffer wounds equal to the character's ranks in Lore, and strain equal to the character's ranks in Lore. This counts as a poison.
                                         td +#[span.dice.difficulty dd]
+
+                    h4 Augment
+                    p #[strong Concentration:] Yes
+                    p #[strong Skills:] Purple Magic, Red Magic
+                    p This is using magic to enhance people. A character selects one target they are engaged with (which can be themself), then makes a magic skill check. The default difficulty of the check is #[strong Average (#[span.dice.difficulty dd])]. If the check is successful, until the end of your character’s next turn, the target increases the ability of any skill checks they make by one (in effect, this means they add #[span.dice.ability d] to their checks).
+                    p A character may not be affected by more than one Augment spell at the same time (so no stacking effects).
+
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Augment Additional Effects
+                            button#btn-augment-action.btn(data-toggle='collapse', data-target='#div-augment-action' onclick="toggleCollapseArrow('augment-action');") &ndash;
+                        #div-augment-action.collapse.show
+                            table#tbl-augment-action.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Additional Effect
+                                        th(scope="col") Diff Mod 
+                                tbody
+                                    tr 
+                                        td(scope="row") #[strong Adrenaline:] #[em Red Magic only. ] The target increases their wound threshold by a value equal to the character's ranks in their Strength Skill for the duration of the spell.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Haste:] Targets affected by the spell can always perform a second maneuver during their turn without spending strain (they may still only perform two maneuvers a turn).
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Combative Mutation:] #[em Red Magic only. ] The target adds damage equal to the character's ranks in their Strength Skill to unarmed combat checks, and their Critical rating for unarmed combat checks becomes 3.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Range:] Increase the range of the spell by one range band. This may be added multiple times, increasing the range by one range band each time.
+                                        td +#[span.dice.difficulty d]
+                                    tr 
+                                        td(scope="row") #[strong Swift:] Targets affected by the spell ignore the effects of difficult terrain and cannot be immobilized.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Additional Target:] The spell affects one additional target within range of the spell. In addition, after casting the spell, you may spend #[span.genesys a] to affect one additional target within range of the spell (and may trigger this multiple times, spending #[span.genesys a] each time).
+                                        td +#[span.dice.difficulty dd]
+
+                    h4 Barrier
+                    p #[strong Concentration:] Yes
+                    p #[strong Skills:] Blue Magic, Red Magic
+                    p The power to create barriers of magical energy to protect the spellcaster and their allies. The character selects one target they are engaged with (which can be themself), then makes a magic skill check. The default difficulty of the check is #[strong Easy (#[span.dice.difficulty d])]. If the check is successful, until the end of the character’s next turn, reduce the damage of all hits the target suffers by one, and further reduce it by one for every uncanceled #[span.genesys ss] beyond the first.
+
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Barrier Additional Effects
+                            button#btn-barrier-action.btn(data-toggle='collapse', data-target='#div-barrier-action' onclick="toggleCollapseArrow('barrier-action');") &ndash;
+                        #div-barrier-action.collapse.show
+                            table#tbl-barrier-action.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Additional Effect
+                                        th(scope="col") Diff Mod 
+                                tbody
+                                    tr 
+                                        td(scope="row") #[strong Additional Target:] The spell affects one additional target within range of the spell. In addition, after casting the spell, you may spend #[span.genesys a] to affect one additional target within range of the spell (and may trigger this multiple times, spending #[span.genesys a] each time).
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Range:] Increase the range of the spell by one range band. This may be added multiple times, increasing the range by one range band each time.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Add Defense:] Each affected target gains ranged and melee defense equal to your ranks in your Strength Skill.
+                                        td +#[span.dice.difficulty dd]
+                                    tr
+                                        td(scope="row") #[strong Empowered:] The barrier reduces damage equal to the number of uncanceled successes instead of the normal effect.
+                                        td +#[span.dice.difficulty dd]
+                                    tr
+                                        td(scope="row") #[strong Feedback:] #[em Blue Magic only. ] If an opponent makes a magic attack against an affected target and generates #[span.genesys hhh] or #[span.genesys d] on the check, after the check is resolved, they suffer a hit dealing damage equal to the total damage of the attack.
+                                        td +#[span.dice.difficulty dd]
+                                    tr
+                                        td(scope="row") #[strong Gravitic:] #[em Blue Magic only. ] Opponents automatically disengage from affected targets, and may not engage them for the duration of the spell.
+                                        td +#[span.dice.difficulty dd]
+
                     h4 Curse
                     p #[strong Concentration:] Yes
                     p #[strong Skills:] Purple Magic, Red Magic
@@ -239,4 +312,31 @@ html(lang="en")
                                     tr
                                         td(scope="row") #[strong Paralyze:] The target is staggered for the duration of the spell. This affect may not be combined with the additional target effect.
                                         td +#[span.dice.difficulty ddd]
+
+                    h4 Dispel 
+                    p #[strong Concentration:] No
+                    p #[strong Skills:] Blue Magic, Purple Magic
+                    p The ability to nullify magic is a strange and wondrous art that only certain spellcasters possess. The character selects one target within short range that is under the effects of a spell, then makes a magic skill check. The default difficulty for the check is #[strong Hard (#[span.dice.difficulty ddd])]. If the check is successful, the effects the target is under immediately end (if the original spell affected multiple targets, the other targets remain affected).
+
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Dispel Additional Effects
+                            button#btn-dispel-action.btn(data-toggle='collapse', data-target='#div-dispel-action' onclick="toggleCollapseArrow('dispel-action');") &ndash;
+                        #div-dispel-action.collapse.show
+                            table#tbl-dispel-action.table.table-striped
+                                thead
+                                    tr
+                                        th(scope="col") Additional Effect
+                                        th(scope="col") Diff Mod 
+                                tbody
+                                    tr 
+                                        td(scope="row") #[strong Range:] Increase the range of the spell by one range band. This may be added multiple times, increasing the range by one range band each time.
+                                        td +#[span.dice.difficulty d]
+                                    tr
+                                        td(scope="row") #[strong Additional Target:] The spell affects one additional target within range of the spell. In addition, after casting the spell, you may spend #[span.genesys a] to affect one additional target within range of the spell (and may trigger this multiple times, spending #[span.genesys a] each time).
+                                        td +#[span.dice.difficulty dd]
+
+                    h4 Heal 
+                    p 
+                        em Forthcoming.
         +footer                   

@@ -48,6 +48,8 @@ mixin navbar
                         a.dropdown-item(href="/rules/skills.html") Skills
                         a.dropdown-item(href="/rules/species.html") Species
                         a.dropdown-item(href="/rules/talents.html") Talents
+                li.nav-item
+                    a.nav-link(href="/universe/gear.html") Gear
                 //-
                     li.nav-item.dropdown
                         a#navbarDropdown.nav-link.dropdown-toggle(href="#", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Universe
@@ -90,3 +92,16 @@ mixin spellstat(action, range, difficulty, concentration)
         p 
             strong Concentration: 
             span= concentration
+
+mixin gear-weapon(name, skill, damage, crit, range, encumbrance, price, rarity, hardpoint, special)
+    tr
+        td(scope="row")= name
+        td= skill
+        td= damage
+        td= crit
+        td= range
+        td= encumbrance
+        td= price
+        td= rarity
+        td= hardpoint 
+        td= special

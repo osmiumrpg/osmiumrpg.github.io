@@ -403,8 +403,8 @@ html(lang="en")
                     h6 Fighter’s Stance
                     +talentstat('2', 'Active (Incidental)', 'No', '[Brawl], [Melee], [Tough]')
                     p When making a combat check, if your character has performed the 
-                        a.pop.pop-info(data-toggle="popover", data-html="true" tabindex="0", title="Guarded Stance Maneuver",                             data-content="Gain Melee Defense 1, and <span class='dice setback'>b</span> to your combat checks.") Guarded Stance maneuver 
-                        | this turn, you may suffer 1 strain to ignore the penalties of the Guarded Stance maneuver.
+                        a.pop.pop-info(data-toggle="popover", data-html="true" tabindex="0", title="Guarded Stance Maneuver", data-content="Gain Melee Defense 1, and <span class='dice setback'>b</span> to your combat checks.") Guarded Stance maneuver
+                        |  this turn, you may suffer 1 strain to ignore the penalties of the Guarded Stance maneuver.
                     // Source: CCC-ESP77
 
                     h6 Fine Tuning
@@ -543,6 +543,12 @@ html(lang="en")
                     +talentstat('2', 'Active (Incidental)', 'Yes', '[Mechanics]')
                     p When using a weapon with the Blast quality spend a to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.
                     // Sources: ACRB, DC
+
+                    h6 Sense Emotions
+                    +talentstat(2, 'Passive', 'No', '[Magic], [Social]')
+                    p 
+                        em You must have at least 1 Rank in Purple Magic to take this talent.
+                    p Add #[span.dice.boost b] to all Charm, Coercion, and Deception checks, as long as you are dealing with a non-artificial target who is not actively shielding you.
                     
                     h6 Shortcut
                     +talentstat('2', 'Passive', 'Yes', '[Athleticism], [Awareness], [Knowledge], [Skulduggery]')
@@ -603,6 +609,10 @@ html(lang="en")
                     +talentstat('2', 'Passive', 'No', '[Tough]')
                     p If a Critical Injury roll is 1 or reduced to 1, do not receive the critical injury.
                     // Source: ACRB
+
+                    h6 Unto the Breach
+                    +talentstat(2, 'Active (Incidental, Out of Turn)', 'No', '[Social]')
+                    p If you made a social check on your turn, and you are not behind cover, gain 
                     
                     h6 Wraithbane
                     +talentstat('2', 'Passive', 'No', '[Combat]')

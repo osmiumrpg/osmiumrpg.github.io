@@ -1186,5 +1186,14 @@ var talent_list = [
         Tags: ['Melee','Skulduggery'],
         Text: "<p>Your character may use this talent to attack an unaware adversary using a light Melee weapon. A Backstab is a melee attack, and follows the normal rules for performing a combat check (see Core Rules page 101), using the character’s Skullduggery skill instead of Melee. If the check succeeds, each uncanceled <span class='genesys'>s</span> adds +2 damage (instead of the normal +1).</p>",
         Source: 'ROT'
+    },
+    {
+        Name: "Back Against the Wall",
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Combat'],
+        Text: "<p>When your character suffers wounds equal to half of their wound threshold or greater, add <span class='dice boost'>b</span> to all combat checks they make.</p>",
+        Source: 'CCC-Swordbreaker – Life or Death'
     }
 ]

@@ -1142,4 +1142,49 @@ var talent_list = [
         Text: "<p>When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds <span class='genesys'a</span> per rank in Coercion to the ally's check.</p>",
         Source: 'DC'
     },
+    {
+        Name: 'Ambush',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Skulduggery'],
+        Text: "<p>Once per round while benefiting from cover, the character may make an Ambush maneuver. The character adds damage equal to their ranks in the Stealth skill to one hit of the next successful combat check with a non-starship/vehicle they make against a target within short range before the end of their turn.</p>",
+        Source: 'FIB'
+    },
+    {
+        Name: 'Animal Companion',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Beasts']
+        Text: "<p>Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM’s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances. As long as the bond persists, the animal follows your character, and you dictate the animal’s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory).</p><p>Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character’s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.</p><p>For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size). This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the “animal” to be a robot or drone, for example.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Armor Master',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p>While wearing armor, increase your total soak value by 1.</p>",
+        Source: 'ACRB, EBGR, ECRB, KTP'
+    },
+    {
+        Name: 'Autohealer Specialization',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Medicine'],
+        Text: "<p>When your character uses autohealers the target heals one additional wound per rank of Autohealer Specialization. The sixth autohealer and beyond each day still has no effect.</p>",
+        Source: 'GCRB – Painkiller Specialization'
+    },
+    {
+        Name: 'Backstab',
+        Tier: 3,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Melee','Skulduggery'],
+        Text: "<p>Your character may use this talent to attack an unaware adversary using a light Melee weapon. A Backstab is a melee attack, and follows the normal rules for performing a combat check (see Core Rules page 101), using the character’s Skullduggery skill instead of Melee. If the check succeeds, each uncanceled <span class='genesys'>s</span> adds +2 damage (instead of the normal +1).</p>",
+        Source: 'ROT'
+    }
 ]

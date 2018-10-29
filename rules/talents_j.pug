@@ -17,40 +17,90 @@ html(lang="en")
                 .col-lg-8.col-12
                     h1 Talents
                     p The following talents are available in the Osmium setting. This list supersedes the talents available in the Genesys Core Rules (though it does incorporate most of them).
-                    #dropdowns.row
-                    label.label.label-default Tiers
-                    select#select-tier.browser-default
-                        option(value="All") All
-                        option(value="1") Tier 1
-                        option(value="2") Tier 2
-                        option(value="3") Tier 3
-                        option(value="4") Tier 4
-                        option(value="5") Tier 5
-                    label.label.label-default Tags
-                    select#select-tag.browser-default
-                        option(value="All") All
-                        option(value="Adventurer") Adventurer
-                        option(value="Athleticism") Athleticism
-                        option(value="Awareness") Awareness
-                        option(value="Beasts") Beasts
-                        option(value="Brawl") Brawl
-                        option(value="Combat") Combat
-                        option(value="Computers") Computers
-                        option(value="Cyber") Cyber
-                        option(value="Knowledge") Knowledge
-                        option(value="Leader") Leader
-                        option(value="Magic") Magic
-                        option(value="Mechanics") Mechanics
-                        option(value="Medicine") Medicine
-                        option(value="Melee") Melee
-                        option(value="Ranged") Ranged
-                        option(value="Skulduggery") Skulduggery
-                        option(value="Social") Social
-                        option(value="Tough") Tough
-                        option(value="Vehicles") Vehicles
-                        option(value="All") --Species--
-                        option(value="Human") Human
-                        option(value="Vrar") Vrar
+                    #tags
+                        h3#header-tags Tags
+                        p In order to help search for talents that might be of use to your character, each talent is tagged. Searching for a [TAG] should help you jump through talents that you’re looking for. These tags are not requirements, nor do they have any rules effects.
+                        p The current tags are:
+                        ul 
+                            li [Adventurer] – 
+                                em For general purpose adventuring awesomeness, including luck and talents that don't fit anywhere else.
+                            li [Athleticism] – 
+                                em For feats of Athletics, Coordination, and movement.
+                            li [Awareness] – 
+                                em See and spotting things.
+                            li [Beasts] – 
+                                em We Tarzan now, bois.
+                            li [Brawl] – 
+                                em With use of the Brawl skill.
+                            li [Combat] – 
+                                em If this is the kind of thing that would get Brawl, Melee, and Range tags, I’m just shortcutting to Combat. Search for both your type of thing and Combat.
+                            li [Computers] – 
+                                em teh hakzors.
+                            li [Cyber] – 
+                                em Cybernetic enhancement. Not yet in active development.
+                            li [Knowledge] – 
+                                em Knowing things.
+                            li [Leader] – 
+                                em Warlord talents, that benefit your allies in combat. Either inspiration, or tanking.
+                            li [Magic] – 
+                                em Spellcasting shenanigans, and magic resistance.
+                            li [Mechanics] – 
+                                em Fixin’ things.
+                            li [Medicine] – 
+                                em Healing people.
+                            li [Melee] – 
+                                em Swords. Boards, also.
+                            li [Ranged] – 
+                                em Have gun, will travel.
+                            li [Skulduggery] – 
+                                em General roguishness. Not just the skill; anything suspect in the eyes of the law, or morality.
+                            li [Social] – 
+                                em Face talents.
+                            li Species - 
+                                em Search for [Vrar], [Elf], [Human], etc to find these talents.
+                            li [Tough] – 
+                                em Not-dying oriented talents.
+                            li [Vehicles] – 
+                                em Wheelpeople.
+                    #dropdowns
+                        table.table
+                            tbody
+                                tr
+                                    td
+                                        label.label.label-default Tiers &nbsp; &nbsp;
+                                        select#select-tier.browser-default
+                                            option(value="All") All
+                                            option(value="1") Tier 1
+                                            option(value="2") Tier 2
+                                            option(value="3") Tier 3
+                                            option(value="4") Tier 4
+                                            option(value="5") Tier 5
+                                    td
+                                        label.label.label-default Tags &nbsp; &nbsp;
+                                        select#select-tag.browser-default
+                                            option(value="All") All
+                                            option(value="Adventurer") Adventurer
+                                            option(value="Athleticism") Athleticism
+                                            option(value="Awareness") Awareness
+                                            option(value="Beasts") Beasts
+                                            option(value="Brawl") Brawl
+                                            option(value="Combat") Combat
+                                            option(value="Computers") Computers
+                                            option(value="Cyber") Cyber
+                                            option(value="Knowledge") Knowledge
+                                            option(value="Leader") Leader
+                                            option(value="Magic") Magic
+                                            option(value="Mechanics") Mechanics
+                                            option(value="Medicine") Medicine
+                                            option(value="Melee") Melee
+                                            option(value="Ranged") Ranged
+                                            option(value="Skulduggery") Skulduggery
+                                            option(value="Social") Social
+                                            option(value="Tough") Tough
+                                            option(value="Vehicles") Vehicles
+                                            option(value="All") --Species--
+                                            option(value="Human") Human
+                                            option(value="Vrar") Vrar
                     #talents
                     
         +footer

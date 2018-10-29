@@ -1195,5 +1195,23 @@ var talent_list = [
         Tags: ['Combat'],
         Text: "<p>When your character suffers wounds equal to half of their wound threshold or greater, add <span class='dice boost'>b</span> to all combat checks they make.</p>",
         Source: 'CCC-Swordbreaker – Life or Death'
+    },
+    {
+        Name: 'Bad Press',
+        Tier: 3,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per session, choose an organization and make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Deception check</strong>. On success, organization members have their strain thresholds reduced by 1, plus 1 per sss, until the end of the session. When they do this, the player must explain how the PC disseminated the propaganda such that it has affected his targets. The chosen organization must be narrow and cohesive enough to be affected by bad publicity.</p>",
+        Source: 'DA'
+    }, 
+    {
+        Name: 'Barrel Roll',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>Your character can only use this talent while piloting a starfighter or flying vehicle of Silhouette 3 or less. When your vehicle suffers a hit from a ranged combat check, after damage is calculated but before armor is applied, your character may have their vehicle suffer 3 system strain to use this talent. Then, reduce the damage suffered by a number equal to their ranks in Piloting.</p>",
+        Source: 'GCRB'
     }
 ]

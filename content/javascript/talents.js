@@ -179,7 +179,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Magic'],
-        Text: "<p>Your character may use Lore as their Magical Strength sSkill (for example, replacing Science in Blue Magic). Additionally, they add <span class='dice boost'>b</span> to all Lore rolls.</p>",
+        Text: "<p>Your character may use Lore as their Magical Strength Skill (for example, replacing Science in Blue Magic). Additionally, they add <span class='dice boost'>b</span> to all Lore rolls.</p>",
         Source: 'ROT-ish'
     },
     {
@@ -923,7 +923,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Skulduggery','Social'],
-        Text: "<p>When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds <span class='genesys'a</span> per rank in Coercion to the ally's check.</p>",
+        Text: "<p>When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds <span class='genesys'>a</span> per rank in Coercion to the ally's check.</p>",
         Source: 'DC'
     },
     {

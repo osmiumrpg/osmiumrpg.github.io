@@ -13,6 +13,9 @@ var filter_talents = function() {
 
     if (tag != 'All') {
         filtered_talents = filtered_talents.filter(function(element, index) {
+            if (['Brawl','Melee','Ranged'].includes(tag)) {
+                return (element.Tags.includes(tag) || element.Tags.includes('Combat'));
+            }
             return element.Tags.includes(tag);
         });
     }

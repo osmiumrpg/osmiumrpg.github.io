@@ -17,51 +17,54 @@ html(lang="en")
                 .col-lg-8.col-12
                     h1 Talents
                     p The following talents are available in the Osmium setting. This list supersedes the talents available in the Genesys Core Rules (though it does incorporate most of them).
-                    #tags
-                        h3#header-tags Tags
-                        p In order to help search for talents that might be of use to your character, each talent is tagged. Searching for a [TAG] should help you jump through talents that you’re looking for. These tags are not requirements, nor do they have any rules effects.
-                        p The current tags are:
-                        ul 
-                            li [Adventurer] – 
-                                em For general purpose adventuring awesomeness, including luck and talents that don't fit anywhere else.
-                            li [Athleticism] – 
-                                em For feats of Athletics, Coordination, and movement.
-                            li [Awareness] – 
-                                em See and spotting things.
-                            li [Beasts] – 
-                                em We Tarzan now, bois.
-                            li [Brawl] – 
-                                em With use of the Brawl skill.
-                            li [Combat] – 
-                                em If this is the kind of thing that would get Brawl, Melee, and Range tags, I’m just shortcutting to Combat. Search for both your type of thing and Combat.
-                            li [Computers] – 
-                                em teh hakzors.
-                            li [Cyber] – 
-                                em Cybernetic enhancement. Not yet in active development.
-                            li [Knowledge] – 
-                                em Knowing things.
-                            li [Leader] – 
-                                em Warlord talents, that benefit your allies in combat. Either inspiration, or tanking.
-                            li [Magic] – 
-                                em Spellcasting shenanigans, and magic resistance.
-                            li [Mechanics] – 
-                                em Fixin’ things.
-                            li [Medicine] – 
-                                em Healing people.
-                            li [Melee] – 
-                                em Swords. Boards, also.
-                            li [Ranged] – 
-                                em Have gun, will travel.
-                            li [Skulduggery] – 
-                                em General roguishness. Not just the skill; anything suspect in the eyes of the law, or morality.
-                            li [Social] – 
-                                em Face talents.
-                            li Species - 
-                                em Search for [Vrar], [Elf], [Human], etc to find these talents.
-                            li [Tough] – 
-                                em Not-dying oriented talents.
-                            li [Vehicles] – 
-                                em Wheelpeople.
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5#header-tags Tags
+                            button#btn-tags.btn(data-toggle='collapse', data-target='#div-tags' onclick="toggleCollapseArrow('tags');") &ndash;
+                        #div-tags.collapse.show.container
+                            p In order to help search for talents that might be of use to your character, each talent is tagged. These tags are not requirements, nor do they have any rules effects.
+                            p The current tags are:
+                            ul 
+                                li [Adventurer] – 
+                                    em For general purpose adventuring awesomeness, including luck and talents that don't fit anywhere else.
+                                li [Athleticism] – 
+                                    em For feats of Athletics, Coordination, and movement.
+                                li [Awareness] – 
+                                    em See and spotting things.
+                                li [Beasts] – 
+                                    em We Tarzan now, bois.
+                                li [Brawl] – 
+                                    em With use of the Brawl skill.
+                                li [Combat] – 
+                                    em If this is the kind of thing that would get Brawl, Melee, and Range tags, I’m just shortcutting to Combat. 
+                                li [Computers] – 
+                                    em teh hakzors.
+                                li [Cyber] – 
+                                    em Cybernetic enhancement. Not yet in active development.
+                                li [Knowledge] – 
+                                    em Knowing things.
+                                li [Leader] – 
+                                    em Warlord talents, that benefit your allies in combat. Either inspiration, or tanking.
+                                li [Magic] – 
+                                    em Spellcasting shenanigans, and magic resistance.
+                                li [Mechanics] – 
+                                    em Fixin’ things.
+                                li [Medicine] – 
+                                    em Healing people.
+                                li [Melee] – 
+                                    em Swords. Boards, also.
+                                li [Ranged] – 
+                                    em Have gun, will travel.
+                                li [Skulduggery] – 
+                                    em General roguishness. Not just the skill; anything suspect in the eyes of the law, or morality.
+                                li [Social] – 
+                                    em Face talents.
+                                li Species - 
+                                    em Search for [Vrar], [Elf], [Human], etc to find these talents.
+                                li [Tough] – 
+                                    em Not-dying oriented talents.
+                                li [Vehicles] – 
+                                    em Wheelpeople.
                     #dropdowns
                         table.table
                             tbody

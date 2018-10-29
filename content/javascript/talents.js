@@ -525,6 +525,20 @@ var talent_list = [
         Text: "<p>Your character cannot run out of ammo due to a <span class='genesys'>d</span>. Items with the Limited Ammo quality run out of ammo per usual.</p>",
         Source: 'ACRB, ECRB'
     },
+
+    //
+    // -- TIER 2 -- 
+    //
+
+    {
+        Name: 'Adaptable',
+        Tier: 2,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Adventurer','Human'],
+        Text: "<p>Your character adds <span class='dice boost'>b</span> to all General Skill checks in which they have no ranks of training.</p>",
+        Source: 'PHE'
+    },
     {
         Name: 'Adroitness',
         Tier: 2,

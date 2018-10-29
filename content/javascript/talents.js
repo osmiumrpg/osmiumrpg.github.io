@@ -1134,15 +1134,6 @@ var talent_list = [
         Source: 'ND'
     },
     {
-        Name: 'Loom',
-        Tier: 2,
-        Activation: 'Passive',
-        Ranked: 'No',
-        Tags: ['Skulduggery','Social'],
-        Text: "<p>When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds <span class='genesys'a</span> per rank in Coercion to the ally's check.</p>",
-        Source: 'DC'
-    },
-    {
         Name: 'Ambush',
         Tier: 3,
         Activation: 'Active (Maneuver)',

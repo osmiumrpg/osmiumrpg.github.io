@@ -413,7 +413,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Mechanics','Vehicles'],
-        Text: "<p>Once per session, may take a Redundant Systems action; make an <strong>Easy (<span class='dice difficulty'>d</span>) Mechanics check</span> to harvest components from a functioning device to repair a broken one without breaking the first device.</p>",
+        Text: "<p>Once per session, may take a Redundant Systems action; make an <strong>Easy (<span class='dice difficulty'>d</span>) Mechanics check</strong> to harvest components from a functioning device to repair a broken one without breaking the first device.</p>",
         Source: 'ACRB,ECRB'
     },
     {

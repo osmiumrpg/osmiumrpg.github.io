@@ -1040,7 +1040,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Athleticism','Awareness','Knowledge','Skulduggery'],
-        Text: "<p>During a chase, add #[span.dice.boost b] per rank in Shortcut to any checks made to catch or escape an opponent.</p>",
+        Text: "<p>During a chase, add <span class='dice boost'>b</span> per rank in Shortcut to any checks made to catch or escape an opponent.</p>",
         Source: 'ACRB,ECRB,EV,SS'
     },
     {
@@ -1085,7 +1085,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Ranged'],
-        Text: "<p>The character and each ally within short range may spend #[span.genesys a] on their failed Ranged checks to inflict one strain on the target per rank of Suppressing Fire. Each character can only activate this effect once per round.</p>",
+        Text: "<p>The character and each ally within short range may spend <span class='genesys'>a</span> on their failed Ranged checks to inflict one strain on the target per rank of Suppressing Fire. Each character can only activate this effect once per round.</p>",
         Source: 'FIB,KTP'
     },
     {

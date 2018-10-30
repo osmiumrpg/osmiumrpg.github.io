@@ -1427,7 +1427,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Awareness','Computers','Knowledge','Mechanics'],
-        Text: "<p>After making a Mechanics or Computers check but before interpreting the results, your character may suffer a number of strain up to ranks in Eye for Detail. Doing so converts that many s to a, though they must still have at least one s to succeed on the check.</p>",
+        Text: "<p>After making a Mechanics or Computers check but before interpreting the results, your character may suffer a number of strain up to ranks in Eye for Detail. Doing so converts that many <span class='genesys'>s</span> to <span class='genesys'>a</span>, though they must still have at least one <span class='genesys'>s</span> to succeed on the check.</p>",
         Source: 'SM'
     },
     {

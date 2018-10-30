@@ -1220,7 +1220,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Awareness'],
-        Text: "As long as your character can hear, you may ignore setback imposed by darkness or blindness within short range, as long as it makes sense. Each additional rank of Blindsense increases the range of this talent.</p>",
+        Text: "<p>As long as your character can hear, you may ignore setback imposed by darkness or blindness within short range, as long as it makes sense. Each additional rank of Blindsense increases the range of this talent.</p>",
         Source: 'CCC-ESP77'
     },
     {
@@ -1229,7 +1229,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Leader','Range'],
-        Text: "Your character, and allies within short range, add automatic <span class='genesys'>a</span> to combat checks they make while benefiting from cover.",
+        Text: "<p>Your character, and allies within short range, add automatic <span class='genesys'>a</span> to combat checks they make while benefiting from cover.</p>",
         Sources: 'FIB, KTP'
     },
     {
@@ -1238,7 +1238,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Tough'],
-        Text: "As an action, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Resilience check</strong> to immediately recover from all poisons and side effects of drugs. Reduce difficulty once per rank of Blooded.",
+        Text: "<p>As an action, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Resilience check</strong> to immediately recover from all poisons and side effects of drugs. Reduce difficulty once per rank of Blooded.</p>",
         Source: 'UP'
     },
     {
@@ -1247,7 +1247,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Magic'],
-        Text: "When casting a spell your character may take two wounds instead of two strain.",
+        Text: "<p>When casting a spell your character may take two wounds instead of two strain.<p>",
         Source: 'CCC-ESP77'
     },
     {
@@ -1256,7 +1256,52 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'Yes',
         Tags: ['Leader','Tough'],
-        Text: "Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered.",
+        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered.</p>",
         Source: 'ROT'
+    },
+    {
+        Name: 'Bonded Implement',
+        Tier: 3,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p>Choose one magical implement your character owns when taking this talent. Your character becomes bonded to this implement, and no other person may use it. Your character may attempt to summon it by making a <strong>Hard (<span class='dice difficulty'>ddd</span>) Magic check</strong>, if it's within miles equal to the square of your Strength Skill.  If your chosen implement is ever permanently lost or destroyed, you may select a new one of the same value.</p>",
+        Source: 'CCC-TheSapient'
+    },
+    {
+        Name: 'Cavalier',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Beast'],
+        Text: "<p>While riding a mount trained for battle (typically a war mount [see page 105] or flying mount [see page 104]), once per round your character may use this talent to direct the mount to perform an action.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Center of Being',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'Yes',
+        Tags: ['Melee','Tough'],
+        Text: "<p>While wielding a weapon with the Defensive quality, your character may perform a Center of Being maneuver. Until the beginning of your character's next turn, whenever an enemy makes a melee attack targeting them, the critical rating of the enemy's weapon counts as 1 higher per rank of Center of Being.</p>",
+        Source: 'FCRB'
+    },
+    {
+        Name: 'Confidence (Improved)',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader','Social'],
+        Text: "<p>Your character must have purchased the Confidence talent to benefit from this talent. May spend a on a fear check to steady the nerves of allies making the same fear check. If the character does so, each ally within short range who makes the fear check adds s equal to the character's rank in Confidence.</p>",
+        Source: 'LBE'
+    },
+    {
+        Name: 'Congenial',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Social'],
+        Text: "<p>When attempting a Charm or Negotiation check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. When the character is the target of a Charm or Negotiation check, the character may likewise suffer a number of strain to upgrade the difficulty of the check by a similar amount. In either case, the number of strain may not exceed the character’s ranks in Congenial.</p>",
+        Sources: 'FH, FC, DOH'
     }
 ]

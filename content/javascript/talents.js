@@ -536,7 +536,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Adventurer','Human'],
-        Text: "<p>Your character adds <span class='dice boost'>b</span> to all General Skill checks in which they have no ranks of training.</p>",
+        Text: "<p><em>You must be a Human to take this talent.</em></p><p>Your character adds <span class='dice boost'>b</span> to all General Skill checks in which they have no ranks of training.</p>",
         Source: 'PHE'
     },
     {

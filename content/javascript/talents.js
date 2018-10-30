@@ -1499,7 +1499,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Athleticism'],
-        Text: "<p><em>Your character must have purchased the Freerunning talent to benefit from this talent.</em></p><p>Suffer 4 strain when making a Move maneuver to move to any location within medium range.</p>",
+        Text: "<p><em>Your character must have purchased the Freerunning talent to benefit from this talent.</em></p><p>Once per round, before performing a Move maneuver, your character may suffer 4 strain. If they do so, they may use their Move maneuver to move to any location within medium range (even straight up) as long as there is some sort of object to move across or a path to move along.</p>",
         Source: 'EV'
     },
     {
@@ -1508,7 +1508,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Athleticism'],
-        Text: "<p>Suffer 1 strain when making a Move maneuver to move to any location within short range.</p>",
+        Text: "<p><em>You must have at least 1 Rank in a Magic skill to take this talent.</em></p><p>Once per round, before performing a Move maneuver, the character may suffer 1 strain. If they do so, they may use their Move maneuver to move to any location within short range (even straight up), as long as there is some sort of object o move across or a path to move along.</p>",
         Source: "EV"
     }
 ]

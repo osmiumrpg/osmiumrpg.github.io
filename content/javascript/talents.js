@@ -1292,7 +1292,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Leader','Social'],
-        Text: "<p>Your character must have purchased the Confidence talent to benefit from this talent. May spend a on a fear check to steady the nerves of allies making the same fear check. If the character does so, each ally within short range who makes the fear check adds s equal to the character's rank in Confidence.</p>",
+        Text: "<p><em>Your character must have purchased the Confidence talent to benefit from this talent.</em></p><p>May spend a on a fear check to steady the nerves of allies making the same fear check. If the character does so, each ally within short range who makes the fear check adds s equal to the character's rank in Confidence.</p>",
         Source: 'LBE'
     },
     {
@@ -1303,5 +1303,77 @@ var talent_list = [
         Tags: ['Social'],
         Text: "<p>When attempting a Charm or Negotiation check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. When the character is the target of a Charm or Negotiation check, the character may likewise suffer a number of strain to upgrade the difficulty of the check by a similar amount. In either case, the number of strain may not exceed the character’s ranks in Congenial.</p>",
         Sources: 'FH, FC, DOH'
+    },
+    {
+        Name: 'Counterattack',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Melee'],
+        Text: "<p><em>Your character must have purchased the Improved Parry talent to benefit from this talent.</em></p><p>When your character uses the Improved Parry talent to hit an attacker, they may also activate an item quality of the weapon they used as if they had generated aa on a combat check using that weapon.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Creative Killer',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Brawl','Melee','Skulduggery'],
+        Text: "<p>Your character reduces the critical rating of improvised weapons by 2 (to a minimum of 1).</p>",
+        Source: 'ACRB'
+    },
+    {
+        Name: 'Crippling Mage',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p>Once per session, your character may add the Deadly quality to an attack spell without increasing the difficulty.</p>",
+        Source: 'CCC-ESP77 – Combat Caster'
+    },
+    {
+        Name: 'Daring Turn',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>When an opponent has gained the advantage on a starship or vehicle being piloted by your character, your character may spend 2 strain to perform a Daring Turn maneuver to remove the effects.</p>",
+        Source: 'SOT'
+    },
+    {
+        Name: 'Disarm',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Brawl','Melee'],
+        Text: "<p>Your character need only spend <span class='genesys'>aa</span> with a successful Brawl or Melee check to disarm opponent (or <span class='genesys'>t</span>, per usual).</p>",
+        Source: 'FCRB'
+    },
+    {
+        Name: 'Disarming Smile',
+        Tier: 3,
+        Activation: 'Active (Action)',
+        Ranked: 'Yes',
+        Tags: ['Social'],
+        Text: "<p>Your character can make a Disarming Smile action to make an opposed Charm check against one target within short range. If they succeed, decrease the target’s Defense (melee and ranged) by a number equal to your character’s ranks in Disarming Smile (to a minimum of zero) until the end of the encounter.</p>",
+        Source: 'FC'
+    },
+    {
+        Name: 'Distant Spell',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p>Once per session, when casting a spell the first Range enhancement does not increase the difficulty of the spell.</p>",
+        Source: 'CCC-ESP77'
+    },
+    {
+        Name: 'Distinctive Style',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Computers'],
+        Text: "<p>When making a Computers check to hack a system or break into a secured network, before rolling, your character may use this talent to add <span class='genesys'sshh</span> to the results.</p><p>If you are using the optional hacking rules on page 232 and your check generates <span class='genesys'>hh</span>, your GM should spend it on the <em>I Know You!</em> option in Table III.2-22 on page 234 of the Genesys Core Rulebook.</p>",
+        Source: 'GCRB'
     }
 ]

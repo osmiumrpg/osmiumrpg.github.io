@@ -1139,7 +1139,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'No',
         Tags: ['Skulduggery'],
-        Text: "<p>Once per round while benefiting from cover, the character may make an Ambush maneuver. The character adds damage equal to their ranks in the Stealth skill to one hit of the next successful combat check with a non-starship/vehicle they make against a target within short range before the end of their turn.</p>",
+        Text: "<p>Once per round while benefiting from cover, the character may make an Ambush maneuver. The character may add damage equal to their ranks in the Stealth skill to one hit of the next successful combat check with a non-starship/vehicle weapon that they make against a target within short range before the end of their turn.</p>",
         Source: 'FIB'
     },
     {
@@ -1187,15 +1187,15 @@ var talent_list = [
         Text: "<p>When your character suffers wounds equal to half of their wound threshold or greater, add <span class='dice boost'>b</span> to all combat checks they make.</p>",
         Source: 'CCC-Swordbreaker – Life or Death'
     },
-    {
+/*     {
         Name: 'Bad Press',
         Tier: 3,
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Social'],
-        Text: "<p>Once per session, choose an organization and make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Deception check</strong>. On success, organization members have their strain thresholds reduced by 1, plus 1 per sss, until the end of the session. When they do this, the player must explain how the PC disseminated the propaganda such that it has affected his targets. The chosen organization must be narrow and cohesive enough to be affected by bad publicity.</p>",
+        Text: "<p>Once per session, choose an organization and make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Deception check</strong>. On success, organization members have their strain thresholds reduced by 1, plus 1 per <span class='genesys'>sss</span>, until the end of the session. When they do this, the player must explain how the PC disseminated the propaganda such that it has affected his targets. The chosen organization must be narrow and cohesive enough to be affected by bad publicity.</p>",
         Source: 'DA'
-    }, 
+    },  */
     {
         Name: 'Barrel Roll',
         Tier: 3,
@@ -1204,5 +1204,59 @@ var talent_list = [
         Tags: ['Vehicles'],
         Text: "<p>Your character can only use this talent while piloting a starfighter or flying vehicle of Silhouette 3 or less. When your vehicle suffers a hit from a ranged combat check, after damage is calculated but before armor is applied, your character may have their vehicle suffer 3 system strain to use this talent. Then, reduce the damage suffered by a number equal to their ranks in Piloting.</p>",
         Source: 'GCRB'
+    },
+    {
+        Name: 'Battle Casting',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p>Your character does not add <span class='dice setback'>b</span> to magic skill checks for wearing heavy armor (armor with +2 soak or higher), using a shield, or not having at least one hand free (see Table III.2–3: Penalties When Casting Spells, on Core Rules page 210).</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Blindsense',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Awareness'],
+        Text: "As long as your character can hear, you may ignore setback imposed by darkness or blindness within short range, as long as it makes sense. Each additional rank of Blindsense increases the range of this talent.</p>",
+        Source: 'CCC-ESP77'
+    },
+    {
+        Name: 'Blind Spot',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader','Range'],
+        Text: "Your character, and allies within short range, add automatic <span class='genesys'>a</span> to combat checks they make while benefiting from cover.",
+        Sources: 'FIB, KTP'
+    },
+    {
+        Name: 'Blooded (Improved)',
+        Tier: 3,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "As an action, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Resilience check</strong> to immediately recover from all poisons and side effects of drugs. Reduce difficulty once per rank of Blooded.",
+        Source: 'UP'
+    },
+    {
+        Name: 'Blood Magic',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "When casting a spell your character may take two wounds instead of two strain.",
+        Source: 'CCC-ESP77'
+    },
+    {
+        Name: 'Body Guard',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'Yes',
+        Tags: ['Leader','Tough'],
+        Text: "Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered.",
+        Source: 'ROT'
     }
 ]

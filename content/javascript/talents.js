@@ -1510,5 +1510,131 @@ var talent_list = [
         Tags: ['Athleticism'],
         Text: "<p><em>You must have at least 1 Rank in a Magic skill to take this talent.</em></p><p>Once per round, before performing a Move maneuver, the character may suffer 1 strain. If they do so, they may use their Move maneuver to move to any location within short range (even straight up), as long as there is some sort of object o move across or a path to move along.</p>",
         Source: "EV"
+    },
+    {
+        Name: 'Frenzied Attack',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>When making a Melee or Brawl check, suffer a number of strain to upgrade the attack an equal number of times. The strain suffered may not exceed ranks in Frenzied Attack.</p>",
+        Sources: 'ACRB, ECRB'
+    },
+    {
+        Name: 'Full Throttle',
+        Tier: 3,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>While driving or flying, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Piloting check</strong>. If successful, the top speed of the vehicle increases by one (to a maximum of 5) for a number of rounds equal to your character’s Cunning.</p><p>The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent simply makes the vehicle go much faster than normal, with the specifics up to your GM.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Grenadier',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Ranged'],
+        Text: "<p>When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon’s Blast quality, instead of spending <span class='genesys'>a</span> (even if the attack misses). In addition, your character treats grenades as having a range of medium.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Heroic Resilience',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Tough'],
+        Text: "<p>Immediately after being hit by an attack but before suffering damage, spend 1 Story Point to increase soak by ranks in Resilience.</p>",
+        Sources: 'FIB, DC'
+    },
+    {
+        Name: 'Heroic Will',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p>When you purchase this talent for your character, choose two characteristics. You may spend a Story Point to use this talent to have your character ignore the effects of all Critical Injuries on any skill checks using those two characteristics until the end of the current encounter. (Your character still suffers the Critical Injuries; they just ignore the effects. See Core Rules page 114.)</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Hindering Shot',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Vehicles'],
+        Text: "<p>Spend a Story Point and increase the difficulty of next Gunnery check by 1. If the check deals damage, target starship or vehicle suffers system strain equal to its speed when it moves for a number of turns equal to ranks in Hindering Shot.</p>",
+        Source: 'ND'
+    },
+    {
+        Name: "Hunter's Quarry (Improved)",
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Ranged'],
+        Text: "<p><em>Your character must have purchased the Hunter's Quarry talent to benefit from this talent.</em></p><p>Your character may suffer 2 strain to perform Hunter's Quarry action as a maneuver.</p>",
+        Sources: 'ETU, SS'
+    },
+    {
+        Name: "Inspiring Rhetoric (Improved)",
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader', 'Social'],
+        Text: "<p><em>Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent.</em></p><p>Allies affected by your character’s Inspiring Rhetoric add <span class='dice boost'>b</span> to all skill checks they make for a number of rounds equal to your character’s ranks in Leadership.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Intimidating',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'Yes',
+        Tags: ['Social'],
+        Text: "<p>May suffer a number of strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number. Strain suffered this way cannot exceed ranks in Intimidating.</p>",
+        Sources: 'ACRB, ECRB, FBGR, FCRB'
+    },
+    {
+        Name: 'Iron Body',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Athleticism', 'Brawl', 'Tough'],
+        Text: "<p>Remove <span class='dice setback'>b</p> per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body (to a minimum of 1).</p>",
+        Source: 'ND'
+    },
+    {
+        Name: 'Lethal Blows',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Combat'],
+        Text: "<p>Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents.</p>",
+        Sources: 'ACRB, ECRB, SS'
+    },
+    {
+        Name: 'Lingering Spell',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p>Your character may spend a Story Point to make the Concentration maneuver as an incidental.</p>",
+        Source: 'CCC-TheSapient'
+    },
+    {
+        Name: 'Magic Resistance',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Magic'],
+        Text: "<p>Whenever you are being targeted by an enemy's spell, the caster adds <span class='dice setback'>b</span> to the check. When your character makes a check to resist a negative magic effect, may add <span class='dice boost'>b</span> to the check.</p>",
+        Source: 'CCC-Klort'
+    },
+    {
+        Name: 'Natural',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Adventurer', 'Knowledge'],
+        Text: "<p>When your character purchases this talent, choose two skills. Once per session, your character may use this talent to reroll one skill check that uses one of those two skills.</p>",
+        Source: 'GCRB'
     }
 ]

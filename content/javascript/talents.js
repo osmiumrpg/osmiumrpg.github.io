@@ -1654,5 +1654,85 @@ var talent_list = [
         Tags: ['Social'],
         Text: "<p>May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.</p>",
         Sources: 'ACRB, ECRB, FCRB'
+    },
+    {
+        Name: 'Overchannel (Improved)',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p><em>Your character must have purchased the Overchannel talent to benefit from this talent.</em><p><p>In addition to the effects of Overchannel, you may also add (<span class='dice difficulty'>dd</span>) effects. The character gains one <span class='genesys'>d</span> (including the associated failure) per (<span class='dice difficulty'>dd</span>) effect added in this way rather than increase the difficultly of the check. This is in addition to any <span class='genesys'>d</span> rolled.</p>",
+        Source: 'CCC-ESP77'
+    },
+    {
+        Name: 'Overwhelm Defenses',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Vehicles'],
+        Text: "<p>Upon making an unsuccessful attack with a starship or vehicle weapon, your character may spend <span class='genesys'>aa</span> per rank of Overwhelm Defenses. Reduce the defense in the targeted defense zone by 1 for every <span class='genesys'>aa</span> spent for the remainder of the encounter.</p>",
+        Sources: 'ACRB, ND'
+    },
+    {
+        Name: 'Parry (Improved)',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Text: "<p><em>Your character must have purchased the Parry talent to benefit from this talent.</em></p><p>When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend <span class='genesys'>d</span> or <span class='genesys'>hhh</span> from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Point Blank',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Ranged'],
+        Text: "<p>You character adds 1 damage per rank of Point Blank to one hit of their successful attacks made while using Ranged skills at short range or engaged.</p>",
+        Sources: 'ABGR, ACRB, EBGR, ECRB'
+    },
+    {
+        Name: 'Powerful Blast',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Mechanics', 'Range'],
+        Text: "<p>Increase Blast damage dealt by +1 per rank of Powerful Blast.</p>",
+        Sources: 'ACRB, DC',
+    },
+    {
+        Name: 'Precise Shooting',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Range'],
+        Text: "<p>When making a Ranged combat check targeting a character engaged with one of your character's allies, downgrade the difficulty of the check once (thus negating the penalty for shooting at engaged targets).</p>",
+        Source: 'ROT – Precise Archery'
+    },
+    {
+        Name: 'Preemptive Avoidance',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Awareness', 'Combat', 'Tough'],
+        Text: "<p>May spend 1 Story Point to disengage from engaged enemy as an out-of-turn incidental.</p>",
+        Source: 'FCRB'
+    },
+    {
+        Name: 'Pressure Point',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Medicine'],
+        Text: "<p>When your character makes an unarmed Brawl check targeting a living opponent, they may use this talent to deal strain damage instead of wound damage, and inflict additional strain damage equal to their ranks in Medicine.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Pride and Joy (Improved)',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader', 'Tough', 'Vehicles'],
+        Text: "<p>While inside your character's Pride and Joy, recover +1 strain whenever recovering strain and spend <span class='genesys'>a</span> on checks made to recover strain to allow an ally also within the vehicle to recover 1 strain.</p>",
+        Source: 'DOR'
     }
 ]

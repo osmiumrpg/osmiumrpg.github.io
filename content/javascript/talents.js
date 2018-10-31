@@ -1735,5 +1735,131 @@ var talent_list = [
         Tags: ['Leader', 'Tough', 'Vehicles'],
         Text: "<p>While inside your character's Pride and Joy, recover +1 strain whenever recovering strain and spend <span class='genesys'>a</span> on checks made to recover strain to allow an ally also within the vehicle to recover 1 strain.</p>",
         Source: 'DOR'
+    },
+    {
+        Name: 'Reflect (Improved)',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Melee', 'Tough'],
+        Text: "<p><em>Your character must have purchased the Reflect Talent to benefit from this talent.</em></p><p>Your character may use reflect while wielding a melee weapon deemed appropriate by the GM. When reflecting a hit that generated <span class='genesys'>d</span> or <span class='genesys'>hhh</span> may hit one target in medium range with the same damage as the initial hit, after original attack resolves.</p>",
+        Source: 'FBGR, FCRB'
+    },
+    {
+        Name: 'Scathing Tirade (Improved)',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p><em>Your character must have purchased the Scathing Tirade talent to benefit from this talent.</em></p><p>Enemies affected by your character’s Scathing Tirade add <span class='dice setback'>b</span> to all skill checks they make for a number of rounds equal to your character’s ranks in Coercion.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Seize the Initiative',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Leader'],
+        Text: "<p>Once per session, as a maneuver, may make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Athletics check</strong>. On a success, other PCs may take their turns immediately.</p>",
+        Source: 'FIB'
+    },
+    {
+        Name: 'Sense Advantage',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Adventurer'],
+        Text: "<p>Once per session, may add <span class='dice setback'>bb</span> to 1 NPC's skill check.</p>",
+        Source: 'FBGR, FCRB'
+    },
+    {
+        Name: 'Shape Spell',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Magic'],
+        Text: "<p>When casting a spell with the Blast quality, your character may spend <span class='genesys'>a</span> to exclude 1 target that would otherwise be affected by the explosion, up to ranks in Shape Spell.</p>",
+        Source: 'CCC-ESP77'
+    },
+    {
+        Name: 'Shield Master',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p>While wielding a shield, your character may take the Shield Master maneuver, suffering 1 Strain. Your shield's Defensive and Deflection qualities increase by one each until the end of your next turn.</p>",
+        Source: 'CCC-Direach'
+    },
+    {
+        Name: 'Shockwave',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Melee'],
+        Text: "<p>Your character treats heavy Melee weapons as possessing the Blast item quality with a rating equal to your character’s ranks in Melee. Your character does not suffer damage from their weapon's Blast quality (but allies do!).</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Shortcut (Improved)',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Awareness', 'Knowledge', 'Skulduggery'],
+        Text: "<p><em>Your character must have purchased the Shortcut talent to benefit from this talent.</em></p><p>When engaging in a chase or race, may suffer 2 strain to add <span class='genesys'>s</span> equal to ranks in Shortcut to the check.</p>",
+        Source: 'ND, EV, SS'
+    },
+    {
+        Name: 'Skilled Teacher',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'Yes',
+        Tags: ['Knowledge, Leader'],
+        Text: "<p>Before an ally within short range makes a skill check, if that ally has fewer ranks in that skill than your character does, your character may suffer a number of strain no greater than ranks in Skilled Teacher to add an equal number of <span class='genesys'>s</span> to the ally’s check.</p>",
+        Source: 'DOH'
+    },
+    {
+        Name: 'Stunning Blow (Improved)',
+        Tier: 3,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Melee'],
+        Text: "<p><em>Your character must have purchased the Stunning Blow talent to benefit from this talent.</em></p><p>When dealing strain damage with Melee or Brawl checks, may spend <span class='genesys'>t</span> to stagger target for 1 round per <span class='genesys'>t</span>.</p>",
+        Source: 'ACRB, ECRB'
+    },
+    {
+        Name: 'Sunder Expertise',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Melee'],
+        Text: "<p>Each <span class='genesys'>a</span> your character spends to activate a weapon's Sunder quality damages the target item two steps, instead of one.</p>",
+        Source: 'DOH'
+    },
+    {
+        Name: 'Time to Go (Improved)',
+        Tier: 3,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Awareness', 'Leader'],
+        Text: "<p><em>Your character must have purchased the Time to Go talent to benefit from this talent.</em></p><p>When activating Time to Go, allow 1 engaged ally to also perform an out of turn Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion.</p>",
+        Source: 'ACRB, DC'
+    },
+    {
+        Name: 'Tricky Target',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>Count vehicle or starship piloted as having a silhouette 1 lower when being attacked.</p>",
+        Source: 'ABGR, ACRB, ECRB, FCRB'
+    },
+    {
+        Name: 'Twisted Words',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>When an incoming social check generates <span class='genesys'>hh</span> or <span class='genesys'>d</span>, your character may suffer 1 strain as an incidental to inflict strain equal to their ranks in Coercion on speaker.</p>",
+        Source: 'DA'
     }
 ]

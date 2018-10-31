@@ -1636,5 +1636,23 @@ var talent_list = [
         Tags: ['Adventurer', 'Knowledge'],
         Text: "<p>When your character purchases this talent, choose two skills. Once per session, your character may use this talent to reroll one skill check that uses one of those two skills.</p>",
         Source: 'GCRB'
+    },
+    {
+        Name: 'No Escape',
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>May spend <span class='genesys'>aa</span> from a Coercion check or <span class='genesys'>hh</span> from a foe's Discipline check; that target cannot perform a free maneuver during his next turn.</p>",
+        Source: 'KTP',
+    },
+    {
+        Name: "Nobody's Fool",
+        Tier: 3,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Social'],
+        Text: "<p>May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.</p>",
+        Sources: 'ACRB, ECRB, FCRB'
     }
 ]

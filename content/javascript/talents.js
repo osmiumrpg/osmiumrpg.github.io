@@ -1230,7 +1230,7 @@ var talent_list = [
         Ranked: 'No',
         Tags: ['Leader','Range'],
         Text: "<p>Your character, and allies within short range, add automatic <span class='genesys'>a</span> to combat checks they make while benefiting from cover.</p>",
-        Sources: 'FIB, KTP'
+        Source: 'FIB, KTP'
     },
     {
         Name: 'Blooded (Improved)',
@@ -1302,7 +1302,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Social'],
         Text: "<p>When attempting a Charm or Negotiation check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. When the character is the target of a Charm or Negotiation check, the character may likewise suffer a number of strain to upgrade the difficulty of the check by a similar amount. In either case, the number of strain may not exceed the character’s ranks in Congenial.</p>",
-        Sources: 'FH, FC, DOH'
+        Source: 'FH, FC, DOH'
     },
     {
         Name: 'Counterattack',
@@ -1419,7 +1419,7 @@ var talent_list = [
         Ranked: 'No',
         Tags: ['Leader'],
         Text: "<p>After an engaged ally fails a check, may suffer 1 strain to assist that ally's next check this encounter as an out of turn incidental.</p>",
-        Sources: 'DA, LBE, DOH'
+        Source: 'DA, LBE, DOH'
     },
     {
         Name: 'Eye for Detail',
@@ -1446,7 +1446,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Brawl','Melee'],
         Text: "<p>Add 1 damage per rank of Feral Strength to one hit of successful attacks made using Brawl or Melee.</p>",
-        Sources: 'ABGR, ACRB, EBGR, ECRB'
+        Source: 'ABGR, ACRB, EBGR, ECRB'
     },
     {
         Name: 'Field Commander',
@@ -1518,7 +1518,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Brawl', 'Melee'],
         Text: "<p>When making a Melee or Brawl check, suffer a number of strain to upgrade the attack an equal number of times. The strain suffered may not exceed ranks in Frenzied Attack.</p>",
-        Sources: 'ACRB, ECRB'
+        Source: 'ACRB, ECRB'
     },
     {
         Name: 'Full Throttle',
@@ -1545,7 +1545,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Tough'],
         Text: "<p>Immediately after being hit by an attack but before suffering damage, spend 1 Story Point to increase soak by ranks in Resilience.</p>",
-        Sources: 'FIB, DC'
+        Source: 'FIB, DC'
     },
     {
         Name: 'Heroic Will',
@@ -1572,7 +1572,7 @@ var talent_list = [
         Ranked: 'No',
         Tags: ['Ranged'],
         Text: "<p><em>Your character must have purchased the Hunter's Quarry talent to benefit from this talent.</em></p><p>Your character may suffer 2 strain to perform Hunter's Quarry action as a maneuver.</p>",
-        Sources: 'ETU, SS'
+        Source: 'ETU, SS'
     },
     {
         Name: "Inspiring Rhetoric (Improved)",
@@ -1590,7 +1590,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Social'],
         Text: "<p>May suffer a number of strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number. Strain suffered this way cannot exceed ranks in Intimidating.</p>",
-        Sources: 'ACRB, ECRB, FBGR, FCRB'
+        Source: 'ACRB, ECRB, FBGR, FCRB'
     },
     {
         Name: 'Iron Body',
@@ -1608,7 +1608,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Combat'],
         Text: "<p>Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents.</p>",
-        Sources: 'ACRB, ECRB, SS'
+        Source: 'ACRB, ECRB, SS'
     },
     {
         Name: 'Lingering Spell',
@@ -1653,7 +1653,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Social'],
         Text: "<p>May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.</p>",
-        Sources: 'ACRB, ECRB, FCRB'
+        Source: 'ACRB, ECRB, FCRB'
     },
     {
         Name: 'Overchannel (Improved)',
@@ -1678,6 +1678,7 @@ var talent_list = [
         Tier: 3,
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'No',
+        Tags: ['Melee'],
         Text: "<p><em>Your character must have purchased the Parry talent to benefit from this talent.</em></p><p>When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend <span class='genesys'>d</span> or <span class='genesys'>hhh</span> from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them.</p>",
         Source: 'GCRB'
     },
@@ -1688,7 +1689,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Ranged'],
         Text: "<p>You character adds 1 damage per rank of Point Blank to one hit of their successful attacks made while using Ranged skills at short range or engaged.</p>",
-        Sources: 'ABGR, ACRB, EBGR, ECRB'
+        Source: 'ABGR, ACRB, EBGR, ECRB'
     },
     {
         Name: 'Powerful Blast',
@@ -1697,7 +1698,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Mechanics', 'Range'],
         Text: "<p>Increase Blast damage dealt by +1 per rank of Powerful Blast.</p>",
-        Sources: 'ACRB, DC',
+        Source: 'ACRB, DC',
     },
     {
         Name: 'Precise Shooting',

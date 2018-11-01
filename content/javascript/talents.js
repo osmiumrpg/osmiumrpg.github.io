@@ -1664,7 +1664,7 @@ var talent_list = [
         Text: "<p><em>Your character must have purchased the Overchannel talent to benefit from this talent.</em><p><p>In addition to the effects of Overchannel, you may also add (<span class='dice difficulty'>dd</span>) effects. The character gains one <span class='genesys'>d</span> (including the associated failure) per (<span class='dice difficulty'>dd</span>) effect added in this way rather than increase the difficultly of the check. This is in addition to any <span class='genesys'>d</span> rolled.</p>",
         Source: 'CCC-ESP77'
     },
-    {
+/*     {
         Name: 'Overwhelm Defenses',
         Tier: 3,
         Activation: 'Active (Incidental)',
@@ -1672,7 +1672,7 @@ var talent_list = [
         Tags: ['Vehicles'],
         Text: "<p>Upon making an unsuccessful attack with a starship or vehicle weapon, your character may spend <span class='genesys'>aa</span> per rank of Overwhelm Defenses. Reduce the defense in the targeted defense zone by 1 for every <span class='genesys'>aa</span> spent for the remainder of the encounter.</p>",
         Sources: 'ACRB, ND'
-    },
+    }, */
     {
         Name: 'Parry (Improved)',
         Tier: 3,

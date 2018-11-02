@@ -1147,7 +1147,7 @@ var talent_list = [
         Activation: 'Maneuver',
         Ranked: 'No',
         Tags: ['Knowledge'],
-        Text: "<p>Once per encounter, your character may make an Identify Weakness maneuver. They make a <strong>Simple (-) Knowledge check</strong>. Count the number of <span class='genesys'>s</span> you roll. These count as 'Found Weaknesses'. During the encounter, your character may spend a Found Weakness to add a <span class='genesys'>s</span> to a roll, after the dice are rolled but before success or damage is calculated. You may spend any number of Found Weaknesses on a roll.</p>"
+        Text: "<p>Once per encounter, your character may make an Identify Weakness maneuver. They make a <strong>Simple (-) Knowledge check</strong>. Count the number of uncanceled <span class='genesys'>s</span> you roll. These count as 'Found Weaknesses'. During the encounter, your character may spend a Found Weakness to add a <span class='genesys'>s</span> to a roll, after the dice are rolled but before success or damage is calculated. You may spend any number of Found Weaknesses on a roll.</p>"
     },
     //
     //  TIER 3

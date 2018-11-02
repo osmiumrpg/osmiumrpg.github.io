@@ -525,9 +525,17 @@ var talent_list = [
         Text: "<p>Your character cannot run out of ammo due to a <span class='genesys'>d</span>. Items with the Limited Ammo quality run out of ammo per usual.</p>",
         Source: 'ACRB, ECRB'
     },
-
-    //
-    // -- TIER 2 -- 
+    {
+        Name: 'Exploit Weakness',
+        Tier: 1,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Knowledge','Leader'],
+        Text: "<p><em>You must have purchased the Identify Weakness talent to benefit from this talent.</em></p><p>You may allow your allies to spend your Found Weaknesses. They may only do so to generate <span class='genesys'>s</span></p>",
+        Source: 'PHE'
+    },
+    // 
+    //  TIER 2
     //
 
     {
@@ -1133,6 +1141,17 @@ var talent_list = [
         Text: "<p>May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1).</p>",
         Source: 'ND'
     },
+    {
+        Name: 'Identify Weakness',
+        Tier: 2,
+        Activation: 'Maneuver',
+        Ranked: 'No',
+        Tags: ['Knowledge'],
+        Text: "<p>Once per encounter, your character may make an Identify Weakness maneuver. They make a <strong>Simple (-) Knowledge check</strong>. Count the number of <span class='genesys'>s</span> you roll. These count as 'Found Weaknesses'. During the encounter, your character may spend a Found Weakness to add a <span class='genesys'>s</span> to a roll, after the dice are rolled but before success or damage is calculated. You may spend any number of Found Weaknesses on a roll.</p>"
+    },
+    //
+    //  TIER 3
+    //
     {
         Name: 'Ambush',
         Tier: 3,

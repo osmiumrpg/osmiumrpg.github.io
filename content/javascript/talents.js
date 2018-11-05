@@ -404,7 +404,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p>When healing straing after an encounter, heal 1 additional strain per rank of Rapid Recovery.</p>",
+        Text: "<p>When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.</p>",
         Source: 'ABGR,ACRB,ECRB,FBGR,FCRB'
     },
     {

@@ -80,7 +80,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Combat'],
-        Text: '<p>Your character counts the Critical rating of their weapon as one lower to a minimum of 1 when making an attack targeting an undead adversary.</p>',
+        Text: '<p>Your character counts the Critical rating of their weapon as one lower (to a minimum of 1) when making an attack targeting an undead adversary.</p>',
         Source: 'ROT'
     },
     {

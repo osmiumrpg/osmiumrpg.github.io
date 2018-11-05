@@ -99,6 +99,34 @@ html(lang="en")
                     p #[strong Shield(s):] Shields consist of a bulky vambrace worn on the off-hand. With a moment’s notice, a shield can form a localized force-field, protecting the wielder. The force-field may be toggled between being opaque and transparent.
                     p #[strong Sniper Guns (Blaster / Rifle):] You may not move after performing your Prepare maneuvers, or you have to take the maneuver(s) again.
 
+                    h3 Ammunition 
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Ammunition
+                            button#btn-ammunition.btn(data-toggle='collapse', data-target='#div-ammunition' onclick="toggleCollapseArrow('ammunition');") &ndash;
+                        #div-ammunition.collapse.show
+                            .table-responsive
+                                table#tbl-ammunition.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Name
+                                            th(scope="col") Price
+                                            th(scope="col") Encumbrance
+                                            th(scope="col") Rarity 
+                                            th(scope="col") Special 
+                                    tbody
+                                        +gear-other('Armor-Piercing','75/150',0,4,'Your weapon gains Pierce 2.')
+                                        +gear-other('Botkiller','100/200',0,3,'Better against robots. Useless against flesh.')
+                                        +gear-other('Seeking','50/100',0,5,'Your weapon gains Accurate 2.')
+                                        +gear-other('Wraithkiller','75/150',0,5,'Better against undead.')
+                                        
+                    h3 Ammunition Description
+                    p Unlike energy weapons, projectile weapons can have different types of ammunition. All characters wielding Ranged [Projectile] weapons are considered to have traditional ammunition in sufficient quantities to fire the weapon (until they roll an #[em Out of Ammo] dice result, that is). However, a character may purchase specialized ammunition for a given fight. As a maneuver, a character may change out their ammo. This ammo lasts until the end of the encounter. Ammunition is twice as expensive for heavy weapons as it is for light ones.
+                    p #[strong Armor-Piercing:] Your weapon gains Pierce 2, or increases its Pierce rating by 2.
+                    p #[strong Botkiller:] Your character counts the Critical rating of their weapon as one lower (to a minimum of 1) when making an attack targeting a robotic adversary. Your weapons do no damage against non-robotic adversaries.
+                    p #[strong Seeking:] Your weapon gains Accurate 2, or increases its Accurate rating by 2.
+                    p #[strong Wraithkiller:] This ammunition is made from encapsulated prisms of sunlight, as well as various silver alloys and enchanted tinctures. Your character counts the Critical rating of their weapon as one lower (to a minimum of 1) when making an attack targeting an undead adversary.
+
                     h2 Armor
                     .card
                         .card-header.d-table-cell.align-middle

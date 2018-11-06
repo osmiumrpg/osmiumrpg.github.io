@@ -1,0 +1,93 @@
+include /mixins.pug
+html(lang="en")
+    head
+        title Cheat Sheet | Osmium: Galaxies of Fantasy Adventure
+        +header
+
+        // My Files
+        link(href='./../content/style.css', rel='stylesheet', type='text/css')
+        script(src='./../content/javascript/script.js')
+
+    body
+        +navbar
+        .container-fluid
+            .row
+                .hidden-xs.col-lg-2
+                .col-lg-8.col-12
+                    h1 Cheat Sheet
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Symbol Key
+                            button#btn-symbol-key.btn(data-toggle='collapse', data-target='#div-symbol-key' onclick="toggleCollapseArrow('symbol-key');") +
+                        #div-symbol-key.collapse.container
+                            p(style='margin-top:1rem;') #[span.genesys s] = Success
+                            p #[span.genesys f] = Failure
+                            p #[span.genesys a] = Advantage
+                            p #[span.genesys h] = Threat
+                            p #[span.genesys t] = Triumph
+                            p #[span.genesys d] = Despair
+                            p #[span.dice.ability d] = Ability
+                            p #[span.dice.difficulty d] = Difficulty
+                            p #[span.dice.boost b] = Boost
+                            p #[span.dice.setback b] = Setback
+                            p #[span.dice.proficiency c] = Proficiency
+                            p #[span.dice.challenge c] = Challenge
+                    h2 Combat
+                    h5 Weapon Stats
+                    ul 
+                        li #[strong Damage:] A flat number means a weapon deals that much damage. A +X means that weapon does that much damage plus the wielder's Brawn. Each uncancelled #[span.genesys s] adds 1 damage to the attack.
+                        li #[strong Crit:] The number of #[span.genesys a] you need to spend to cause a critical injury.
+                        li #[strong Special abilities] vary in the amount of #[span.genesys a] they require to activate.
+                    h5 Attack Difficulties
+                    p Melee attack in engaged range has a base difficulty of #[span.dice.difficulty dd]. All modifiers are placed on that base.
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Ranged Attack Difficulties
+                            button#btn-ranged-attack-difficulties.btn(data-toggle='collapse', data-target='#div-ranged-attack-difficulties' onclick="toggleCollapseArrow('ranged-attack-difficulties');") +
+                        #div-ranged-attack-difficulties.collapse.container
+                            .table-responsive
+                                table#tbl-ranged-attack-difficulties.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Ranged
+                                            th(scope="col") Difficulty
+                                    tbody
+                                        tr
+                                            td(scope='row') Engaged
+                                            td ##[span.dice.difficulty dd] for light Ranged #[br] #[span.dice.difficulty ddd] for heavy Ranged
+                                        tr 
+                                            td(scope='row') Short
+                                            td #[span.dice.difficulty d]
+                                        tr 
+                                            td(scope='row') Medium
+                                            td #[span.dice.difficulty dd]
+                                        tr 
+                                            td(scope='row') Long
+                                            td #[span.dice.difficulty ddd]
+                                        tr 
+                                            td(scope='row') Extreme
+                                            td #[span.dice.difficulty dddd]
+                    h5 Modifiers
+                    ul
+                        li Ranged Target is Engaged with an ally: Upgrade one #[span.dice.difficulty d] to #[span.dice.challenge c]
+                        li Target is #[strong prone]: Melee adds #[span.dice.boost b]; Ranged adds #[span.dice.setback b]
+                        li Aiming: Add #[span.dice.boost b] if one maneuver, #[span.dice.boost bb] if two.
+                        li Target is guarded: Add #[span.dice.setback b] to check.
+                        li Engaged target has made a ranged attack: Add #[span.dice.boost b] to next melee attack.
+                    h5 Maneuvers
+                    p Only a max of two maneuvers can be performed in a turn. The first is free, the second costs 2 strain or an action.
+                    ul 
+                        li #[strong Aim:] Add #[span.dice.boost b] to next attack. May be taken twice in a row.
+                        li #[strong Guard:] Add #[span.dice.setback b] to the next attack against the target. You may guard yourself.
+                        li #[strong Assist:] Add #[span.dice.boost b] to an ally's next check. Explain how.
+                        li #[strong Interact] with environment or gear.
+                        li #[strong Mount] or dismount.
+                        li #[strong Move:] One maneuver to move between Engaged and Short Range. Two maneuvers to move to or from Medium/Long/Extreme, each band requiring two maneuevers.
+                    h5 Actions
+                    ul 
+                        li Activate an ability, attack, or skill check.
+                        li Exchange action for maneuver.
+
+
+
+        +footer

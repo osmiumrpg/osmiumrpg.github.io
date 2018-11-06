@@ -401,7 +401,6 @@ gen_data['grover_male_firstname'] = [
     'Sacha',
     'Salvatore',
     'Samuel',
-    'Samuel',
     'Samuele',
     'Simon',
     'Simone',

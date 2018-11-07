@@ -128,5 +128,26 @@ html(lang="en")
                                 tr
                                     td(scope='row') Critical Injury
                                     td #[em See Critical Injury Table]
+                    h2 Dice Tables
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Spending #[span.genesys a] and #[span.genesys t] in Combat
+                            button#btn-spending-advantage-combat.btn(data-toggle='collapse', data-target='#div-spending-advantage-combat' onclick="toggleCollapseArrow('spending-advantage-combat');") +
+                        #div-spending-advantage-combat.collapse
+                            .table-responsive
+                                table#tbl-spending-advantage-combat.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Cost
+                                            th(scope="col") Result Options
+                                    tbody
+                                        tr
+                                            td(scope='row') #[span.genesys a] or #[span.genesys t]
+                                            td 
+                                                p Recover 1 strain.
+                                                p Add #[span.dice.boost b] to the #[em next] allied character's check.
+                                                p Notice a single important point in the ongoing conflict, such as the location of a door's control panel or a weak point on an armored car.
+                                                p Inflifct a Critical Injury with a successful attack that deals damage past soak (#[span.genesys a] cost may vary).
+                                                P Activate an item quality (#[span.genesys a] cost may vary).
 
         +footer

@@ -2150,5 +2150,276 @@ var talent_list = [
         Tags: ['Athleticism', 'Awareness'],
         Text: "<p>If your character has already acted this round, increase their ranged Defense by 1 per rank of Moving Target.</p>",
         Source: 'FIB'
+    },
+    {
+        Name: 'Offensive Driving',
+        Tier: 4,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>As a maneuver, your character may inflict a number of system strain on their vehicle no greater than its highest defense value and choose a vehicle within close range. If the character does so, upgrade the difficulty of the next Piloting check that vehicle’s pilot makes before the end of the encounter once for each system strain inflicted on your character’s vehicle this way.</p>",
+        Source: 'ND'
+    },
+    {
+        Name: 'Overbalance',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>Whenever an enemy engaged with your character makes a combat check, after the attack is resolved, your character may spend <span class='genesys'>d</span> or <span class='genesys'>hhh</span> to stagger the attacker until the end of the attacker's next turn.</p>",
+        Source: 'ND, KTP'
+    },
+    {
+        Name: 'Overcharge',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Cyber', 'Mechanics', 'Tough'],
+        Text: "<p>Once per encounter, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Mechanics check</strong> and choose one of their cybernetic implants that grants them one of the following: +1 to a characteristic rating, +1 rank to a skill, +1 rank of a ranked talent. If your character succeeds, until the end of the encounter, the chosen cybernetic instead provides +2 to the affected characteristic rating (to a maximum of 7), skill (to a maximum of 5), or ranked talent. Your GM may spend <span class='genesys'>d</span> or <span class='genesys'>hhh</span> from the check to have the overcharged cybernetic short out at the end of the encounter; it provides no benefit until your character spends several hours making an <strong>Average (<span class='dice difficulty'>dd</span>) Mechanics check</strong> to repair it.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Precise Aim',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Combat'],
+        Text: "<p>Once per round on your character’s turn, when they perform an Aim maneuver before attempting a combat check, they may suffer a number of strain not exceeding their ranks in Precise Aim. They then decrease the target’s defense (ranged and melee) by one per strain suffered for that combat check.</p>",
+        Source: 'EBGR, ECRB, SS'
+    },
+    {
+        Name: 'Prey on the Weak',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Combat', 'Skulduggery'],
+        Text: "<p>Add +1 damage to one hit of successful combat checks against disoriented targets per rank of Prey on the Weak.</p>",
+        Source: 'FIB, FCRB'
+    },
+    {
+        Name: 'Prime Positions',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Athleticism', 'Tough'],
+        Text: "<p>When your character or an ally in short range takes cover, they increase their soak against ranged attacks by 1 per rank of Prime Positions until they leave that cover.</p>",
+        Source: 'FIB, KTP'
+    },
+    {
+        Name: 'Programmer Dialect (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Computers','Mechanics','Social'],
+        Text: "<p><em>Your character must have purchased the Programmer Dialect talent to benefit from this talent.</em></p><p>When directing robots and V.I.s, those NPCs get an additional <span class='dice boost'>b</span> in addition to other benefits.</p>",
+        Source: 'SM – Speaks Binary'
+    },
+    {
+        Name: 'Prophetic Aim',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Awareness', 'Range'],
+        Text: "<p>While benefiting from an Aim maneuver, <span class='genesys'>d</span> from the character's Range checks cannot cause attacks to hit allies engaged with the target.</p>",
+        Source: 'KTP'
+    },
+    {
+        Name: 'Psychic Balm',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Magic'],
+        Text: "<p>After making a skill check to cast a Heal spell, may choose to change one <span class='genesys'>s</span> to <span class='genesys'>a</span> per rank of Psychic Balm.</p>",
+        Source: 'CCC-TheSapient – Faith Healing'
+    },
+    {
+        Name: "Push the Specs",
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Knowledge', 'Vehicles'],
+        Text:"<p>Your character may perform the Push the Specs action when in a ship or vehicle, attempting an <strong>Average (<span class='dice difficulty'>dd</span>) Science check</strong>. If your character is successful, the ship's top speed increases by one for a number of rounds equal to their Intellect. May spend <span class='genesys'>a</span> and have the ship suffer two system strain to extend this effect for an additional round, and may do so multiple times. The ship still cannot perform actions or maneuvers it couldn't perform normally.</p>",
+        Source: 'FO',
+    },
+    {
+        Name: 'Rain of Death',
+        Tier: 4,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Range'],
+        Text: "<p>Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn.</p>",
+        Source: 'FIB, DC'
+    },
+    {
+        Name: "Reflect (Supreme)",
+        Tier: 4,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Melee', 'Tough'],
+        Text: "<p><em>Your character must have purchased the Reflect Talent to benefit from this talent.</em></p><p>If your character did not make a combat check during their previous turn, they suffer 1 strain when taking the Reflect incidental instead of 3.</p>",
+        Source: 'FCRB'
+    },
+    {
+        Name: 'Reroute Processors',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Computers'],
+        Text: "<p>Once per encounter, may take a Reroute Processors action, make an <strong>Average (<span class='dice difficulty'>dd</span) Computers check</strong> to reduce one of an artificial life form's characteristics by 1 and increase another of its characteristics by 1.</p>",
+        Source: 'SM'
+    },
+    {
+        Name: 'Resolve',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Tough'],
+        Text: "<p>When your character involuntarily suffers strain, they suffer 1 less strain per rank of Resolve to a minimum of 1.</p>",
+        Source: 'ABGR, ACRB, EBGR, ECRB'
+    },
+    {
+        Name: 'Savvy Negotiator',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>While engaged in a debate or argument, make a <strong>Hard (<span class='dice difficulty'>ddd</span) Negotiation check</strong>. If successful, a number of bystanders or observers equal to your Presence sees one of the opponent’s points (chosen by your character) as maliciously unreasonable.</p><p>The GM has the final say as to whether bystanders could see a point as unreasonable, based on who those bystanders are and what the point is. In these cases, the GM can suggest a modified version of that argument that would be more believable.</p>",
+        Source: 'DOH'
+    },
+    {
+        Name: 'Scathing Tirade (Supreme)',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p><em>Your character must have purchased the Scathing Tirade talent to benefit from this talent.</em></p><p>Your character may choose to suffer 1 strain to use the Scathing Tirade talent as a maneuver, instead of as an action.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Second Chances',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Adventurer'],
+        Text: "<p>Once per encounter choose a number of positive dice equal to ranks in Second Chances and reroll them.</p>",
+        Source: 'SOT, FC'
+    },
+    {
+        Name: 'Seen a Lot of Things',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Knowledge'],
+        Text: "<p>Whenever your character fails a Knowledge check, they may spend '<span class='genesys'>aaa</span> to roll the check again during their next turn.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Signature Spell (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p><em>Your character must have purchased the Signature Spell talent to benefit from this talent.When your character casts their signature spell, reduce the difficulty of the check by two instead of one.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Skilled Slicer',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Computers'],
+        Text: "<p>When making a Computers check may spend a <span class='genesys'>t</span> to make further Computers checks within this system as maneuvers.</p>",
+        Source: 'ACRB, ECRB'
+    },
+    {
+        Name: 'Sorry About the Mess',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Combat', 'Skulduggery'],
+        Text: "<p>Decrease the Critical Rating of a weapon by 1 (to a minimum of 1) against targets that have not yet acted this encounter.</p>",
+        Source: 'FC'
+    },
+    {
+        Name: 'Spitfire',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Range'],
+        Text: ",p>After a successful combined check with two light Ranged weapons, additional hits can be allocated to other targets within range of the weapons.</p>",
+        Source: 'FC'
+    },
+    {
+        Name: 'Steady Aim',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Range'],
+        Text: "<p>Your character does not lose the benefits of the aim maneuver if they perform other maneuvers (including moving) or actions. Your character does lose the benefits of the aim maneuver if the encounter ends.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Supporting Evidence',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Leader', 'Social'],
+        Text: "<p>When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add an automatic <span class='genesys'>a</span> per rank of Supporting Evidence.</p>",
+        Source: 'DA'
+    },
+    {
+        Name: 'Targeted Firepower',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Awareness', 'Knowledge'],
+        Text: "<p>Once per session, identify one enemy target and make an appropriate <strong>Hard (<span class='dice difficulty'>ddd</span) Science</strong> or <strong>Lore check</strong> (GM chooses). If successful, for the rest of the encounter, allies within short range of your character add <span class='genesys'>a</span> to attacks against the target equal to <span class='genesys'>s</span> generated on the check.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: "That's How It's Done",
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Leader'],
+        Text: "<p>Upon a successful skill check, your character may suffer 1 strain. If they do so, a number of allies within short range equal to your character’s Willpower add an automatic <span class='genesys'>a</span> when making the same skill check until the start of your character’s next turn. The range at which That’s How It’s Done can affect allies increases by one band per rank of That’s How It’s Done.</p>",
+        Source: 'LBE'
+    },
+    {
+        Name: 'Trust No One',
+        Tier: 4,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>When your character is targeted by a social check, they may suffer 1 strain to add automatic <span class='genesys'>f</span> to the check. If the check fails with <span class='genesys'>d</span>, your character may immediately perform a maneuver as an out-of-turn incidental.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Unrelenting',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>Once per round after resolving a successful Brawl or Melee combat check, your character may suffer 4 strain to use this talent to make an additional melee attack as an incidental against the same target. Increase the difficulty of the combat check by one if this attack uses a second weapon, or by two if the attack uses the same weapon.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Venom Soaked Blade',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Melee', 'Skulduggery'],
+        Text: "<p>When making a Melee combat check using a light poisoned weapon, your character treats it as possessing the Burn 2 item quality.</p>",
+        Source: 'ROT'
+
+    },
+    {
+        Name: 'Unrelenting Skeptic',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Awareness', 'Social'],
+        Text: "<p>When targeted by a Deception check, the character automatically adds <span class='genesys'>f</span> to the check equal to ranks in Vigilance.</p>",
+        Source: 'FH, EV'
     }
 ]

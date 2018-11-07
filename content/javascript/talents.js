@@ -1690,7 +1690,7 @@ var talent_list = [
         Ranked: 'Yes',
         Tags: ['Vehicles'],
         Text: "<p>Upon making an unsuccessful attack with a starship or vehicle weapon, your character may spend <span class='genesys'>aa</span> per rank of Overwhelm Defenses. Reduce the defense in the targeted defense zone by 1 for every <span class='genesys'>aa</span> spent for the remainder of the encounter.</p>",
-        Sources: 'ACRB, ND'
+        Source: 'ACRB, ND'
     }, */
     {
         Name: 'Parry (Improved)',
@@ -1880,5 +1880,275 @@ var talent_list = [
         Tags: ['Social'],
         Text: "<p>When an incoming social check generates <span class='genesys'>hh</span> or <span class='genesys'>d</span>, your character may suffer 1 strain as an incidental to inflict strain equal to their ranks in Coercion on speaker.</p>",
         Source: 'DA'
+    },
+    {
+        Name: 'Armor Master (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p><em>Your character must have purchased the Armor Master talent to benefit from this talent.</em></p><p>When wearing armor with a soak value of 2 or higher, increase defense by 1.</p>",
+        Source: 'ACRB, ECRB, KTP'
+    },
+    {
+        Name: 'Assassin Strike',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Brawl', 'Melee', 'Skulduggery'],
+        Text: "<p>After making a successful melee check, may spend a Story Point to disengage from an opponent as an incidental.</p>",
+        Source: 'CCC-Tom Cruise'
+    },
+    {
+        Name: 'Back-to-Back',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>While engaged with one or more allies, your character and allies they are engaged with add <span class='dice boost'>b</span> to combat checks. If one or more allies engaged with your character also have Back-to-Back, the effects are cumulative to a maximum of <span class='dice boost'>bb</span>.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Blood Magic (Improved)',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p><em>Your character must have purchased the Blood Magic talent to benefit from this talent.</em></p><p>Once per encounter, suffer an additional 2 wounds while using Blood Magic and add one additional effect with a Difficulty Mod +<span class='dice difficulty'>d</span> to a spell without increasing the difficulty.</p>",
+        Source: 'CCC-ESP77'
+    },
+    {
+        Name: 'Body Guard (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p><em>Your character must have purchased the Body Guard talent to benefit from this talent.</em></p><p>Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead.</p>",
+        Source: 'LBE, FIB, EBGR, FCRB'
+    },
+    {
+        Name: 'Brilliant Evasion',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>Once per vehicle encounter, your character may take Brilliant Evasion action. Select 1 opponent and make Opposed Piloting check to stop opponent from attacking character for rounds equal to Agility.</p>",
+        Source: 'ACRB, ECRB'
+    },
+    {
+        Name: 'By the Book',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'Yes',
+        Tags: ['Combat'],
+        Text: "<p>Once per encounter, before making a combat check, suffer 2 strain to add <span class='genesys'>a</span> to the results equal to ranks in By the Book.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: "Can’t We Talk About This?",
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Leader', 'Social'],
+        Text: "<p>Your character can use this talent to make an <strong>opposed Charm</strong> or <strong>Deception versus Discipline check</strong> targeting a single non-nemesis adversary within medium range. If the check succeeds, the target cannot attack your character (or perform hostile actions against your character) until the end of their next turn. You may spend <span class='genesys'>aa</span> to increase the length of the effect by one additional turn, and spend <span class='genesys'>t</span> to extend the benefits to all of their identified allies within short range. The effect ends immediately if your character or a known ally attacks the target. In addition, your GM may rule that some targets are immune to this ability. An automated sentry turret, for example, has no interest in resolving a conflict through talking, nor would someone consumed by rage and the desire for revenge against your character.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Careful Planning',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Adventurer', 'Knowledge'],
+        Text: "<p>Once per session, may introduce a 'fact' into the narrative as if a Story Point had been spent.</p>",
+        Source: 'ACRB, KTP'
+    },
+    {
+        Name: 'Center of Being (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Melee', 'Tough'],
+        Text: "<p>Spend 1 Strain to use a Center of Being maneuver as an incidental.</p>",
+        Source: 'FCRB'
+    },
+    {
+        Name: 'Commanding Presence',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per session, may take Commanding Presence action; make an <strong>opposed Cool vs. Discipline check</strong> to force target to leave the encounter.</p>",
+        Source: 'LBE'
+    },
+    {
+        Name: 'Comrades in Arms',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Leader', 'Tough'],
+        Text: "<p>Once per encounter, make a <strong>Hard (<span class='genesys'>ddd</span>) Discipline check</strong>. If successful, your character plus one ally per <span class='genesys'>s</span> within medium range gains +1 defense for the remainder of the encounter. Effects end if affected targets move beyond medium range.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Conduit',
+        Tier: 4,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p>Once per encounter, your character may spend a Story Point to perform a magic action as a maneuver.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Deadeye',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Range'],
+        Text: "<p>After your character inflicts a Critical Injury with a ranged weapon and rolls the result, your character may suffer 2 strain to use this talent. Then, you may select any Critical Injury of the same severity to apply to the target instead.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Death Rage',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>Your character adds +2 damage to melee attacks for each Critical Injury they are currently suffering. (Your GM may also impost additional penalties on social skill checks your character makes if they are suffering Critical Injuries due to their frenzied behavior.)</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Defensive',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Tough'],
+        Text: "<p>Each rank of Defensive increases your character’s melee defense and ranged defense by one.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Defensive Driving',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Vehicles'],
+        Text: "<p>Increase the defense of any vehicle your character pilots by one per rank of Defensive Driving.</p><p>The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent adds <span class='dice boost'>b</span> per rank to combat checks targeting your character’s vehicle or your character while piloting it.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Deflection',
+        Tier: 4,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Melee', 'Tough'],
+        Text: "<p><em>Your character must have purchased the Reflect talent to benefit from this talent.</em></p><p>After using Reflect, may spend 1 Story Point to perform Move maneuver as out-of-turn incidental to close distance with or engage opponent.</p>",
+        Source: 'FCRB'
+    },
+    {
+        Name: 'Distracting Behavior (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p><em>Your character must have purchased the Distracting Behavior talent to benefit from this talent.</em></p><p>The Distracting Behavior maneuver inflicts <span class='genesys'>hh</span> on NPC's checks when NPCs target your character's allies.</p>",
+        Source: 'FH'
+    },
+    {
+        Name: "Don't Shoot!",
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per session as an action, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Charm check</strong>. On a success, cannot be target of combat checks until the end of the encounter or until making threatening actions.</p>",
+        Source: 'FC'
+    },
+    {
+        Name: 'Enduring',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Tough'],
+        Text: "<p>Each rank of Enduring increases your character’s soak value by one.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Field Commander (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader', 'Social'],
+        Text: "<p><em>Your character must have purchased the Field Commander talent to benefit from this talent.</em></p><p>When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character’s Presence. In addition, you may spend <span class='genesys'>t</span> to allow one ally to suffer 1 strain to perform an action, instead of a maneuver.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Formation Tactics (Improved)',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader'],
+        Text: "<p><em>Your character must have purchased the Formation Tactics talent to benefit from this talent.</em></p><p>The difficulty of taking the Formation Tactics action is reduced to <strong>Average (<span class='dice difficulty'>dd</span>)</strong> instead of <strong>Hard (<span class='dice difficulty'>ddd</span>)</strong>. Your character may also spend <span class='genesys'>t</span> or <span class='genesys'>aaaaaa</span> to have the effect last until the end of the encounter.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Full Throttle (Improved)',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p><em>Your character must have purchased the Full Throttle talent to benefit from this talent.</em></p><p>Suffer 1 strain to attempt Full Throttle as a maneuver and decrease its difficulty to <strong>Average (<span class='dice difficulty'>dd</span>)</strong>.</p>",
+        Source: 'ABGR, ACRB, EBGR, ECRB, EV'
+    },
+    {
+        Name: 'Holistic Navigation',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Knowledge'],
+        Text: "<p>When making a Navigation skill check, your character may spend one Story Point to remove <span class='genesys'>d</span>, or to remove <span class='genesys'>h</span> equal to their ranks in Perception.</p>",
+        Source: 'SS'
+    },
+    {
+        Name: 'How Convenient!',
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Mechanics'],
+        Text: "<p>Once per session, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Mechanics check</strong>. If successful, one device involved in the current encounter (subject to your GM’s approval) spontaneously fails. This can be because of your character’s actions, or it can simply be incredibly convenient timing!</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Inspiring Rhetoric (Supreme)',
+        Tier: 4,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Leader', 'Social'],
+        Text: "<p><em>Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent.</em></p><p>Your character may choose to suffer 1 strain to use the Inspiring Rhetoric talent as a maneuver, instead of as an action.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: "It's Not that Bad",
+        Tier: 4,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Leader', 'Medicine'],
+        Text: "<p>Once per session when an ally would suffer a Critical Injury, your character may take an It's Not That Bad action and make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Medicine check</strong> to stop the ally from gaining the Critical Injury.</p>",
+        Source: 'ACRB'
+    },
+    {
+        Name: 'Jury Rigged',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Adventurer', 'Knowledge', 'Mechanics'],
+        Text: "<p>Your character may choose one personal weapon or piece of armor per rank of Jury Rigged. They may increase the damage of the weapon by one; decrease the a cost on its Critical, or any single other effect by one to a minimum of one; or increase armor's ranged or melee defense by one. Alternatively, they can decrease the encumbrance of the item by two to a minimum of one. The bonus only applies so long as your character is using the item. If the item is ever lost or destroyed, your character may apply Jury Rigged to a new personal weapon or piece or armor.</p>",
+        Source: 'ACRB, EBGR, ECRB'
+    },
+    {
+        Name: 'Moving Target',
+        Tier: 4,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Athleticism', 'Awareness'],
+        Text: "<p>If your character has already acted this round, increase their ranged Defense by 1 per rank of Moving Target.</p>",
+        Source: 'FIB'
     }
 ]

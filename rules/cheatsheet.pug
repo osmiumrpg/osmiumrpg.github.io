@@ -44,7 +44,7 @@ html(lang="en")
                         .card-header.d-table-cell.align-middle
                             h5 Ranged Attack Difficulties
                             button#btn-ranged-attack-difficulties.btn(data-toggle='collapse', data-target='#div-ranged-attack-difficulties' onclick="toggleCollapseArrow('ranged-attack-difficulties');") +
-                        #div-ranged-attack-difficulties.collapse.container
+                        #div-ranged-attack-difficulties.collapse
                             .table-responsive
                                 table#tbl-ranged-attack-difficulties.table.table-striped
                                     thead
@@ -87,7 +87,46 @@ html(lang="en")
                     ul 
                         li Activate an ability, attack, or skill check.
                         li Exchange action for maneuver.
-
-
+                    h2 Wounds, Strain, and Critical Injuries
+                    ul
+                        li Exceeding one's Wound Threshold causes the character to be knocked out / incapacitated, and they immediately suffer one Critical Injury.
+                        li Exceeding one's Strain Threshold causes teh character to be incapacitated.
+                        li Roll on the Critical Injury Table when you suffer a Critical Injury. Add +10 to the roll for each critical injury you are already suffering from.
+                    h5 Healing Wounds
+                    ul 
+                        li #[strong Natural Rest:] One night of rest heals one wound.
+                        li #[strong Medicine Check:] A character may receive #[strong ONE] Medicine check per encounter to heal wounds. Difficulty is based on state of health. On a success, the target heals wounds equal to #[span.genesys s] and strain equal to #[span.genesys a].
+                        ul 
+                            li Medicine check difficulty is increased by 2 if a physician is healing themselves.
+                            li Medicine check difficulty is increased by 1 if a physician is healing without tools. 
+                        li #[strong Autohealers:] Heals #[em n] Wounds, where #[em n] is 5 minus the number of autohealers already used in the last 24 hours.
+                    h5 Healing Strain
+                    ul
+                        li #[strong Natural Rest:] One night of rest heals all strain.
+                        li #[strong End of an Encounter:] A character may make a #[strong Simple (-) Cool] or #[strong Discipline check] to recover strain equal to #[span.genesys s].
+                        li #[em See Medicine Check supra].
+                    h5 Healing Critical Injuries
+                    ul
+                        li #[strong Natural Rest:] After #[strong one week] of rest a character may attempt a #[strong Resilience] check with a difficulty set by the Critical Injury table. A success heals the injury, a failure does not. A #[span.genesys t] heals an additional Critical Injury.
+                        li #[strong Medicine Check:] A Medicine Check may be used once per week to heal a Critical Injury, using the difficulty on the Critical Injury table.
+                    .table-responsive
+                        table#tbl-medicine-check-difficulty.table.table-striped
+                            thead
+                                tr
+                                    th(scope="col") State of Health
+                                    th(scope="col") Difficulty
+                            tbody
+                                tr
+                                    td(scope='row') Half or less of Wound Threshold
+                                    td #[span.dice.difficulty d]
+                                tr
+                                    td(scope='row') More than half of Wound Threshold
+                                    td #[span.dice.difficulty dd]
+                                tr
+                                    td(scope='row') Wounds exceeding Threshold
+                                    td #[span.dice.difficulty ddd]
+                                tr
+                                    td(scope='row') Critical Injury
+                                    td #[em See Critical Injury Table]
 
         +footer

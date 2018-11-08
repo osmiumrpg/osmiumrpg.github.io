@@ -174,5 +174,39 @@ html(lang="en")
                                             td(scope='row') #[span.genesys tt]
                                             td 
                                                 p When dealing damage to a target, have the attack destroy a piece of equipment the target is using, such as blowing up their assault rifle or slicing their sword in half.
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Spending #[span.genesys h] and #[span.genesys d] in Combat
+                            button#btn-spending-threat-combat.btn(data-toggle='collapse', data-target='#div-spending-threat-combat' onclick="toggleCollapseArrow('spending-threat-combat');") +
+                        #div-spending-threat-combat.collapse
+                            .table-responsive
+                                table#tbl-spending-threat-combat.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Cost
+                                            th(scope="col") Result Options
+                                    tbody
+                                        tr
+                                            td(scope='row') #[span.genesys h] or #[span.genesys d]
+                                            td 
+                                                p You suffer 1 strain.
+                                                p You lose the benefits of a prior maneuver (such as from taking cover or assuming a guarded stance) until you perform the maneuver again.
+                                        tr
+                                            td(scope='row') #[span.genesys hh] or #[span.genesys d]
+                                            td 
+                                                p An opponent may immediately perform one free maneuver as an incidental in response to your check.
+                                                p Add #[span.dice.boost b] to the targeted character’s next check.
+                                                p You or an ally suffer #[span.dice.setback b] on your or their next action.
+                                        tr
+                                            td(scope='row') #[span.genesys hhh] or #[span.genesys d]
+                                            td 
+                                                p You fall prone.
+                                                p You grant the enemy a significant advantage in the ongoing encounter, such as accidentally blasting the controls to a bridge were planning to use for your escape.
+                                        tr
+                                            td(scope='row') #[span.genesys d]
+                                            td 
+                                                p Your weapon immediately runs out of ammunition and may not be used for the remainder of the encounter.
+                                                p Upgrade the difficulty of an allied character’s next check or your next check.
+                                                p The tool, Brawl, or Melee weapon you're using becomes damaged (see Core Book page 89).
 
         +footer

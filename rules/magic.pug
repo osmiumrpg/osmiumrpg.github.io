@@ -89,6 +89,26 @@ html(lang="en")
                                         td No
                                         td No 
                                         td Yes
+                    h5 Penalties When Casting Spells
+                    .table-responsive
+                        table#tbl-spell-penalties.table.table-striped
+                            thead
+                                tr
+                                    th(scope="col") Condition
+                                    th(scope="col") Penalty
+                            tbody
+                                tr
+                                    td(scope='row') The character does not have at least one free hand (wielded implements count as a free hand).
+                                    td +#[span.dice.setback b]
+                                tr
+                                    td(scope='row') The character is unable to speak (gagged, silenced, or otherwise).
+                                    td +#[span.dice.setback bb]
+                                tr
+                                    td(scope='row') The character is wearing heavy armor that might hamper their gestures (armor with +2 soak or more), or carrying as shield. This could also include other restrictive outfits, at GM's discretion.
+                                    td +#[span.dice.setback b]
+                                tr
+                                    td(scope='row') The character is in circumstances that interfere with their ability to concentrate, such as trying to cast while swimming or hanging from a rope, being buffeted by a sandstorm, or casting a spell that doesn't target the person they're fighting in hand-to-hand combat.
+                                    td Upgrade the difficulty once (or more at your GM's discretion).
 
 
                     h2 Spellbook

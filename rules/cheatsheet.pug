@@ -286,5 +286,66 @@ html(lang="en")
                                                 p You learn one false Motivation of the target character (you believe it to be true).
                                                 p Upgrade the difficulty of an allied character’s next check or your next check.
                                                 p You become so embroiled in irrelevant events in the encounter that you cannot do anything important during the next round.
+                    .card
+                        .card-header.d-table-cell.align-middle
+                            h5 Spending #[span.genesys h] and #[span.genesys d] on Magic Skill Checks
+                            button#btn-spending-threat-magic.btn(data-toggle='collapse', data-target='#div-spending-threat-magic' onclick="toggleCollapseArrow('spending-threat-magic');") +
+                        #div-spending-threat-magic.collapse
+                            .table-responsive
+                                table#tbl-spending-threat-magic.table.table-striped
+                                    thead
+                                        tr
+                                            th(scope="col") Cost
+                                            th(scope="col") Result Options
+                                    tbody
+                                        tr
+                                            td(scope='row') #[span.genesys h] or #[span.genesys d]
+                                            td 
+                                                p The magical energies exhaust your character, and they suffer 2 strain or 1 wound (rolling player's choice).
+                                                p Your character and all allied spellcasters in the encounter add #[span.dice.setback b] to any attempts to cast spells until the end of your next turn.
+                                        tr
+                                            td(scope='row') #[span.genesys hh] or #[span.genesys d]
+                                            td 
+                                                p The spell doesn’t take effect until the start of the next round, or after a minute in narrative gameplay.
+                                                p If you are using a magical item, it becomes damaged one step (see #[strong Table I.5–4: Repairing Gear], on page 89).
+                                                p Until the end of the encounter, enemy spellcasters add #[span.dice.boost b] when casting a spell that targets you.
+                                        tr
+                                            td(scope='row') #[span.genesys hhh] or #[span.genesys d]
+                                            td 
+                                                p The spell is slightly more powerful than expected. One character of the GM's choice is targeted or otherwise affected by the spell as well.
+                                                p All other spellcasters and creatures attuned to magical energies within a day's travel become aware of the character (and depending on their disposition, may be very interested in finding them and doing them harm).
+                                        tr
+                                            td(scope='row') #[span.genesys d]
+                                            td 
+                                                p You overexert yourself, or lose your magical connection and are unable to cast spells for the rest of the encounter or scene.
+                                                p The GM picks the target of the character's spell. If the caster is an NPC, the controlling player picks the target of the spell instead.
+                                        tr
+                                            td(scope='row') #[span.genesys dd]
+                                            td 
+                                                p The character completely lose control of their magical energies, suffering one Critical Injury (at the GM's discretion, this may instead take the form of some of terrible or hilarious misfortune, such as temporarily being turned into a small woodland creature, being struck by lightning on a clear day, swapping bodies with someone else in the encounter for the remainder of the day, or summoning an avatar of divine or infernal wrath).
+                                                p If the character is using a magical item, it is completely destroyed.
+                    h2 Magic
+                    h5 Penalties When Casting Spells
+                    .table-responsive
+                        table#tbl-spell-penalties.table.table-striped
+                            thead
+                                tr
+                                    th(scope="col") Condition
+                                    th(scope="col") Penalty
+                            tbody
+                                tr
+                                    td(scope='row') The character does not have at least one free hand (wielded implements count as a free hand).
+                                    td +#[span.dice.setback b]
+                                tr
+                                    td(scope='row') The character is unable to speak (gagged, silenced, or otherwise).
+                                    td +#[span.dice.setback bb]
+                                tr
+                                    td(scope='row') The character is wearing heavy armor that might hamper their gestures (armor with +2 soak or more), or carrying as shield. This could also include other restrictive outfits, at GM's discretion.
+                                    td +#[span.dice.setback b]
+                                tr
+                                    td(scope='row') The character is in circumstances that interfere with their ability to concentrate, such as trying to cast while swimming or hanging from a rope, being buffeted by a sandstorm, or casting a spell that doesn't target the person they're fighting in hand-to-hand combat.
+                                    td Upgrade the difficulty once (or more at your GM's discretion).
+
+                                        
 
         +footer

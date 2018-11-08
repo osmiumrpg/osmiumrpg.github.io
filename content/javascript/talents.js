@@ -251,7 +251,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p>Each rank of Grit increases yoru character's strain threshold by one.</p>",
+        Text: "<p><em>You may not purchase this talent if you currently have more ranks of Grit than you do of Resilience.</em></p><p>Each rank of Grit increases yoru character's strain threshold by one.</p>",
         Source: 'GCRB'
     },
     {
@@ -495,7 +495,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p>Each rank of Toughened increases your character’s wound threshold by two.</p>",
+        Text: "<p><em>You may not purchase this talent if you currently have more ranks of Toughened than you do of Discipline.</em></p><p>Each rank of Toughened increases your character’s wound threshold by two.</p>",
         Source: 'GCRB'
     },
     {

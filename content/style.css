@@ -233,7 +233,7 @@ span.challenge {
     STAT LAYOUT 
 */
 .archetype {
-    background-image: url('https://www.gmbinder.com/images/wk1XTwj.png');
+    background-image: url('./images/template_archetype.png');
     height:62px;
     width:329px;
     background-size:100%;

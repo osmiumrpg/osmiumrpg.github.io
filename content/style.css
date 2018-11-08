@@ -126,6 +126,36 @@ h6 {
     border-bottom: 1px solid #ea702b;
 }
 
+/*
+    TABLE OF CONTENTS / TOC
+*/
+
+.toc {
+    width: 15rem;
+    padding: 0.2rem 0.5rem 0.5rem 0.5rem;
+}
+
+#div-toc-header>div:nth-of-type(1) {
+    float: left;
+}
+
+#div-toc-header>div:nth-of-type(2) {
+    float: right;
+}
+
+#btn-toc {
+    cursor: pointer;
+}
+
+.toc p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* 
+    DICE
+*/
+
 span.dice {
     font-family: EotE;
     text-shadow: -1px -1px 0 #000,
@@ -164,7 +194,10 @@ span.challenge {
     color: #7D1821;
 }
 
-/* Tables */
+/* 
+    TABLES 
+*/
+
 .table {
     margin-bottom: 0rem;
 }

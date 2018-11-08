@@ -19,4 +19,12 @@ var toggleCollapseArrow = function(tableid) {
     } else {
         $('#btn-' + tableid).html('&ndash;');
     }
-}
+};
+
+var toggleTOCArrow = function(tableid) {
+    if($('#div-' + tableid).hasClass('show')) {
+        $('#btn-' + tableid).text('[+]');
+    } else {
+        $('#btn-' + tableid).html('[&ndash;]');
+    }
+};

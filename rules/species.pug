@@ -18,7 +18,25 @@ html(lang="en")
                 .col-lg-8.col-12
                     h1 Species
 
-                    h3.text-center Humans
+                    .card.toc
+                        #div-toc-header
+                            div
+                                strong Table of Contents
+                            div
+                                label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
+                        #div-toc.collapse
+                            p 
+                                a(href='#Human') Human
+                            p
+                                a(href='#Terran' style='margin-left: 1rem;') Terran
+                            p
+                                a(href='#Grover' style='margin-left: 1rem;') Grover
+                            p
+                                a(href='#Spacer' style='margin-left: 1rem;') Spacer
+                            p
+                                a(href='#Vrar') Vrar
+
+                    h3#Human.text-center Human
                     p blah blah blah.
                     p #[strong Physiology. ]
                     p #[strong Society. ]
@@ -36,13 +54,13 @@ html(lang="en")
                         li #[strong Starting Experience:] 110 XP
                         li #[strong Special Abilities:] Each type of Human has its own special abilities, listed in the corresponding entry.
                         
-                    h5.text-center Terrans
+                    h5#Terran.text-center Terran
                     p The planet Earth is a recent addition to the galactic stage, but they’re making a splash in the Seven Wastes sector as adventurers and travelers. The diaspora of Terrans is no longer being forced by the Hegemony, and yet it continues as strong as before since the liberation of Earth. Terrans are a hearty people, possessed of a desire to learn and a willingness to make do that other species lack. Even separated from their homeworld, they share enough cultural identity to make a name for themselves.
                     ul
                         li #[strong Starting Skills:] Terrans begin with one rank in each of two different non-career skills. They still may not train these skills above rank 2 during character creation.
                         li #[strong Ready for Adventure:] Once per session as an out-of-turn incidental, a Terran may move one Story Point from the Game Master's pool to the Players' pool.
                         
-                    h5.text-center Grovers
+                    h5#Grover.text-center Grover
                     p 
                         img.img-fluid.img-right-floater(src='./../content/images/species_grover.jpeg')
                         | Grovers are a race of humans from a planet deep within the Philosopher Kingdom. They are caretakers of the Sphinx’s wishes, a client race of the demigods who know everything. Not all Grovers choose to serve the Sphinx, though – there are millions who travel live independent lives. Yet even these free Grovers hold the Sphinx in high regard, for their world’s place in the universe is at the feet of the Philosopher Kings.
@@ -63,7 +81,7 @@ html(lang="en")
                             | &nbsp; &nbsp;
                             label#label-grover-name
 
-                    h5.text-center Spacers
+                    h5#Spacer.text-center Spacer
                     p 
                         img.img-fluid.img-right-floater(src='./../content/images/species_spacer.png')
                         | Many humans grow up so far removed from any other culture that their culture becomes that of the wandering byways of space. Spacers are humans who have been away from a homeworld for so long that they have no real knowledge of where their ancestors came from, but instead are part of an amalgam of human races who share a culture of living on stations and starships and the lost realms between the stars.
@@ -73,7 +91,7 @@ html(lang="en")
                             em (As the Talent, doesn’t count as a Talent.)
                         li #[strong Spacer Augmentations:] Spacers only take 1 wound per round when exposed to a vacuum, and 1 strain per round when suffocating.
 
-                    h3.text-center Dwarfs
+                    h3#Dwarf.text-center Dwarf
                     h5.text-center Species Ability
                     .archetype
                         span.bra 2
@@ -82,9 +100,15 @@ html(lang="en")
                         span.cun 2
                         span.wil 3
                         span.pre 1
-                    h5.text-center Cog Dwarfs
+                    //-
+                        Lenses: Loyal, Pragmatic
+                        Cog - Archives, Counters, Inventory (Math)
+                        Hulk - Warriors, Loyal to Society (Social Sciences)
+                        Knarr - Presentation, Perception, Deception (Lit/Art) - "The only thing that matters is what is seen."
+                        Carrack - Extreme tinkerers with _everything_ (Science)
+                    h5.text-center Cog Dwarf
 
-                    h3.text-center Elves
+                    h3#Elf.text-center Elf
                     h5.text-center Species Ability
                     .archetype
                         span.bra 1
@@ -93,9 +117,14 @@ html(lang="en")
                         span.cun 2
                         span.wil 2
                         span.pre 3
-                    h5.text-center Summer Elves
+                    //-
+                        Summer - Faith
+                        Autumn - Society
+                        Winter - Science/Tech
+                        Spring - Discovery
+                    h5.text-center Summer Elf
 
-                    h3.text-center Halflings
+                    h3.text-center Halfling
                     h5.text-center Species Ability
                     .archetype
                         span.bra 1
@@ -104,9 +133,19 @@ html(lang="en")
                         span.cun 2
                         span.wil 2
                         span.pre 2
-                    h5.text-center Shadowfoot Halflings
+                    h5.text-center Shadowfoot Halfling
 
-                    h3.text-center Mind Flayers
+                    h3.text-center Kua-Toa
+                    h5.text-center Species Ability
+                    .archetype
+                        span.bra 2
+                        span.agi 2
+                        span.int 1
+                        span.cun 2
+                        span.wil 3
+                        span.pre 2
+
+                    h3.text-center Mind Flayer
                     h5.text-center Species Ability
                     .archetype
                         span.bra 2
@@ -116,7 +155,17 @@ html(lang="en")
                         span.wil 1
                         span.pre 2
 
-                    h3.text-center Vrar
+                    h3.text-center Recognitive
+                    h5.text-center Species Ability
+                    .archetype
+                        span.bra 2
+                        span.agi 2
+                        span.int 3
+                        span.cun 2
+                        span.wil 2
+                        span.pre 1
+
+                    h3#Vrar.text-center Vrar
                     p 
                         img.img-fluid.img-right-floater(src='./../content/images/species_vrar.png')
                         | Strong in body and hale in spirit, Vrar are vanguards of a cause. If you are allied with that cause, they will guard your flank until they fall. Oppose them, and they are an unstoppable force. Most commonly associated with the Federation, the Vrar are found everywhere in the universe.

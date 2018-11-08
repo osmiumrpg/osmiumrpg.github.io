@@ -15,6 +15,16 @@ html(lang="en")
                 .hidden-xs.col-lg-2
                 .col-lg-8.col-12
                     h1 Cheat Sheet
+                    .card.toc
+                        #div-toc-header
+                            div: strong Table of Contents
+                            div: label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
+                        #div-toc.collapse
+                            p: a(href='#Combat') Combat
+                            p: a(href='#Wounds') Wounds, Strain, Critical Injuries
+                            p: a(href='#Dice') Dice Tables
+                            p: a(href='#Magic') Magic
+
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Symbol Key
@@ -32,7 +42,8 @@ html(lang="en")
                             p #[span.dice.setback b] = Setback
                             p #[span.dice.proficiency c] = Proficiency
                             p #[span.dice.challenge c] = Challenge
-                    h2 Combat
+
+                    h2#Combat Combat
                     h5 Weapon Stats
                     ul 
                         li #[strong Damage:] A flat number means a weapon deals that much damage. A +X means that weapon does that much damage plus the wielder's Brawn. Each uncancelled #[span.genesys s] adds 1 damage to the attack.
@@ -92,7 +103,8 @@ html(lang="en")
                     ul 
                         li Activate an ability, attack, or skill check.
                         li Exchange action for maneuver.
-                    h2 Wounds, Strain, and Critical Injuries
+
+                    h2#Wounds Wounds, Strain, and Critical Injuries
                     ul
                         li Exceeding one's Wound Threshold causes the character to be knocked out / incapacitated, and they immediately suffer one Critical Injury.
                         li Exceeding one's Strain Threshold causes teh character to be incapacitated.
@@ -134,7 +146,8 @@ html(lang="en")
                                     td(scope='row') Critical Injury
                                     td #[em See Critical Injury Table]
                     p &nbsp;
-                    h2 Dice Tables
+
+                    h2#Dice Dice Tables
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Spending #[span.genesys a] and #[span.genesys t] in Combat
@@ -324,7 +337,8 @@ html(lang="en")
                                             td 
                                                 p The character completely lose control of their magical energies, suffering one Critical Injury (at the GM's discretion, this may instead take the form of some of terrible or hilarious misfortune, such as temporarily being turned into a small woodland creature, being struck by lightning on a clear day, swapping bodies with someone else in the encounter for the remainder of the day, or summoning an avatar of divine or infernal wrath).
                                                 p If the character is using a magical item, it is completely destroyed.
-                    h2 Magic
+
+                    h2#Magic Magic
                     h5 Penalties When Casting Spells
                     .table-responsive
                         table#tbl-spell-penalties.table.table-striped
@@ -345,7 +359,6 @@ html(lang="en")
                                 tr
                                     td(scope='row') The character is in circumstances that interfere with their ability to concentrate, such as trying to cast while swimming or hanging from a rope, being buffeted by a sandstorm, or casting a spell that doesn't target the person they're fighting in hand-to-hand combat.
                                     td Upgrade the difficulty once (or more at your GM's discretion).
-
                                         
 
         +footer

@@ -20,21 +20,14 @@ html(lang="en")
 
                     .card.toc
                         #div-toc-header
-                            div
-                                strong Table of Contents
-                            div
-                                label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
+                            div: strong Table of Contents
+                            div: label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
                         #div-toc.collapse
-                            p 
-                                a(href='#Human') Human
-                            p
-                                a(href='#Terran' style='margin-left: 1rem;') Terran
-                            p
-                                a(href='#Grover' style='margin-left: 1rem;') Grover
-                            p
-                                a(href='#Spacer' style='margin-left: 1rem;') Spacer
-                            p
-                                a(href='#Vrar') Vrar
+                            p: a(href='#Human') Human
+                            p: a(href='#Terran' style='margin-left: 1rem;') Terran
+                            p: a(href='#Grover' style='margin-left: 1rem;') Grover
+                            p: a(href='#Spacer' style='margin-left: 1rem;') Spacer
+                            p: a(href='#Vrar') Vrar
 
                     h3#Human.text-center Human
                     p blah blah blah.

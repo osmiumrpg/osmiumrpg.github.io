@@ -16,6 +16,16 @@ html(lang="en")
                 .hidden-xs.col-lg-2
                 .col-lg-8.col-12
                     h1 Magic
+                    .card.toc
+                        #div-toc-header
+                            div: strong Table of Contents
+                            div: label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
+                        #div-toc.collapse
+                            p: a(href='#Generally') Generally
+                            p: a(href='#Spellbook') Spellbook
+                            p: a(href='#Action-Tables') Action Tables
+
+                    h2#Generally Generally
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Attributes and Strength Skills
@@ -89,6 +99,7 @@ html(lang="en")
                                         td No
                                         td No 
                                         td Yes
+
                     h5 Penalties When Casting Spells
                     .table-responsive
                         table#tbl-spell-penalties.table.table-striped
@@ -110,8 +121,7 @@ html(lang="en")
                                     td(scope='row') The character is in circumstances that interfere with their ability to concentrate, such as trying to cast while swimming or hanging from a rope, being buffeted by a sandstorm, or casting a spell that doesn't target the person they're fighting in hand-to-hand combat.
                                     td Upgrade the difficulty once (or more at your GM's discretion).
 
-
-                    h2 Spellbook
+                    h2#Spellbook Spellbook
                     p Here's a collection of spells for players to model their effects after.
                     h3 Blue Magic
                     h4 Magic Missile
@@ -163,8 +173,7 @@ html(lang="en")
                     +spellstat('Curse with Enervate', 'Short', 'ddd', 'Yes')
                     p #[strong Effect:] Until the end of the caster’s next turn, the target decreases all ability checks by #[span.dice.ability d]. Whenever they take strain, they take 1 additional strain.
 
-                    // Spell Action Tables
-                    h2 Spell Action Tables
+                    h2#Action-Tables Spell Action Tables
 
                     h3 Magical Attack 
                     p #[strong Concentration:] No

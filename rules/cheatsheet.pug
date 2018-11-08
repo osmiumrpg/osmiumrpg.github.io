@@ -49,23 +49,28 @@ html(lang="en")
                                 table#tbl-ranged-attack-difficulties.table.table-striped
                                     thead
                                         tr
-                                            th(scope="col") Ranged
+                                            th(scope="col") Range
                                             th(scope="col") Difficulty
                                     tbody
                                         tr
-                                            td(scope='row') Engaged
+                                            td(scope='row') 
+                                                a.pop.pop-info(data-toggle='popover', tabindex='0', title='Engaged Range', data-content="Grappling / Hand-to-Hand") Engaged
                                             td #[span.dice.difficulty dd] for light Ranged #[br] #[span.dice.difficulty ddd] for heavy Ranged
                                         tr 
-                                            td(scope='row') Short
+                                            td(scope='row') 
+                                                a.pop.pop-info(data-toggle='popover', tabindex='0', title='Short Range', data-content="Up to several meters") Short
                                             td #[span.dice.difficulty d]
                                         tr 
-                                            td(scope='row') Medium
+                                            td(scope='row') 
+                                                a.pop.pop-info(data-toggle='popover', tabindex='0', title='Medium Range', data-content="Up to several dozen meters away") Medium
                                             td #[span.dice.difficulty dd]
                                         tr 
-                                            td(scope='row') Long
+                                            td(scope='row') 
+                                                a.pop.pop-info(data-toggle='popover', tabindex='0', title='Long Range', data-content="Further than a few dozen meters") Long
                                             td #[span.dice.difficulty ddd]
                                         tr 
-                                            td(scope='row') Extreme
+                                            td(scope='row') 
+                                                a.pop.pop-info(data-toggle='popover', tabindex='0', title='Extreme Range', data-content="Possibly out of earshot") Extreme
                                             td #[span.dice.difficulty dddd]
                     h5 Modifiers
                     ul

@@ -251,7 +251,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p><em>You may not purchase this talent if you currently have more ranks of Grit than you do of Resilience.</em></p><p>Each rank of Grit increases yoru character's strain threshold by one.</p>",
+        Text: "<p><em>You may not purchase this talent if you currently have more ranks of Grit than you do of Resilience.</em></p><p>Each rank of Grit increases your character's strain threshold by one.</p>",
         Source: 'GCRB'
     },
     {

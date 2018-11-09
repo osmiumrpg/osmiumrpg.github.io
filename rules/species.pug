@@ -135,6 +135,15 @@ html(lang="en")
                     ul
                         li #[strong Starting Skill:] Summer Elves begin with one rank in Discipline. You still cannot train their Discipline above rank 2 during character creation. 
                         li #[strong Serenity of Purpose:] Summer Elves gain Charm as a career skill and begin with one rank in Charm. You still cannot train their Charm above rank 2 during character creation.
+                    p #[strong Naming Conventions. ] Summer Elves take surnames describing a constellation or stellar body visible from their family home. The 'family home' is an old place, and the adoption of a new family home is akin to starting a new family. Summer Elves are not usually named by their parents until they are twenty or thirty, when a name befitting their personality and aesthetic can be decided upon.
+                        p 
+                            button#generate-summer-elf-female.btn.btn-secondary(onclick="populate_name_label_random('summer-elf', 'female')") Female 
+                            | &nbsp;
+                            button#generate-summer-elf-male.btn.btn-secondary(onclick="populate_name_label_random('summer-elf', 'male')") Male
+                            | &nbsp; &nbsp;
+                            strong Generate Name: 
+                            | &nbsp; &nbsp;
+                            label#label-summer-elf-name
 
                     h3.text-center Halfling
                     h5.text-center Species Ability

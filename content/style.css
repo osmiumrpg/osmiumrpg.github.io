@@ -36,6 +36,7 @@ body {
 div.card {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    clear: both;
 }
 
 .card-header button {

@@ -30,10 +30,27 @@ body {
     border-width: thick;
 } */
 
+/* 
+    CARDS
+*/
 div.card {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.card-header button {
+    float: right;
+}
+
+.card-header h5 {
+    float: left;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+/* 
+    READ ALOUD
+*/
 div.read-aloud {
     display:block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -127,6 +144,18 @@ h6 {
 }
 
 /*
+    SIDEBAR
+*/
+.sidebar {
+    float: right;
+    max-width: 360px;
+    margin: 0rem 0rem 2rem 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #000044;
+    color: white;
+}
+
+/*
     TABLE OF CONTENTS / TOC
 */
 
@@ -214,16 +243,6 @@ span.challenge {
 
  td {
      font-size: 1rem;
- }
-
- .card-header button {
-     float: right;
- }
-
- .card-header h5 {
-     float: left;
-     margin-bottom: 0rem;
-     margin-top: 0.5rem;
  }
 
  thead th {

@@ -1,7 +1,8 @@
 var populate_name_label_random = function(species, gender) {
     var list = species + '_' + gender;
-    //var name = name_set[list][Math.floor(Math.random()*name_set[list].length)]
     var name = generate_text(list);
+    console.log("List: " + list);
+    console.log("Name: " + name);
     $('#label-' + species + '-name').text(name);
 }
 

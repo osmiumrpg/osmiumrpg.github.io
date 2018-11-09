@@ -606,8 +606,8 @@ var talent_list = [
         Tier: 2,
         Activation: 'Passive',
         Ranked: 'Yes',
-        Tags: ['Tough'],
-        Text: "<p>Add <span class='dice boost'>b</span> per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.</p>",
+        Tags: ['Dwarf','Tough'],
+        Text: "<p><em>This talent may be purchased at Tier 1 if you are a Dwarf.</em></p><p>Add <span class='dice boost'>b</span> per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.</p>",
         Source: 'ACRB,ECRB'
     },
     {

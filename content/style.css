@@ -284,6 +284,7 @@ span.challenge {
 .pop-link
 {
     color: purple;
+    text-decoration: underline dotted;
 }
 
 /* 

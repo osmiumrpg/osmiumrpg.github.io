@@ -16,7 +16,16 @@ html(lang="en")
                 .hidden-xs.col-lg-2
                 .col-lg-8.col-12
                     h1 Skills
-                    h3 Skill List, by Category
+
+                    .card.toc
+                        #div-toc-header
+                            div: strong Table of Contents
+                            div: label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
+                        #div-toc.collapse
+                            p: a(href='#Category') By Category
+                            p: a(href='#New-Skills') New Skills
+
+                    h2#Category Skill List, by Category
                     h5 General
                     ul 
                         li Athletics (Brawn)
@@ -59,11 +68,19 @@ html(lang="en")
                         li Science (Intellect)
                         li Travel (Intellect)
                         li Lore (Intellect)
-                    h3 New Skills
-                    h5 Blue Magic
-                    p 
-                        em Uses Intellect. 
-                        | Basically Biotics from Mass Effect, with a little more elemental magic. Very immediate, few long-term rituals.
+                    h2#New-Skills New Skills
+                    h3 Blue Magic [Intellect]
+                    p The Blue Magic skill represents your ability to manipulate the underlying physical forces of the universe, such as gravity, time, and the four elements. (Anybody who says the four elements aren't an underlying physical force of the universe is from a backward planet and you shouldn't listen to them.) Blue Magic can be used to cast spells and identify powerful sources of magic in the world.
+                    h5 Your character should use this skill if...
+                    ul 
+                        li Your characters wants to throw a fireball at a group of enemies.
+                        li Your character wants to erect powerful walls of force to protect or to ward.
+                        li Your character wants to be able to counter otherspellcasters' efforts, and be the best at doing so.
+                        li Your character wants to move things with magic, as Blue Mages are the most powerful telekinetics.
+                    h5 Your character should not use this skill if...
+                    ul
+                        li Your character attempts to charm or curse a target. (Use Purple Magic instead.)
+                        li Your character attempts to heal a target. (Use Red Magic instead.)
                     h5 Lore
                     p
                         em Uses Intellect. 

@@ -47,12 +47,12 @@ gen_data['summerelf_male_firstname'] = [
 ];
 
 gen_data['summerelf_surname'] = [
-    '{number_spelled} {star_color} {stellar_formation}',
-    '{number_spelled} {star_color} {stellar_formation}',
-    '{number_spelled} {star_collection} {stellar_formation}'
+    '{star_number} {star_color} {stellar_formation}',
+    '{star_number} {star_color} {stellar_formation}',
+    '{star_number} {star_collection} {stellar_formation}'
 ];
 
-gen_data['number_spelled'] = ['One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Eleven','Twelve'];
+gen_data['star_number'] = ['Twin','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Eleven','Twelve'];
 
 gen_data['star_color'] = ['White','White','Red','Red','Green','Blue','Yellow','Yellow','Pink'];
 

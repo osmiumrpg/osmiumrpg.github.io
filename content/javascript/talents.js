@@ -602,13 +602,13 @@ var talent_list = [
         Source: 'DA'
     },
     {
-        Name: 'Blooded',
+        Name: 'Poison Resistance',
         Tier: 2,
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Dwarf','Tough'],
         Text: "<p><em>This talent may be purchased at Tier 1 if you are a Dwarf.</em></p><p>Add <span class='dice boost'>b</span> per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.</p>",
-        Source: 'ACRB,ECRB'
+        Source: 'ACRB,ECRB - Blooded'
     },
     {
         Name: 'Bulwark',
@@ -1252,13 +1252,13 @@ var talent_list = [
         Source: 'FIB, KTP'
     },
     {
-        Name: 'Blooded (Improved)',
+        Name: 'Poison Immunity',
         Tier: 3,
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Tough'],
-        Text: "<p>As an action, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Resilience check</strong> to immediately recover from all poisons and side effects of drugs. Reduce difficulty once per rank of Blooded.</p>",
-        Source: 'UP'
+        Text: "<p>As an action, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Resilience check</strong> to immediately recover from all poisons and side effects of drugs. Reduce difficulty once per rank of Poison Resistance.</p>",
+        Source: 'UP - Blooded (Improved)'
     },
     {
         Name: 'Blood Magic',

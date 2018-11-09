@@ -54,12 +54,13 @@ div.card {
 div.read-aloud {
     display:block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-style: italic;
     background-color: lavenderblush;
     color: green;
-    border: 3px double green;
-    border-radius:30px;
+    border-right: 3px double green;
+    border-left: 3px double green;
+    border-radius:20px;
     padding:10px 15px 10px 15px;
     position:relative;
     margin-top: 10px;

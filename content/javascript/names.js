@@ -22,9 +22,9 @@ gen_data['cogdwarf_male_firstname'] = [
 
 gen_data['cogdwarf_surname'] = ['{cogdwarf_surname_adjective} {cogdwarf_surname_noun}'];
 
-gen_data['cogdwarf_surname_adjective'] = ['Storied', 'Far','Circular','White','Grand','Black','Grave','Lost','Distant','Fanciful','Whispered','Quite','Impossible','Cherished'];
+gen_data['cogdwarf_surname_adjective'] = ['Astronomic','August','Cherished','Circular','Exalted','Far','Glorious','Grand','Black','Grave','Lost','Noble','Distant','Fanciful','Majestic','Sovereign','Sublime','Storied','Wayfaring','Whispered','Quiet','Impossible','White'];
 
-gen_data['cogdwarf_surname_noun'] = ['Path','Ecliptic','Moebius','Journey','Promenade','Concourse','Horizon','Zenith','Kings','Valley','Queens','Paradox','Futures','Palanquin'];
+gen_data['cogdwarf_surname_noun'] = ['Path','Ecliptic','Moebius','Journey','Promenade','Concourse','Futures','Horizon','Zenith','Palanquin','Paragon','Paradox','Pinnacle','Quest','Saga','Valley','Verse'];
 
 gen_data['grover_female'] = [
     '{grover_female_firstname} {grover_surname}'

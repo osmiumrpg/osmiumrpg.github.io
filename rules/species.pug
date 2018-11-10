@@ -108,7 +108,10 @@ html(lang="en")
                     h3#Dwarf.text-center Dwarf
                     p 
                         img.img-fluid.img-right-floater(src='./../content/images/species_dwarf.png')
-                        | Dwarves are dope.
+                        | There is no force in the universe stronger than a dwarf. They are a race of perseverence and commitment unmatched anywhere. The oath of a dwarf is certainty. A culture built around this kind of fortitude ends up becoming a pillar of the galaxies.
+                    p The original home planet of the dwarves is unknown. The legends tell of a time when the god Moradin fashioned the dwarves out of matter created during the First Big Bang. Dwarves have had less genetic drift than other species - each subspecies of dwarf is still very close to each other - and yet, those tiny differences mean everything to people who make every promise for life.
+                    p #[strong Physiology. ]
+                    p #[strong Society. ]
                     h5.text-center Species Ability
                     .archetype
                         span.bra 2
@@ -136,7 +139,16 @@ html(lang="en")
                     ul 
                         li #[strong Starting Skills:] Cog Dwarves begin with one rank in Negotiation. You still cannot train their Negotiation above rank 2 during character creation.
                         li #[strong Dark Vision:] When making skill checks, Cog Dwarves remove up to #[span.dice.setback bb] imposed due to darkness.
-                        li #[strong Tough as Nails:] Once per session, a Dwarf may spend a Story Point as an out-of-turn incidental immediately after suffering a Critical Injury and determining the result. If they do so, they count the result rolled as “01.”
+                        li #[strong Tough as Nails:] Once per session, a Cog Dwarf may spend a Story Point as an out-of-turn incidental immediately after suffering a Critical Injury and determining the result. If they do so, they count the result rolled as “01.”
+                    p #[strong Naming Conventions. ] Cog Dwarfs 
+                        p 
+                            button#generate-cogdwarf-female.btn.btn-secondary(onclick="populate_name_label_random('cogdwarf', 'female')") Female 
+                            | &nbsp;
+                            button#generate-cogdwarf-male.btn.btn-secondary(onclick="populate_name_label_random('cogdwarf', 'male')") Male
+                            | &nbsp; &nbsp;
+                            strong Generate Name: 
+                            | &nbsp; &nbsp;
+                            label#label-cogdwarf-name
 
                     hr
                     h3#Elf.text-center Elf

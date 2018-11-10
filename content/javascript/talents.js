@@ -531,7 +531,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Knowledge','Leader'],
-        Text: "<p><em>You must have purchased the Identify Weakness talent to benefit from this talent.</em></p><p>You may allow your allies to spend your Found Weaknesses. They may only do so to generate <span class='genesys'>s</span></p>",
+        Text: "<p><em>You must have purchased the Identify Weakness talent to benefit from this talent.</em></p><p>You may allow your allies to spend your Found Weaknesses. They may only do so to generate <span class='genesys'>s</span>.</p>",
         Source: 'PHE'
     },
     // 

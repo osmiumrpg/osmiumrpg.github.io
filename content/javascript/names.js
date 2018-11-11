@@ -68,7 +68,7 @@ gen_data['recog_firstname'] = ["Aadam","Aarav","Aaron","Aaryan","Abel","Abraham"
 
 gen_data['recog_profession'] = ['Ackerman','Cowherd','Crofter','Dairymaid','Carter','Farmer','Freibauer','Gardener','Goatherd','Hawker','Hayward','Herder','Ostler','Peasant','Plowman','Reaper','Serf','Sheepshearer','Shepherd','Swineherd','Thresher','Tillerman','Vintner','Woodcutter','Woolcomber','Woolman','Yeoman','Climmer','Falconer','Fewterer','Forester','Fowler','Gamekeeper','Hawker','Hunter','Huntsman','Molecatcher','Parker','Catcher','Sperviter','Trapper','Bottelier','Cobbler','Cordwainer','Currier','Girdler','Lorimer','Saddler','Shoemaker','Tanner','Thonger','Vaginarius','Bargeman','Boatman','Boatwright','Canaller','Ferryman','Fisherman','Hobbler','Mariner','Navigator','Sailmaker','Sailor','Shipchandler','Shipwright','Waterman','Abbess','Abbot','Almoner','Anchorite','Archbishop','Beadle','Beguine','Bishop','Canon','Cantor','Cardinal','Cathar','Chantry','Chaplain','Clark','Clerk','Colporteur','Curate','Friar','Hermit','Bishop','Monk','Nun','Ostiary','Palmer','Pardoner','Pilgrim','Pope','Priest','Primate','Sacristan','Sexton'];
 
-gen_data['recog_reoman'] = ['II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX'];
+gen_data['recog_roman'] = ['II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX'];
 
 gen_data['summerelf_female'] = [
     '{summerelf_female_firstname} {summerelf_surname}'

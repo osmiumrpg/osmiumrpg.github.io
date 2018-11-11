@@ -1,0 +1,29 @@
+include mixins.pug
+html(lang="en")
+    head
+        title Acknowledgements | Osmium: Galaxies of Fantasy Adventure
+        +header
+
+        // My Files
+        link(href='content/style.css', rel='stylesheet', type='text/css')
+        script(src='content/javascript/script.js')
+
+    body
+        +navbar
+        .container-fluid
+            .row
+                .col-lg-2.hidden-xs
+                .col-lg-8.col-12
+                    h1 Acknowledgements 
+                    h3 General Thanks
+                    p Obviously, I couldn't do this without the players who inspired the first Osmium campaign, Cooper, Ned, Ryan, and Steven. And I'd be remiss if I didn't thank my wife Maja and son.
+                    h3 Code
+                    p The randomization functions make use of code provided by donjob.bin.sh. It should be properly documented.
+                    h3 Names
+                    p Thank you to #[a(href='https://www.fantasynamegenerators.com/') fantasynamegenerators.com] and Kate Monk's #[a(href='https://tekeli.li/onomastikon/') Onomastikon], from which I've learned a lot about categorization of names.
+                    h3 Art
+                    p This website is primarily for me and my campaign, so I've basically stolen all the art. If you'd like me to remove it, please don't hesitate to contact me at first.last@gmail.com. My name is Parker Emerson, btw.
+                    h3 System
+                    p This page makes extensive use of the #[a(href='https://www.fantasyflightgames.com/en/news/2017/6/27/genesys/') Genesys] / Narrative Dice System by Fantasy Flight.
+
+        +footer

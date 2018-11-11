@@ -1509,7 +1509,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Leader'],
-        Text: "<p>Make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Leadership check</strong>. If successful, choose a number of allies within short range equal to <span class='genesys'>s</a> generated. Upgrade the difficulty of attacks against these allies once until the end of your character's next turn.</p>",
+        Text: "<p>Make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Leadership check</strong>. If successful, choose a number of allies within short range equal to <span class='genesys'>s</span> generated. Upgrade the difficulty of attacks against these allies once until the end of your character's next turn.</p>",
         Source: 'DOR'
     },
     {
@@ -1752,7 +1752,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Leader', 'Tough', 'Vehicles'],
-        Text: "<p>While inside your character's Pride and Joy, recover +1 strain whenever recovering strain and spend <span class='genesys'>a</span> on checks made to recover strain to allow an ally also within the vehicle to recover 1 strain.</p>",
+        Text: "<p><em>Your character must have purchased the Pride and Joy talent to benefit from this talent.</em></p><p>While inside your character's Pride and Joy, recover +1 strain whenever recovering strain and spend <span class='genesys'>a</span> on checks made to recover strain to allow an ally also within the vehicle to recover 1 strain.</p>",
         Source: 'DOR'
     },
     {
@@ -1761,7 +1761,7 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'No',
         Tags: ['Melee', 'Tough'],
-        Text: "<p><em>Your character must have purchased the Reflect Talent to benefit from this talent.</em></p><p>Your character may use reflect while wielding a melee weapon deemed appropriate by the GM. When reflecting a hit that generated <span class='genesys'>d</span> or <span class='genesys'>hhh</span> may hit one target in medium range with the same damage as the initial hit, after original attack resolves.</p>",
+        Text: "<p><em>Your character must have purchased the Reflect talent to benefit from this talent.</em></p><p>Your character may use reflect while wielding a melee weapon deemed appropriate by the GM. When reflecting a hit that generated <span class='genesys'>d</span> or <span class='genesys'>hhh</span> may hit one target in medium range with the same damage as the initial hit, after original attack resolves.</p>",
         Source: 'FBGR, FCRB'
     },
     {

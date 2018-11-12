@@ -190,6 +190,16 @@ h6 {
     font-size: 0.9rem;
 }
 
+.npc-sidenote h6 + p {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.npc-sidenote h6 {
+    margin-bottom: 0rem;
+}
+
 .npc-sidenote img {
     margin-bottom: 0.5rem;
 }
@@ -385,7 +395,7 @@ span.challenge {
 
 .archetype .cun {
     position:relative;
-    left:102px;
+    left:103px;
     top:4px;
     width:25px;
     text-align:center;

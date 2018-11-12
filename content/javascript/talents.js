@@ -368,7 +368,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Social'],
-        Text: "<p>When your character makes a social skill check in polite company (as determined by your GM), they may suffer a number of strain to use this talent to add an equal number of <span class='genesys'>a</span> to the check. The number may not exceed your character’s ranks in Proper Upbringing.</p>",
+        Text: "<p>When your character makes a social skill check in polite company (as determined by your GM), they may suffer a number of strain to use this talent to add an equal number of <span class='genesys'>a</span> to the check. The number may not exceed your character's ranks in Proper Upbringing.</p>",
         Source: 'GCRB'
     },
     {
@@ -377,7 +377,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Melee','Ranged'],
-        Text: "<p>Once per round on your character’s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a minimum of one.</p>",
+        Text: "<p>Once per round on your character's turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon's Prepare rating by one, to a minimum of one.</p>",
         Source: 'GCRB'
     },
     {
@@ -395,7 +395,7 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'Yes',
         Tags: ['Awareness','Combat'],
-        Text: "<p>Your character may suffer a number of strain to use this talent to add an equal number of <span class='genesys'>s</span> to a Vigilance or Cool check they make to determine Initiative order. The number may not exceed your character’s ranks in Rapid Reaction.</p>",
+        Text: "<p>Your character may suffer a number of strain to use this talent to add an equal number of <span class='genesys'>s</span> to a Vigilance or Cool check they make to determine Initiative order. The number may not exceed your character's ranks in Rapid Reaction.</p>",
         Source: 'GCRB'
     },
     {
@@ -495,7 +495,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p><em>You may not purchase this talent if you currently have more ranks of Toughened than you do of Resilience.</em></p><p>Each rank of Toughened increases your character’s wound threshold by two.</p>",
+        Text: "<p><em>You may not purchase this talent if you currently have more ranks of Toughened than you do of Resilience.</em></p><p>Each rank of Toughened increases your character's wound threshold by two.</p>",
         Source: 'GCRB'
     },
     {
@@ -652,7 +652,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'Yes',
         Tags: ['Social'],
-        Text: "<p>Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add <span class='genesys'>a</span> to all combat checks they make until the end of your character’s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first.</p>",
+        Text: "<p>Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add <span class='genesys'>a</span> to all combat checks they make until the end of your character's next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first.</p>",
         Source: 'GCRB'
     },
     {
@@ -661,7 +661,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'Yes',
         Tags: ['Social'],
-        Text: "<p>Once per session, your character may use this talent to choose one non-Nemesis adversary within medium range and make an <strong>opposed Negotiation versus Discipline check</strong>. If successful, the target becomes staggered until the end of their next turn. At your GM’s discretion, you may spend <span class='genesys'>t</span> on this check to have the adversary become an ally until the end of the encounter. However, the duration of this may be shortened or extended depending on whether your GM feels your offer is appealing to the adversary and whether your character follows through on their offer!</p>",
+        Text: "<p>Once per session, your character may use this talent to choose one non-Nemesis adversary within medium range and make an <strong>opposed Negotiation versus Discipline check</strong>. If successful, the target becomes staggered until the end of their next turn. At your GM's discretion, you may spend <span class='genesys'>t</span> on this check to have the adversary become an ally until the end of the encounter. However, the duration of this may be shortened or extended depending on whether your GM feels your offer is appealing to the adversary and whether your character follows through on their offer!</p>",
         Source: 'GCRB'
     },
     {
@@ -670,7 +670,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Vehicles'],
-        Text: "<p>Before your character makes a Piloting check, they may add a number of <span class='genesys'>h</span> to the results to use this talent to add an equal number of <span class='genesys'>s</span>. The number may not exceed your character’s ranks in Daring Aviator.</p>",
+        Text: "<p>Before your character makes a Piloting check, they may add a number of <span class='genesys'>h</span> to the results to use this talent to add an equal number of <span class='genesys'>s</span>. The number may not exceed your character's ranks in Daring Aviator.</p>",
         Source: 'GCRB'
     },
     {
@@ -688,7 +688,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'Yes',
         Tags: ['Combat', 'Tough'],
-        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character’s next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered.</p>",
+        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character's next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered.</p>",
         Source: 'GCRB'
     },
     {
@@ -724,7 +724,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Combat','Skulduggery'],
-        Text: "<p>After your character inflicts a Critical Injury on an adversary, you may use this talent to upgrade the difficulty of that adversary’s next check.</p>",
+        Text: "<p>After your character inflicts a Critical Injury on an adversary, you may use this talent to upgrade the difficulty of that adversary's next check.</p>",
         Source: 'ROT'
     },
     {
@@ -751,7 +751,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Ranged'],
-        Text: "<p>When making a ranged attack while engaged with an opponent, the character may suffer 2 strain to reduce the ranged modifier added for being engaged by 1 for the attack. <em>So, when firing a two-handed Ranged weapon, the character only increases the difficulty by 1 when engaged, and when firing a one-handed Ranged weapon, they don’t increase the difficulty at all.</em></p>",
+        Text: "<p>When making a ranged attack while engaged with an opponent, the character may suffer 2 strain to reduce the ranged modifier added for being engaged by 1 for the attack. <em>So, when firing a two-handed Ranged weapon, the character only increases the difficulty by 1 when engaged, and when firing a one-handed Ranged weapon, they don't increase the difficulty at all.</em></p>",
         Source: 'ACRB'
     },
     {
@@ -760,7 +760,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Melee','Ranged','Skulduggery'],
-        Text: "<p>When your character makes a combat check with a Ranged or light Melee weapon, they may suffer 2 strain to use this talent to add the Ensnare quality to the attack. The rating of the Ensnare quality is equal to your character’s ranks in Exploit.</p>",
+        Text: "<p>When your character makes a combat check with a Ranged or light Melee weapon, they may suffer 2 strain to use this talent to add the Ensnare quality to the attack. The rating of the Ensnare quality is equal to your character's ranks in Exploit.</p>",
         Source: 'ROT'
     },
     {
@@ -868,7 +868,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Ranged'],
-        Text: "<p>The character may take the Hunter’s Quarry action against an opponent within long range. They make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Survival check</strong>. If the check succeeds, they upgrade the ability of all attacks made against the target by one until the end of the character's next turn.</p>",
+        Text: "<p>The character may take the Hunter's Quarry action against an opponent within long range. They make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Survival check</strong>. If the check succeeds, they upgrade the ability of all attacks made against the target by one until the end of the character's next turn.</p>",
         Source: 'ETU,SS'
     },
     {
@@ -940,7 +940,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Combat'],
-        Text: "<p>When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character’s ranks in that characteristic to one hit of the combat check.</p>",
+        Text: "<p>When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character's ranks in that characteristic to one hit of the combat check.</p>",
         Source: 'GCRB'
     },
     {
@@ -1057,7 +1057,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'Yes',
         Tags: ['Athleticism','Awareness','Skulduggery','Tough'],
-        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character’s next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered.</p>",
+        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character's next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered.</p>",
         Source: 'GCRB'
     },
     {
@@ -1102,7 +1102,7 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'No',
         Tags: ['Social'],
-        Text: "<p>After an adversary within short range of your character resolves a combat check that deals damage to one of your character’s allies, your character may suffer 3 strain to use this talent to inflict a number of strain on the adversary equal to your character’s ranks in Coercion. The range of this talent increases by one band per rank of Threaten beyond the first.</p>",
+        Text: "<p>After an adversary within short range of your character resolves a combat check that deals damage to one of your character's allies, your character may suffer 3 strain to use this talent to inflict a number of strain on the adversary equal to your character's ranks in Coercion. The range of this talent increases by one band per rank of Threaten beyond the first.</p>",
         Source: 'ROT'
     },
     {
@@ -1167,7 +1167,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Beasts'],
-        Text: "<p>Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM’s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances. As long as the bond persists, the animal follows your character, and you dictate the animal’s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory).</p><p>Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character’s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.</p><p>For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size). This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the “animal” to be a robot or drone, for example.</p>",
+        Text: "<p>Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM's discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances. As long as the bond persists, the animal follows your character, and you dictate the animal's overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory).</p><p>Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character's turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.</p><p>For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size). This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the “animal” to be a robot or drone, for example.</p>",
         Source: 'GCRB'
     },
     {
@@ -1194,7 +1194,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Melee','Skulduggery'],
-        Text: "<p>Your character may use this talent to attack an unaware adversary using a light Melee weapon. A Backstab is a melee attack, and follows the normal rules for performing a combat check (see Core Rules page 101), using the character’s Skullduggery skill instead of Melee. If the check succeeds, each uncanceled <span class='genesys'>s</span> adds +2 damage (instead of the normal +1).</p>",
+        Text: "<p>Your character may use this talent to attack an unaware adversary using a light Melee weapon. A Backstab is a melee attack, and follows the normal rules for performing a combat check (see Core Rules page 101), using the character's Skullduggery skill instead of Melee. If the check succeeds, each uncanceled <span class='genesys'>s</span> adds +2 damage (instead of the normal +1).</p>",
         Source: 'ROT'
     },
     {
@@ -1275,7 +1275,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'Yes',
         Tags: ['Leader','Tough'],
-        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered.</p>",
+        Text: "<p>Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character's next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered.</p>",
         Source: 'ROT'
     },
     {
@@ -1320,7 +1320,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Social'],
-        Text: "<p>When attempting a Charm or Negotiation check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. When the character is the target of a Charm or Negotiation check, the character may likewise suffer a number of strain to upgrade the difficulty of the check by a similar amount. In either case, the number of strain may not exceed the character’s ranks in Congenial.</p>",
+        Text: "<p>When attempting a Charm or Negotiation check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. When the character is the target of a Charm or Negotiation check, the character may likewise suffer a number of strain to upgrade the difficulty of the check by a similar amount. In either case, the number of strain may not exceed the character's ranks in Congenial.</p>",
         Source: 'FH, FC, DOH'
     },
     {
@@ -1374,7 +1374,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'Yes',
         Tags: ['Social'],
-        Text: "<p>Your character can make a Disarming Smile action to make an opposed Charm check against one target within short range. If they succeed, decrease the target’s Defense (melee and ranged) by a number equal to your character’s ranks in Disarming Smile (to a minimum of zero) until the end of the encounter.</p>",
+        Text: "<p>Your character can make a Disarming Smile action to make an opposed Charm check against one target within short range. If they succeed, decrease the target's Defense (melee and ranged) by a number equal to your character's ranks in Disarming Smile (to a minimum of zero) until the end of the encounter.</p>",
         Source: 'FC'
     },
     {
@@ -1419,7 +1419,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Range'],
-        Text: "<p>Once per encounter, before making a ranged combat check, you may use this talent to increase your weapon’s range by one range band (to a maximum of extreme range). This lasts for the duration of the combat check.</p>",
+        Text: "<p>Once per encounter, before making a ranged combat check, you may use this talent to increase your weapon's range by one range band (to a maximum of extreme range). This lasts for the duration of the combat check.</p>",
         Source: 'GCRB'
     },
     {
@@ -1428,7 +1428,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'No',
         Tags: ['Combat','Leader','Skulduggery'],
-        Text: "<p>Your character may suffer 3 strain to use this talent. Until the start of your character’s next turn, your character and allies within short range add <span class='dice boost'>bb</span> to combat checks against immobilized targets.</p>",
+        Text: "<p>Your character may suffer 3 strain to use this talent. Until the start of your character's next turn, your character and allies within short range add <span class='dice boost'>bb</span> to combat checks against immobilized targets.</p>",
         Source: 'ROT'
     },
     {
@@ -1473,7 +1473,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Leader'],
-        Text: "<p>Your character may use this talent to make an <strong>Average (<span class='dice difficulty'>dd</span>) Leadership check</strong>. If successful, a number of allies equal to your character’s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter.</p>",
+        Text: "<p>Your character may use this talent to make an <strong>Average (<span class='dice difficulty'>dd</span>) Leadership check</strong>. If successful, a number of allies equal to your character's Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter.</p>",
         Source: 'GCRB'
     },
     {
@@ -1482,7 +1482,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'No',
         Tags: ['Leader','Vehicles'],
-        Text: "<p>When in a starship or vehicle, your character can make a Fire Control maneuver. If they do so, all combat checks from the starship or vehicle count the silhouette of the target as one higher than normal until the beginning of your character’s next turn. This effect does not stack with multiple uses of the Fire Control maneuver.</p>",
+        Text: "<p>When in a starship or vehicle, your character can make a Fire Control maneuver. If they do so, all combat checks from the starship or vehicle count the silhouette of the target as one higher than normal until the beginning of your character's next turn. This effect does not stack with multiple uses of the Fire Control maneuver.</p>",
         Source: 'ACRB'
     },
     {
@@ -1545,7 +1545,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Vehicles'],
-        Text: "<p>While driving or flying, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Piloting check</strong>. If successful, the top speed of the vehicle increases by one (to a maximum of 5) for a number of rounds equal to your character’s Cunning.</p><p>The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent simply makes the vehicle go much faster than normal, with the specifics up to your GM.</p>",
+        Text: "<p>While driving or flying, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Piloting check</strong>. If successful, the top speed of the vehicle increases by one (to a maximum of 5) for a number of rounds equal to your character's Cunning.</p><p>The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent simply makes the vehicle go much faster than normal, with the specifics up to your GM.</p>",
         Source: 'GCRB'
     },
     {
@@ -1554,7 +1554,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Ranged'],
-        Text: "<p>When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon’s Blast quality, instead of spending <span class='genesys'>a</span> (even if the attack misses). In addition, your character treats grenades as having a range of medium.</p>",
+        Text: "<p>When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon's Blast quality, instead of spending <span class='genesys'>a</span> (even if the attack misses). In addition, your character treats grenades as having a range of medium.</p>",
         Source: 'GCRB'
     },
     {
@@ -1599,7 +1599,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Leader', 'Social'],
-        Text: "<p><em>Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent.</em></p><p>Allies affected by your character’s Inspiring Rhetoric add <span class='dice boost'>b</span> to all skill checks they make for a number of rounds equal to your character’s ranks in Leadership.</p>",
+        Text: "<p><em>Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent.</em></p><p>Allies affected by your character's Inspiring Rhetoric add <span class='dice boost'>b</span> to all skill checks they make for a number of rounds equal to your character's ranks in Leadership.</p>",
         Source: 'GCRB'
     },
     {
@@ -1698,7 +1698,7 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'No',
         Tags: ['Melee'],
-        Text: "<p><em>Your character must have purchased the Parry talent to benefit from this talent.</em></p><p>When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend <span class='genesys'>d</span> or <span class='genesys'>hhh</span> from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them.</p>",
+        Text: "<p><em>Your character must have purchased the Parry talent to benefit from this talent.</em></p><p>When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend <span class='genesys'>d</span> or <span class='genesys'>hhh</span> from the attacker's check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon's base damage, plus any damage from applicable talents or abilities. Your character can't use this talent if the original attack incapacitates them.</p>",
         Source: 'GCRB'
     },
     {
@@ -1770,7 +1770,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Social'],
-        Text: "<p><em>Your character must have purchased the Scathing Tirade talent to benefit from this talent.</em></p><p>Enemies affected by your character’s Scathing Tirade add <span class='dice setback'>b</span> to all skill checks they make for a number of rounds equal to your character’s ranks in Coercion.</p>",
+        Text: "<p><em>Your character must have purchased the Scathing Tirade talent to benefit from this talent.</em></p><p>Enemies affected by your character's Scathing Tirade add <span class='dice setback'>b</span> to all skill checks they make for a number of rounds equal to your character's ranks in Coercion.</p>",
         Source: 'GCRB'
     },
     {
@@ -1815,7 +1815,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Melee'],
-        Text: "<p>Your character treats heavy Melee weapons as possessing the Blast item quality with a rating equal to your character’s ranks in Melee. Your character does not suffer damage from their weapon's Blast quality (but allies do!).</p>",
+        Text: "<p>Your character treats heavy Melee weapons as possessing the Blast item quality with a rating equal to your character's ranks in Melee. Your character does not suffer damage from their weapon's Blast quality (but allies do!).</p>",
         Source: 'ROT'
     },
     {
@@ -1833,7 +1833,7 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'Yes',
         Tags: ['Knowledge, Leader'],
-        Text: "<p>Before an ally within short range makes a skill check, if that ally has fewer ranks in that skill than your character does, your character may suffer a number of strain no greater than ranks in Skilled Teacher to add an equal number of <span class='genesys'>s</span> to the ally’s check.</p>",
+        Text: "<p>Before an ally within short range makes a skill check, if that ally has fewer ranks in that skill than your character does, your character may suffer a number of strain no greater than ranks in Skilled Teacher to add an equal number of <span class='genesys'>s</span> to the ally's check.</p>",
         Source: 'DOH'
     },
     {
@@ -1945,7 +1945,7 @@ var talent_list = [
         Source: 'DOR'
     },
     {
-        Name: "Can’t We Talk About This?",
+        Name: "Can't We Talk About This?",
         Tier: 4,
         Activation: 'Active (Action)',
         Ranked: 'No',
@@ -2022,7 +2022,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p>Each rank of Defensive increases your character’s melee defense and ranged defense by one.</p>",
+        Text: "<p>Each rank of Defensive increases your character's melee defense and ranged defense by one.</p>",
         Source: 'GCRB'
     },
     {
@@ -2031,7 +2031,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Vehicles'],
-        Text: "<p>Increase the defense of any vehicle your character pilots by one per rank of Defensive Driving.</p><p>The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent adds <span class='dice boost'>b</span> per rank to combat checks targeting your character’s vehicle or your character while piloting it.</p>",
+        Text: "<p>Increase the defense of any vehicle your character pilots by one per rank of Defensive Driving.</p><p>The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent adds <span class='dice boost'>b</span> per rank to combat checks targeting your character's vehicle or your character while piloting it.</p>",
         Source: 'GCRB'
     },
     {
@@ -2067,7 +2067,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Tough'],
-        Text: "<p>Each rank of Enduring increases your character’s soak value by one.</p>",
+        Text: "<p>Each rank of Enduring increases your character's soak value by one.</p>",
         Source: 'GCRB'
     },
     {
@@ -2076,7 +2076,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'No',
         Tags: ['Leader', 'Social'],
-        Text: "<p><em>Your character must have purchased the Field Commander talent to benefit from this talent.</em></p><p>When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character’s Presence. In addition, you may spend <span class='genesys'>t</span> to allow one ally to suffer 1 strain to perform an action, instead of a maneuver.</p>",
+        Text: "<p><em>Your character must have purchased the Field Commander talent to benefit from this talent.</em></p><p>When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character's Presence. In addition, you may spend <span class='genesys'>t</span> to allow one ally to suffer 1 strain to perform an action, instead of a maneuver.</p>",
         Source: 'GCRB'
     },
     {
@@ -2112,7 +2112,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Mechanics'],
-        Text: "<p>Once per session, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Mechanics check</strong>. If successful, one device involved in the current encounter (subject to your GM’s approval) spontaneously fails. This can be because of your character’s actions, or it can simply be incredibly convenient timing!</p>",
+        Text: "<p>Once per session, your character may use this talent to make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Mechanics check</strong>. If successful, one device involved in the current encounter (subject to your GM's approval) spontaneously fails. This can be because of your character's actions, or it can simply be incredibly convenient timing!</p>",
         Source: 'GCRB'
     },
     {
@@ -2157,7 +2157,7 @@ var talent_list = [
         Activation: 'Active (Maneuver)',
         Ranked: 'No',
         Tags: ['Vehicles'],
-        Text: "<p>As a maneuver, your character may inflict a number of system strain on their vehicle no greater than its highest defense value and choose a vehicle within close range. If the character does so, upgrade the difficulty of the next Piloting check that vehicle’s pilot makes before the end of the encounter once for each system strain inflicted on your character’s vehicle this way.</p>",
+        Text: "<p>As a maneuver, your character may inflict a number of system strain on their vehicle no greater than its highest defense value and choose a vehicle within close range. If the character does so, upgrade the difficulty of the next Piloting check that vehicle's pilot makes before the end of the encounter once for each system strain inflicted on your character's vehicle this way.</p>",
         Source: 'ND'
     },
     {
@@ -2184,7 +2184,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Combat'],
-        Text: "<p>Once per round on your character’s turn, when they perform an Aim maneuver before attempting a combat check, they may suffer a number of strain not exceeding their ranks in Precise Aim. They then decrease the target’s defense (ranged and melee) by one per strain suffered for that combat check.</p>",
+        Text: "<p>Once per round on your character's turn, when they perform an Aim maneuver before attempting a combat check, they may suffer a number of strain not exceeding their ranks in Precise Aim. They then decrease the target's defense (ranged and melee) by one per strain suffered for that combat check.</p>",
         Source: 'EBGR, ECRB, SS'
     },
     {
@@ -2283,7 +2283,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Social'],
-        Text: "<p>While engaged in a debate or argument, make a <strong>Hard (<span class='dice difficulty'>ddd</span) Negotiation check</strong>. If successful, a number of bystanders or observers equal to your Presence sees one of the opponent’s points (chosen by your character) as maliciously unreasonable.</p><p>The GM has the final say as to whether bystanders could see a point as unreasonable, based on who those bystanders are and what the point is. In these cases, the GM can suggest a modified version of that argument that would be more believable.</p>",
+        Text: "<p>While engaged in a debate or argument, make a <strong>Hard (<span class='dice difficulty'>ddd</span) Negotiation check</strong>. If successful, a number of bystanders or observers equal to your Presence sees one of the opponent's points (chosen by your character) as maliciously unreasonable.</p><p>The GM has the final say as to whether bystanders could see a point as unreasonable, based on who those bystanders are and what the point is. In these cases, the GM can suggest a modified version of that argument that would be more believable.</p>",
         Source: 'DOH'
     },
     {
@@ -2382,7 +2382,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'Yes',
         Tags: ['Leader'],
-        Text: "<p>Upon a successful skill check, your character may suffer 1 strain. If they do so, a number of allies within short range equal to your character’s Willpower add an automatic <span class='genesys'>a</span> when making the same skill check until the start of your character’s next turn. The range at which That’s How It’s Done can affect allies increases by one band per rank of That’s How It’s Done.</p>",
+        Text: "<p>Upon a successful skill check, your character may suffer 1 strain. If they do so, a number of allies within short range equal to your character's Willpower add an automatic <span class='genesys'>a</span> when making the same skill check until the start of your character's next turn. The range at which That's How It's Done can affect allies increases by one band per rank of That's How It's Done.</p>",
         Source: 'LBE'
     },
     {

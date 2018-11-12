@@ -197,6 +197,7 @@ h6 {
 .npc-sidenote th, .npc-sidenote td {
     border: 1px solid black;
     padding: 0.2rem 0.4rem;
+    font-size: 0.9rem;
 }
 
 .npc-sidenote th {

@@ -474,7 +474,7 @@ span.challenge {
     display:inline-block;
 }
 .minion {
-    background-image: url('https://www.gmbinder.com/images/K1aEwZa.png');
+    background-image: url('./images/template_minion.png');
     height:63px;
     width:329px;
     background-position: 42px 0px;

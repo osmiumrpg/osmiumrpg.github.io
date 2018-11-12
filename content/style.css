@@ -63,8 +63,9 @@ div.read-aloud {
     border-left: 3px double green;
     border-radius:20px;
     padding:10px 15px 10px 15px;
-    position:relative;
-    margin-top: 10px;
+    /*position:relative;*/
+    clear: both;
+    margin: 1rem 0rem;
 }
 
 div.read-aloud>p:last-child {
@@ -155,9 +156,22 @@ h6 {
     color: white;
 }
 
+.npc-sidenote {
+    float: right;
+    padding: 0.5rem 1rem;
+    border: 3px;
+    border-style: solid;
+    display: block;
+    background-color: white;
+}
+
 @media screen and (min-width: 768px) {
     .sidenote {
         max-width: 320px;
+        margin: 0rem 0rem 2rem 1rem;
+    }
+    .npc-sidenote {
+        max-width: 370px;
         margin: 0rem 0rem 2rem 1rem;
     }
 }
@@ -166,6 +180,18 @@ h6 {
     .sidenote {
         margin: 0rem 0rem 2rem 0rem;
     }
+    .npc-sidenote {
+        margin: 0rem 0rem 2rem 0rem;
+    }
+}
+
+.npc-sidenote p, .npc-sidenote li {
+    margin-bottom: 0.1rem;
+    font-size: 0.9rem;
+}
+
+.npc-sidenote img {
+    margin-bottom: 0.5rem;
 }
 
 /*
@@ -355,6 +381,105 @@ span.challenge {
     position:relative;
     left:162px;
     top:4px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+/* 
+    ADVERSARY 
+*/
+
+.adversary {
+    background-image: url('https://www.gmbinder.com/images/ks1JaPU.png');
+    height:47px;
+    width:329px;
+    background-position: -3px 0px;
+    background-size:102%;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+}
+
+.adversary .soak {
+    position:relative;
+    left:26px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.adversary .wound {
+    position:relative;
+    left:79px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.adversary .strain {
+    position:relative;
+    left:135px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.adversary .mdef {
+    position:relative;
+    left:176px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.adversary .rdef {
+    position:relative;
+    left:175px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.minion {
+    background-image: url('https://www.gmbinder.com/images/K1aEwZa.png');
+    height:63px;
+    width:329px;
+    background-position: 42px 0px;
+    background-repeat:no-repeat;
+    background-size:75%;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+}
+
+.minion .soak {
+    position:relative;
+    left:71px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+.minion .wound {
+    position:relative;
+    left:125px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.minion .mdef {
+    position:relative;
+    left:165px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.minion .rdef {
+    position:relative;
+    left:165px;
+    top:13px;
     width:25px;
     text-align:center;
     display:inline-block;

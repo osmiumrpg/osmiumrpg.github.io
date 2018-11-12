@@ -194,6 +194,21 @@ h6 {
     margin-bottom: 0.5rem;
 }
 
+.npc-sidenote th, .npc-sidenote td {
+    border: 1px solid black;
+    padding: 0.2rem 0.4rem;
+}
+
+.npc-sidenote th {
+    background-color: lightblue;
+}
+
+.npc-sidenote table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0.3rem 0rem;
+}
+
 /*
     TABLE OF CONTENTS / TOC
 */
@@ -398,6 +413,7 @@ span.challenge {
     background-size:102%;
     font-family: 'Bebas Neue';
     font-size:14pt;
+    font-weight: bold;
 }
 
 .adversary .soak {
@@ -449,11 +465,12 @@ span.challenge {
     background-size:75%;
     font-family: 'Bebas Neue';
     font-size:14pt;
+    font-weight: bold;
 }
 
 .minion .soak {
     position:relative;
-    left:71px;
+    left:70px;
     top:13px;
     width:25px;
     text-align:center;
@@ -462,7 +479,7 @@ span.challenge {
 
 .minion .wound {
     position:relative;
-    left:125px;
+    left:130px;
     top:13px;
     width:25px;
     text-align:center;
@@ -470,7 +487,7 @@ span.challenge {
 }
 .minion .mdef {
     position:relative;
-    left:165px;
+    left:172px;
     top:13px;
     width:25px;
     text-align:center;
@@ -478,7 +495,7 @@ span.challenge {
 }
 .minion .rdef {
     position:relative;
-    left:165px;
+    left:175px;
     top:13px;
     width:25px;
     text-align:center;

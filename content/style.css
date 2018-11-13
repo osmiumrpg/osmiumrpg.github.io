@@ -354,6 +354,13 @@ span.challenge {
     margin: 0rem 0rem 2rem 1rem;
 }
 
+@media screen and (max-width: 767px) {
+    .img-right-floater {
+        min-width: 100%;
+        margin: 0rem 0rem 2rem 1rem;
+    }
+}
+
 /* 
     STAT LAYOUT 
 */

@@ -1167,7 +1167,7 @@ var talent_list = [
         Tags: ['Magic'],
         Text: "<p><em>Your character must have at least 1 rank of Purple Magic to benefit from this talent. Your character cannot take this talent if they have taken the Summer Wizard talent.</em></p><p>When casting an Attack spell, your character may add the Ice effect without increasing the difficulty. Your character can never add the Impact effect.</p>",
         Source: 'ROT - Chill of Nordros'
-    }
+    },
     //
     //  TIER 3
     //

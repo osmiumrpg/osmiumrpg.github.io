@@ -2440,5 +2440,78 @@ var talent_list = [
         Tags: ['Awareness', 'Social'],
         Text: "<p>When targeted by a Deception check, the character automatically adds <span class='genesys'>f</span> to the check equal to ranks in Vigilance.</p>",
         Source: 'FH, EV'
+    },
+    /* TIER 5 */
+    {
+        Name: 'Altered Deal',
+        Tier: 5,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per session, make a #[strong Hard (#[span.dice.difficulty ddd]) Coercion check] to radically change a previously made deal or bargain to your character's advantage.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: "Armor Master (Supreme)",
+        Tier: 5,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p><em>Your character must have purchased the Armor Master talent to benefit from this talent.</em></p><p>Once per round, when your character suffers a Critical Injury, they may suffer 3 strain to take the Armor Master incidental. If they do, they reduce the Critical Injury result that they suffer by 10 per point of their soak, to a minimum of 1.</p>",
+        Source: 'KTP',
+    },
+    {
+        Name: 'Baleful Gaze',
+        Tier: 5,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Social', 'Tough'],
+        Text: "<p>When targeted by combat check from within medium range, may spend a Story Point to upgrade the difficulty of the check a number of times equal to ranks in Coercion.</p>",
+        Source: 'KTP'
+    },
+    {
+        Name: "Body Guard (Supreme)",
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p><em>Your character must have purchased the Body Guard talent to benefit from this talent.</em></p><p>The Body Guard maneuver may protect a number of engaged characters up to ranks in Resilience.</p>",
+        Source: 'FIB'
+    },
+    {
+        Name: "Comrades in Arms (Improved)",
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Leader'],
+        Text: "<p>Your character must have purchased the Comrades in Arms talent to benefit from this talent.</em></p><p>Spend <span class='genesys'>aaa</span> or <span class='genesys'>t</span> when performing Comrades in Arms to also gain +1 soak or give one affected ally +1 soak.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: "Coordination Dodge",
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Tough'],
+        Text: "<p>When targeted by a combat check, your character may spend 1 Story Point to add <span class='genesys'>f</span> equal to their ranks in Coordination to the check.</p>",
+        Source: 'FH, ND'
+    }
+    {
+        Name: 'Crucial Point',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per session, your character may introduce to negotiations one potential concession that an opponent will do nearly anything to obtain.</p>",
+        Source: 'DOH'
+    },
+    {
+        Name: 'Crushing Blow',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>Once per session after rolling a melee attack but before resolving the check, your character may suffer 4 strain to use this talent. While resolving the check, the weapon gains the Breach 1 and Knockdown item qualities, and destroys one item the target is wielding that does not have the Reinforced quality.</p>",
+        Source: 'ROT'
     }
 ]

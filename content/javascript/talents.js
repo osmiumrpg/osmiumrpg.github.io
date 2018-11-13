@@ -2495,7 +2495,7 @@ var talent_list = [
         Tags: ['Athleticism', 'Tough'],
         Text: "<p>When targeted by a combat check, your character may spend 1 Story Point to add <span class='genesys'>f</span> equal to their ranks in Coordination to the check.</p>",
         Source: 'FH, ND'
-    }
+    },
     {
         Name: 'Crucial Point',
         Tier: 5,

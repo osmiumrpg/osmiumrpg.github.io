@@ -1088,6 +1088,15 @@ var talent_list = [
         Source: 'ACRB,ECRB'
     },
     {
+        Name: 'Summer Wizard',
+        Tier: 2,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p><em>Your character must have at least 1 rank of Purple Magic to benefit from this talent. Your character cannot take this talent if they have taken the Winter Wizard talent.</em></p><p>When casting an Attack spell, your character may add the Impact effect without increasing the difficulty. Your character can never add the Ice effect.</p>",
+        Source: 'ROT - Chill of Nordros'
+    },
+    {
         Name: 'Suppressing Fire',
         Tier: 2,
         Activation: 'Passive',
@@ -1147,8 +1156,18 @@ var talent_list = [
         Activation: 'Maneuver',
         Ranked: 'No',
         Tags: ['Knowledge'],
-        Text: "<p>Once per encounter, your character may make an Identify Weakness maneuver. They make a <strong>Simple (-) Knowledge check</strong>. Count the number of uncanceled <span class='genesys'>s</span> you roll. These count as 'Found Weaknesses'. During the encounter, your character may spend a Found Weakness to add a <span class='genesys'>s</span> to a roll, after the dice are rolled but before success or damage is calculated. You may spend any number of Found Weaknesses on a roll.</p>"
+        Text: "<p>Once per encounter, your character may make an Identify Weakness maneuver. They make a <strong>Simple (-) Knowledge check</strong>. Count the number of uncanceled <span class='genesys'>s</span> you roll. These count as 'Found Weaknesses'. During the encounter, your character may spend a Found Weakness to add a <span class='genesys'>s</span> to a roll, after the dice are rolled but before success or damage is calculated. You may spend any number of Found Weaknesses on a roll.</p>",
+        Source: 'PHE'
     },
+    {
+        Name: 'Winter Wizard',
+        Tier: 2,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Magic'],
+        Text: "<p><em>Your character must have at least 1 rank of Purple Magic to benefit from this talent. Your character cannot take this talent if they have taken the Summer Wizard talent.</em></p><p>When casting an Attack spell, your character may add the Ice effect without increasing the difficulty. Your character can never add the Impact effect.</p>",
+        Source: 'ROT - Chill of Nordros'
+    }
     //
     //  TIER 3
     //

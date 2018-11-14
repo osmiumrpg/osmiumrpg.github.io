@@ -1775,6 +1775,15 @@ var talent_list = [
         Source: 'DOR'
     },
     {
+        Name: 'Receptive Mind',
+        Tier: 3,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Mind Flayer'],
+        Text: "<p><em>You must be a Mind Flayer to benefit from this talent.</em></p><p>As an out of turn incidental, you may allow a spellcaster to target you with their spell. If you do so, their next spell targeting you is not upgraded.</p>",
+        Source: 'PHE'
+    },
+    {
         Name: 'Reflect (Improved)',
         Tier: 3,
         Activation: 'Active (Incidental, Out of Turn)',
@@ -1900,6 +1909,9 @@ var talent_list = [
         Text: "<p>When an incoming social check generates <span class='genesys'>hh</span> or <span class='genesys'>d</span>, your character may suffer 1 strain as an incidental to inflict strain equal to their ranks in Coercion on speaker.</p>",
         Source: 'DA'
     },
+    //
+    //  TIER 4
+    //
     {
         Name: 'Armor Master (Improved)',
         Tier: 4,

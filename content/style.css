@@ -19,7 +19,27 @@
 }
 
 body {
-    background-color: linen;
+    background-color: #f5f5f5; /*Eggshell*/
+}
+
+a, a:hover {
+    color: #062F4F;
+}
+
+p, li {
+    color: #1D2731;
+}
+
+/*
+    NAVBAR
+*/
+
+.navbar, .dropdown-menu {
+    background-color: #1d2731; /*Ivory Black*/
+}
+
+.navbar a {
+    color: #f5f5f5;
 }
 
 /* div.read-aloud {
@@ -57,10 +77,9 @@ div.read-aloud {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.3rem;
     font-style: italic;
-    background-color: lavenderblush;
-    color: green;
-    border-right: 3px double green;
-    border-left: 3px double green;
+    color: #015249; /* Posy */
+    border-right: 3px double #015249;
+    border-left: 3px double #015249;
     border-radius:20px;
     padding:10px 15px 10px 15px;
     /*position:relative;*/
@@ -85,7 +104,7 @@ div.read-aloud>p:last-child {
 }
 
 h1 {
-    color: #1ABEEF;
+    color: #328CC1; /* Sky Blue */
     text-transform: uppercase;
     font-size: 3.5rem;
 }
@@ -102,7 +121,7 @@ h1 {
 } */
 
 h2 {
-    color: #1ABEEF;
+    color: #328CC1; /* Sky Blue */
     font-variant: small-caps;
     display: table;
     font-size: 2.66rem;
@@ -110,7 +129,7 @@ h2 {
 
 h2::after {
     content:"";
-    border-bottom: 2px solid #CCCCCC;
+    border-bottom: 2px solid #328CC1;
     display: table;
     width:100%;
     margin-top:-5px;
@@ -118,28 +137,28 @@ h2::after {
 }
 
 h3 {
-    color: #1ABEEF;
+    color: #328CC1; /* Sky Blue */
     font-variant: small-caps;
     display: table;
     font-size: 2rem;
 }
 
 h4 {
-    color: #ed9629;
+    color: #D9B310; /* Gold Leaf */
     font-variant: small-caps;
     display: table;
     font-size: 1.66rem;
 }
 
 h5 {
-    color: #326DA1;
+    color: #062F4F; /* Ink */
     font-variant: small-caps;
     display: table;
     font-size: 1.3rem;
 }
 
 h6 {
-    color: #ea702b;
+    color: #D9B310; /* Gold Leaf */
     font-variant: small-caps;
     display: table;
     font-size: 1.3rem;
@@ -152,8 +171,8 @@ h6 {
 .sidenote {
     float: right;
     padding: 0.5rem 1rem;
-    background-color: #000044;
-    color: white;
+    background-color: #062F4F;
+    color: #F5F5F5;
 }
 
 .npc-sidenote {
@@ -162,7 +181,7 @@ h6 {
     border: 3px;
     border-style: solid;
     display: block;
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 @media screen and (min-width: 768px) {
@@ -205,17 +224,17 @@ h6 {
 }
 
 .npc-sidenote th, .npc-sidenote td {
-    border: 1px solid black;
+    border: 1px solid #1D2731;
     padding: 0.2rem 0.4rem;
     font-size: 0.9rem;
 }
 
 .npc-sidenote th {
-    background-color: lightblue;
+    background-color: #77C9D4;
 }
 
 .npc-sidenote table {
-    border: 1px solid black;
+    border: 1px solid #1D2731;
     border-collapse: collapse;
     margin: 0.3rem 0rem;
 }
@@ -233,7 +252,7 @@ h6 {
 .toc {
     width: 15rem;
     padding: 0.2rem 0.5rem 0.5rem 0.5rem;
-    background-color: #f8f9fa;
+    background-color: #F5F5F5;
 }
 
 #div-toc-header>div:nth-of-type(1) {
@@ -304,12 +323,12 @@ span.challenge {
 }
 
 .rolled>td, .rolled>th {
-    background-color: #58D68D;
+    background-color: #57BC90;
 }
 
 .table-striped>tbody>tr:not(.rolled):nth-child(odd)>td, 
 .table-striped>tbody>tr:not(.rolled):nth-child(odd)>th {
-    background-color: aliceblue;
+    background-color: #8FFDFD
 }
 
 td {
@@ -317,10 +336,10 @@ td {
 }
 
 thead th {
-    background-color: #F7941E;
+    background-color: #B82601;
     font-family: 'Bebas Neue';
     /* font-weight: bold; */
-    color: white;
+    color: #F5F5F5;
     font-size: 125%;
     letter-spacing: 0.1rem;
 }
@@ -348,13 +367,13 @@ thead th {
 
 .pop-info
 {
-    color: green;
+    color: #B82601;
     text-decoration: underline dotted;
 }
 
 .pop-link
 {
-    color: purple;
+    color: #813772;
     text-decoration: underline dotted;
 }
 

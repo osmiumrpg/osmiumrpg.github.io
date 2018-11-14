@@ -643,7 +643,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Social'],
-        Text: "<p>Your character may decrease the difficulty of Discipline checks to avoid fear by 1 per rank of Confidence, to a minimum of <strong Easy (<span class='dice difficulty'>d</span>)</strong>.</p>",
+        Text: "<p>Your character may decrease the difficulty of Discipline checks to avoid fear by 1 per rank of Confidence, to a minimum of <strong>Easy (<span class='dice difficulty'>d</span>)</strong>.</p>",
         Source: 'ACRB,ECRB,FCRB'
     },
     {

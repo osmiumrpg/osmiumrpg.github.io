@@ -172,6 +172,9 @@ h6 {
     float: right;
     padding: 0.5rem 1rem;
     background-color: #062F4F;
+}
+
+.sidenote p, .sidenote li {
     color: #F5F5F5;
 }
 

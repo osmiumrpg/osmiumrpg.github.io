@@ -83,7 +83,7 @@ html(lang="en")
                                             td(scope='row') 
                                                 a.pop.pop-info(data-toggle='popover', tabindex='0', title='Extreme Range', data-content="Possibly out of earshot") Extreme
                                             td #[span.dice.difficulty dddd]
-                    h5 Modifiers
+                    h5 Modifiers to Attack Rolls
                     ul
                         li Ranged Target is Engaged with an ally: Upgrade one #[span.dice.difficulty d] to #[span.dice.challenge c]
                         li Target is #[strong prone]: Melee adds #[span.dice.boost b]; Ranged adds #[span.dice.setback b]
@@ -105,6 +105,19 @@ html(lang="en")
                     ul 
                         li Activate an ability, attack, or skill check.
                         li Exchange action for maneuver.
+
+                    h5 Status and Environmental Effects
+                    ul 
+                        li #[strong Concealment:] Adds #[span.dice.setback b] or #[span.dice.boost b] to rolls, depending on context.
+                        ul 
+                            li #[strong +1:] Mist, shadow, waist-high grass
+                            li #[strong +2:] Fog, dusk, thick shoulder-high grass
+                            li #[strong +3:] Heavy fog, thick choking smoke, night, dense underbrush
+                        li #[strong Cover:] Ranged defense of 1, plus add #[span.dice.setback b] to checks like Perception against the character.
+                        li #[strong Difficult Terrain:] 2x maneuvers to move into / through. Impassable requires a skill check.
+                        li #[strong Disoriented:] A disoriented character adds #[span.dice.setback b] to all checks they make.
+                        li #[strong Immobilized:] An immobilized character cannot perform maneuvers.
+                        li #[strong Staggered:] A staggered character cannot perform actions (including downgrading them to maneuvers).
 
                     h2#Wounds Wounds, Strain, and Critical Injuries
                     ul

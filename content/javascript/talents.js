@@ -525,7 +525,7 @@ var talent_list = [
         Text: "<p>Your character cannot run out of ammo due to a <span class='genesys'>d</span>. Items with the Limited Ammo quality run out of ammo per usual.</p>",
         Source: 'ACRB, ECRB'
     },
-    {
+/*     {
         Name: 'Exploit Weakness',
         Tier: 1,
         Activation: 'Passive',
@@ -533,7 +533,7 @@ var talent_list = [
         Tags: ['Knowledge','Leader'],
         Text: "<p><em>You must have purchased the Identify Weakness talent to benefit from this talent.</em></p><p>You may allow your allies to spend your Found Weaknesses. They may only do so to generate <span class='genesys'>s</span>.</p>",
         Source: 'PHE'
-    },
+    }, */
     // 
     //  TIER 2
     //
@@ -1150,7 +1150,7 @@ var talent_list = [
         Text: "<p>May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1).</p>",
         Source: 'ND'
     },
-    {
+/*     {
         Name: 'Identify Weakness',
         Tier: 2,
         Activation: 'Maneuver',
@@ -1158,7 +1158,7 @@ var talent_list = [
         Tags: ['Knowledge'],
         Text: "<p>Once per encounter, your character may make an Identify Weakness maneuver. They make a <strong>Simple (-) Knowledge check</strong>. Count the number of uncanceled <span class='genesys'>s</span> you roll. These count as 'Found Weaknesses'. During the encounter, your character may spend a Found Weakness to add a <span class='genesys'>s</span> to a roll, after the dice are rolled but before success or damage is calculated. You may spend any number of Found Weaknesses on a roll.</p>",
         Source: 'PHE'
-    },
+    }, */
     {
         Name: 'Winter Wizard',
         Tier: 2,
@@ -2585,5 +2585,140 @@ var talent_list = [
         Tags: ['Adventurer', 'Knowledge'],
         Text: "<p>When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of <strong>Easy (<span class='dice difficulty'>d</span>)</strong>.</p>",
         Source: 'GCRB'
+    },
+    {
+        Name: 'Master Demolitionist',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Adventurer', 'Combat', 'Mechanics'],
+        Text: "<p>When resolving an attack from a personal scale explosive or ordinance weapon, your character may spend <span class='genesys'>a</span> or <span class='genesys'>t</span> to have the weapon’s Blast quality affect all characters within short range (rather than engaged). If the weapon normally affects all characters within short range, then the range of the effect is increased to medium range instead. You must still activate the Blast quality.</p>",
+        Source: 'FO'
+    },
+    {
+        Name: 'Master Pilot',
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>Once per round when driving, piloting, or operating a vehicle, may suffer 2 strain to perform any action as a maneuver.</p>",
+        Sources: 'ACRB, ETU, ECRB'
+    },
+    {
+        Name: 'Master Grenadier',
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Adventurer', 'Combat', 'Mechanics'],
+        Text: "<p>Decrease the a cost to activate the Blast quality on any attack by 1 to a minimum of 1.</p>",
+        Sources: 'ACRB, DC'
+    },
+    {
+        Name: 'Master Leader',
+        Tier: 5,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Leader'],
+        Text: "<p>Once per round, suffer 2 strain to allow an ally within short range to count as having the same number of ranks in Discipline as your character for the next Discipline check the ally makes.</p>",
+        Source: 'DOH – Master Instructor'
+    },
+    {
+        Name: 'Most Impressive',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Leader', 'Social'],
+        Text: "<p>Spend <span class='genesys'>t</span> from any skill check to allow a number of allies not exceeding your character's Presence within short range add <span class='genesys'>a</span> to their next check.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Overcharge (Improved)',
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Athleticism', 'Cyber', 'Mechanics'],
+        Text: "<p><em>Your character must have purchased the Overcharge talent to benefit from this talent.</em></p><p>When using the Overcharge talent, your character may spend <span class='genesys'>aa</span> or <span class='genesys'>t</span> from the Mechanics check to immediately take one additional action. This talent can only be used once per check.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Prepare to be Boarded',
+        Tier: 5,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Social', 'Vehicles'],
+        Text: "<p>Once per encounter, make an <strong>opposed Coercion vs Discipline check</strong> against an enemy ship captain. If successful, the enemy suffers 1 strain per <span class='genesys'>s</span> and surrenders their ship if they exceed their strain threshold. Spend <span class='genesys'>t</span> or <span class='genesys'>aaaa</span> to inflict strain equal to your character's ranks in Coercion.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Programmer Dialect (Supreme)',
+        Tier: 5,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Computers'],
+        Text: "<p>Once per encounter, may perform the Programmer Dialect maneuver. A number of robots or V.I.s up to ranks in Programmer Dialect may use your character's ranks for 1 skill of your character's choice.</p>",
+        Source: 'SM - Speaks Binary'
+    },
+    {
+        Name: 'Retribution',
+        Tier: 5,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Melee', 'Range'],
+        Text: "<p>Once per round when an adversary attacks an ally within medium range, your character may spend one Story Point to use this talent to automatically hit that enemy once with a weapon your character is wielding, if the enemy is within the weapon’s range. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Ruinous Repartee',
+        Tier: 5,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per encounter, your character may use this talent to make an <strong>opposed Charm or Coercion versus Discipline check</strong> targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character’s Presence, plus one additional strain per <span class='genesys'>s</span>. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character’s witty barbs.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Superhuman Reflexes',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p>Once per session, after generating <span class='genesys'>d</span> on a Piloting check cancel the <span class='genesys'>d</span> and add <span class='genesys'>s</span> equal to ranks in Cool.<p>",
+        Source: 'EV'
+    },
+    {
+        Name: 'Thorough Assessment',
+        Tier: 5,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Knowledge'],
+        Text: "<p>Once per session, take a Thorough Assessment action: make an appropriate <strong>Hard (<span class='dice difficulty'>ddd</span>) Knowledge check</strong> to gain <span class='dice boost'>b</span> equal to <span class='genesys'>s</span> that can be distributed during the encounter.</p>",
+        Sources: 'DA, LBE'
+    },
+    {
+        Name: 'Unrelenting Skeptic (Improved)',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Awareness', 'Social'],
+        Text: "<p><em>Your character must have purchased the Unrelenting Skeptic talent to benefit from this talent.</em></p><p>When targeted by a Deception check that fails, may spend 1 Story Point to add <span class='genesys'>d</span> to results.</p>",
+        Source: 'FH'
+    },
+    {
+        Name: 'Whirlwind',
+        Tier: 5,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Brawl', 'Melee'],
+        Text: "<p>Your character may suffer 4 strain to use this talent to make a Brawl or Melee attack against the engaged adversary who is hardest to hit (as determined by the GM), increasing the difficulty by one. If the combat check succeeds, each adversary engaged with the character suffers one hit from the attack. The attack deals base damage plus damage equal to the total <span class='genesys'>s</span> scored on the check.</p>",
+        Source: 'ROT'
+    },
+    {
+        Name: 'Zealous Fire',
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Adventurer', 'Tough'],
+        Text: "<p>Each time your Game Master spends a Story Point, your character heals 2 strain.</p>",
+        Source: 'ROT'
     }
 ]

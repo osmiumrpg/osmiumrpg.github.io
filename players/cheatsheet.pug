@@ -21,6 +21,7 @@ html(lang="en")
                             div: label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
                         #div-toc.collapse
                             p: a(href='#Combat') Combat
+                            p &nbsp; &nbsp; #[a(href='#Status') Status and Environmental Effects]
                             p: a(href='#Wounds') Wounds, Strain, Critical Injuries
                             p: a(href='#Dice') Dice Tables
                             p: a(href='#Magic') Magic
@@ -106,7 +107,7 @@ html(lang="en")
                         li Activate an ability, attack, or skill check.
                         li Exchange action for maneuver.
 
-                    h5 Status and Environmental Effects
+                    h5#status Status and Environmental Effects
                     ul 
                         li #[strong Concealment:] Adds #[span.dice.setback b] or #[span.dice.boost b] to rolls, depending on context.
                         ul 

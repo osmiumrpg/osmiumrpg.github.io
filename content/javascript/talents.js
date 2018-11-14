@@ -2513,5 +2513,77 @@ var talent_list = [
         Tags: ['Brawl', 'Melee'],
         Text: "<p>Once per session after rolling a melee attack but before resolving the check, your character may suffer 4 strain to use this talent. While resolving the check, the weapon gains the Breach 1 and Knockdown item qualities, and destroys one item the target is wielding that does not have the Reinforced quality.</p>",
         Source: 'ROT'
+    },
+    {
+        Name: 'Dedication',
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'Yes',
+        Tags: ['Adventurer'],
+        Text: "<p>Each rank of Dedication increases one of your character’s characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Full Throttle (Supreme)',
+        Tier: 5,
+        Activation: 'Passive',
+        Ranked: 'No',
+        Tags: ['Vehicles'],
+        Text: "<p><em>Your character must have purchased the Full Throttle talent to benefit from this talent.</em></p><p>When performing Full Throttle, top speed increases by 2 instead of 1.</p>",
+        Sources: 'ACRB, ECRB, EV'
+    },
+    {
+        Name: 'Heavy Hitter',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Range', 'Vehicles'],
+        Text: "<p>Once per session, spend <span class='genesys'>t</span> on a successful Ranged (with a heavy weapon) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1.</p>",
+        Sources: 'FIB, DC'
+    },
+    {
+        Name: 'Indomitable',
+        Tier: 5,
+        Activation: 'Active (Incidental, Out of Turn)',
+        Ranked: 'No',
+        Tags: ['Tough'],
+        Text: "<p>Once per encounter, when your character would be incapacitated due to exceeding their wound or strain threshold, you may spend a Story Point to use this talent. Then, your character is not incapacitated until the end of their next turn. If your character reduces their strain or wounds to below their threshold before the end of their next turn, they are not incapacitated.</p>",
+        Source: 'GCRB'
+    },
+    {
+        Name: 'Inspiring Leadership',
+        Tier: 5,
+        Activation: 'Active (Action)',
+        Ranked: 'No',
+        Tags: ['Leader'],
+        Text: "<p>Make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Leadership check</strong>. If successful, a number of allies not exceeding your character's Presence within short range add <span class='genesys'>s</span> to their next skill check.</p>",
+        Source: 'DOR'
+    },
+    {
+        Name: 'Intense Focus',
+        Tier: 5,
+        Activation: 'Active (Maneuver)',
+        Ranked: 'No',
+        Tags: ['Adventurer'],
+        Text: "<p>Your character may perform an Intense Focus maneuver; they suffer 1 strain and upgrade the ability of their next skill check by one.</span>",
+        Sources: 'ABGR, ACRB, ECRB, DOH'
+    },
+    {
+        Name: 'Just Kidding!',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Social'],
+        Text: "<p>Once per round as an incidental spend 1 Story Point to ignore a <span class='genesys'>d</span> generated on a social check by the character or any ally in short range.</p>",
+        Source: 'FC'
+    },
+    {
+        Name: 'Master',
+        Tier: 5,
+        Activation: 'Active (Incidental)',
+        Ranked: 'No',
+        Tags: ['Adventurer', 'Knowledge'],
+        Text: "<p>When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of <strong>Easy (<span class='dice difficulty'>d</span>)</strong>.</p>",
+        Source: 'GCRB'
     }
 ]

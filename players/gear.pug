@@ -25,7 +25,7 @@ html(lang="en")
                             button#btn-melee-weapons.btn(data-toggle='collapse', data-target='#div-melee-weapons' onclick="toggleCollapseArrow('melee-weapons');") &ndash;
                         #div-melee-weapons.collapse.show
                             .table-responsive
-                                table#tbl-melee-weapons.table.table-striped
+                                table#tbl-melee-weapons.table.table-striped.table-gear
                                     thead
                                         tr
                                             th(scope="col") Name
@@ -33,10 +33,10 @@ html(lang="en")
                                             th(scope="col") Damage 
                                             th(scope="col") Crit
                                             th(scope="col") Range
-                                            th(scope="col") Encumbrance 
+                                            th(scope="col") Enc 
                                             th(scope="col") Price
                                             th(scope="col") Rarity 
-                                            th(scope="col") Hardpoints 
+                                            th(scope="col") Hard 
                                             th(scope="col") Special 
                                     tbody
                                         +gear-weapon('Brass Knuckles', 'Brawl', '+1', 3,'Engaged',0,20,1,0,'')
@@ -51,6 +51,7 @@ html(lang="en")
                                         +gear-weapon('Mace / Hammer', 'Melee', '+3', 4,'Engaged',4,250,5,1,'Accurate 1, Defensive 2')
                                         +gear-weapon('Greataxe', 'Melee', '+4', 3,'Engaged',4,350,5,3,'Cumbersome 3, Pierce 2, Vicious 2')
                                         +gear-weapon('Greathammer', 'Melee', '+4', 4,'Engaged',5,350,5,3,'Cumbersome 3, Disorient 2, Knockdown, Vicious 2')
+                                        +gear-weapon(' ⤷ D.E.S.', 'Melee', '+4', '4*','Engaged',5,650,5,3,'Cumbersome 3, Disorient 2, Knockdown, Vicious 2')
                                         +gear-weapon('Greatsword', 'Melee', '+4', 2,'Engaged',3,300,5,3,'Defensive 1, Pierce 1, Unwieldy 3')
                                         +gear-weapon('Stunstick', 'Melee', '+4', 5,'Engaged',2,50,4,0,'Stun Damage')
                                         +gear-weapon('Whip', 'Melee', '+4', 4,'Short',3,150,2,0,'Ensnare 1, Unwieldy 2')
@@ -64,7 +65,7 @@ html(lang="en")
                             button#btn-ranged-weapons.btn(data-toggle='collapse', data-target='#div-ranged-weapons' onclick="toggleCollapseArrow('ranged-weapons');") &ndash;
                         #div-ranged-weapons.collapse.show
                             .table-responsive
-                                table#tbl-ranged-weapons.table.table-striped
+                                table#tbl-ranged-weapons.table.table-striped.table-gear
                                     thead
                                         tr
                                             th(scope="col") Name
@@ -72,10 +73,10 @@ html(lang="en")
                                             th(scope="col") Damage 
                                             th(scope="col") Crit
                                             th(scope="col") Range
-                                            th(scope="col") Encumbrance 
+                                            th(scope="col") Enc 
                                             th(scope="col") Price
                                             th(scope="col") Rarity 
-                                            th(scope="col") Hardpoints 
+                                            th(scope="col") Hard 
                                             th(scope="col") Special 
                                     tbody
                                         +gear-weapon('Compact Blaster', 'Ranged (Energy)',4,3,'Short',1,400,3,1,'Accurate 1, Pierce 2')
@@ -95,6 +96,7 @@ html(lang="en")
                     h3 Weapon Descriptions and Notes
 
                     p #[strong Mundane Weapons:] All weapons listed include elements of smartmatter. For mundane weapons, lower their Damage by 1 (to a minimum of 1), increase their Critical Hit by 1 (to a maximum of 5), and add the mundane quality.
+                    p #[strong Greathammer (Dark Ephemeris Smithwerks):] The #[em Vengeance on Giants] line of weapons is quite popular. This Greathammer lowers its Critical Hit requirement to #[span.genesys aaa] against enemies with a Silhouette of 2 or greater, as well as against species with a natural Brawn of 3 or greater.
                     p #[strong Holdout Pistol:] Adds #[span.dice.setback bb] to any Perception roll made to find the weapon.
                     p #[strong Shield(s):] Shields consist of a bulky vambrace worn on the off-hand. With a moment's notice, a shield can form a localized force-field, protecting the wielder. The force-field may be toggled between being opaque and transparent.
                     p #[strong Sniper Guns (Blaster / Rifle):] You may not move after performing your Prepare maneuvers, or you have to take the maneuver(s) again.
@@ -106,12 +108,12 @@ html(lang="en")
                             button#btn-ammunition.btn(data-toggle='collapse', data-target='#div-ammunition' onclick="toggleCollapseArrow('ammunition');") &ndash;
                         #div-ammunition.collapse.show
                             .table-responsive
-                                table#tbl-ammunition.table.table-striped
+                                table#tbl-ammunition.table.table-striped.table-gear
                                     thead
                                         tr
                                             th(scope="col") Name
                                             th(scope="col") Price
-                                            th(scope="col") Encumbrance
+                                            th(scope="col") Enc
                                             th(scope="col") Rarity 
                                             th(scope="col") Special 
                                     tbody
@@ -134,17 +136,17 @@ html(lang="en")
                             button#btn-armor.btn(data-toggle='collapse', data-target='#div-armor' onclick="toggleCollapseArrow('armor');") &ndash;
                         #div-armor.collapse.show
                             .table-responsive
-                                table#tbl-armor.table.table-striped
+                                table#tbl-armor.table.table-striped.table-gear
                                     thead
                                         tr
                                             th(scope="col") Name
-                                            th(scope="col") Defense, Melee
-                                            th(scope="col") Defense, Ranged
+                                            th(scope="col") mDef
+                                            th(scope="col") rDef
                                             th(scope="col") Soak
-                                            th(scope="col") Encumbrance
+                                            th(scope="col") Enc
                                             th(scope="col") Price
                                             th(scope="col") Rarity 
-                                            th(scope="col") Hardpoints 
+                                            th(scope="col") Hard 
                                             th(scope="col") Special 
                                     tbody
                                         +gear-armor('Dense Clothing', 0, 0, 1, 1, 50, 0, 0, '')
@@ -167,12 +169,12 @@ html(lang="en")
                             button#btn-implements.btn(data-toggle='collapse', data-target='#div-implements' onclick="toggleCollapseArrow('implements');") &ndash;
                         #div-implements.collapse.show
                             .table-responsive
-                                table#tbl-implements.table.table-striped
+                                table#tbl-implements.table.table-striped.table-gear
                                     thead
                                         tr
                                             th(scope="col") Name
                                             th(scope="col") Price
-                                            th(scope="col") Encumbrance
+                                            th(scope="col") Enc
                                             th(scope="col") Rarity 
                                             th(scope="col") Special 
                                     tbody
@@ -196,12 +198,12 @@ html(lang="en")
                             button#btn-other-gear.btn(data-toggle='collapse', data-target='#div-other-gear' onclick="toggleCollapseArrow('other-gear');") &ndash;
                         #div-other-gear.collapse.show
                             .table-responsive
-                                table#tbl-other-gear.table.table-striped
+                                table#tbl-other-gear.table.table-striped.table-gear
                                     thead
                                         tr
                                             th(scope="col") Name
                                             th(scope="col") Price
-                                            th(scope="col") Encumbrance
+                                            th(scope="col") Enc
                                             th(scope="col") Rarity 
                                             th(scope="col") Special 
                                     tbody
@@ -244,5 +246,8 @@ html(lang="en")
                     p Toolkits allow mechanics to perform Mechanics checks to repair most devices.
                     p #[strong Traveler's Pack:] A pack including a bedroll, a tent, a canteen, a cooking stove and basic cooking supplies, 50' of rope, and a thermal blanket.
                     p #[strong Walkie Talkies:] Having little to do with ancient radio devices, the Translator Virus still refers to devices such as this as walkie talkies. This is an augment for a memescape interface (the price is the same whether you buy it as one device or as an additional piece of equipment) that allows for short-range synchronous communication between memescape interfaces. The general range is up to ten miles, subject to interference from cryptonodes, gravitic anomalies, and magic.
+
+                    h3 Manufacturers
+                    p For a complete list of manufacturers of goods in the Osmium Universe, click #[a(href='./../gms/manufacturers.html') here].
 
         +footer

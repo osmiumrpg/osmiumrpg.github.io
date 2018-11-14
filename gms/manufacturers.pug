@@ -1,0 +1,26 @@
+include /mixins.pug
+html(lang="en")
+    head
+        title Manufacturers | Osmium: Galaxies of Fantasy Adventure
+        +header
+
+        // My Files
+        link(href='./../content/style.css', rel='stylesheet', type='text/css')
+        script(src='./../content/javascript/script.js')
+
+    body
+        +navbar
+        .container-fluid
+            .row
+                .hidden-xs.col-lg-2
+                .col-lg-8.col-12
+
+                    h1 Manufacturers
+                    p A listing and description of who makes stuff, because nothing makes a sci-fi game really sing like branding.
+
+                    h5 Dark Ephemeris Smithwerks
+                    p A Dwarven and Gnomish weapons maker in the 
+                        a.pop.pop-info(data-toggle='popover', tabindex='0', title='Hegemony', data-content="An empire of Aven and Dwarves who ruled Earth for 200 years.") Hegemony
+                        |  known for their exacting craftsmanship. Their weapons are designed with a very strong Dwarven standpoint. The tactical assumptions they make are informed by the battles they have fought. Often black and either bright yellow or gold in color.
+
+        +footer

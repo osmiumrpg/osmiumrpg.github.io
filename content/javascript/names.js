@@ -24,9 +24,9 @@ gen_data['cogdwarf_male_firstname'] = [
 
 gen_data['cogdwarf_surname'] = ['{cogdwarf_surname_adjective} {cogdwarf_surname_noun}'];
 
-gen_data['cogdwarf_surname_adjective'] = ['Astronomic','August','Cherished','Circular','Exalted','Far','Glorious','Grand','Black','Grave','Lost','Noble','Distant','Fanciful','Majestic','Sovereign','Sublime','Storied','Wayfaring','Whispered','Quiet','Impossible','White'];
+gen_data['cogdwarf_surname_adjective'] = ['Adamant','Arcadian','Astronomic','August','Baleful','Black','Cerulean','Cherished','Circular','Dark','Distant','Effulgent','Exalted','Fanciful','Far','Glorious','Grand','Grave','Impossible','Lost','Luminous','Majestic','Meanderable','Noble','Prime','Quiet','Sagacious','Sidereal','Sovereign','Sublime','Storied','Trenchant','Verdant','Wayfaring','Whispered','White','Zealous'];
 
-gen_data['cogdwarf_surname_noun'] = ['Path','Ecliptic','Moebius','Journey','Promenade','Concourse','Futures','Horizon','Zenith','Palanquin','Paragon','Paradox','Pinnacle','Quest','Saga','Valley','Verse'];
+gen_data['cogdwarf_surname_noun'] = ['Azimuth','Concourse','Ecliptic','Ephemeris','Conjunction','Filament','Futures','Graticule','Horizon','Journey','Lunation','Magnitude','Meridian','Moebius','Mosaic','Palanquin','Paragon','Paradox','Pinnacle','Promenade','Path','Quadrature','Quest','Saga','Singularity','Valley','Verse','Zenith','Zodiac'];
 
 gen_data['grover_female'] = [
     '{grover_female_firstname} {grover_surname}'

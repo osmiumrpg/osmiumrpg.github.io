@@ -309,21 +309,34 @@ span.challenge {
 
 .table-striped>tbody>tr:not(.rolled):nth-child(odd)>td, 
 .table-striped>tbody>tr:not(.rolled):nth-child(odd)>th {
-   background-color: aliceblue;
- }
+    background-color: aliceblue;
+}
 
- td {
-     font-size: 1rem;
- }
+td {
+    font-size: 1rem;
+}
 
- thead th {
-     background-color: #F7941E;
-     font-family: 'Bebas Neue';
-     /* font-weight: bold; */
-     color: white;
-     font-size: 125%;
-     letter-spacing: 0.1rem;
- }
+thead th {
+    background-color: #F7941E;
+    font-family: 'Bebas Neue';
+    /* font-weight: bold; */
+    color: white;
+    font-size: 125%;
+    letter-spacing: 0.1rem;
+}
+
+.table-gear {
+    padding: 2px;
+}
+
+.table-gear td {
+    font-size: 0.9rem;
+    padding: 2px 2px 2px 6px;
+}
+
+.table-gear th {
+    padding: 6px;
+}
 
 /* 
     POPOVERS

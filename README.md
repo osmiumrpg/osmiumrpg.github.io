@@ -1,2 +1,2 @@
 # osmiumrpg.github.io
-Let's play with gitpages
+Home to the Osmium RPG and its generators.

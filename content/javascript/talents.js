@@ -314,7 +314,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Adventurer'],
-        Text: "<p>When in the wilderness, your character may make a <strong>Simple (-) Survival check</span>, instead of Discipline or Cool, to recover strain at the end of an encounter (see Core Rules page 117).</p>",
+        Text: "<p>When in the wilderness, your character may make a <strong>Simple (-) Survival check</strong>, instead of Discipline or Cool, to recover strain at the end of an encounter (see Core Rules page 117).</p>",
         Source: 'GCRB'
     },
     {
@@ -422,7 +422,6 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Tunr)',
         Ranked: 'Yes',
         Tags: ['Awareness', 'Melee'],
-        Text: "<p>When making a Medicine check to help a character heal wounds, the target heals 1 additional strain per rank of Physician.</p>",
         Test: "<p>When your character suffers a hit from a Ranged combat check, after damage is calculated but before soak is applied, your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Reflect. This talent can only be used once per hit, and your character needs to be wielding a Shield deemed appropriate by the GM.</p>",
         Source: 'FCRB'
     },

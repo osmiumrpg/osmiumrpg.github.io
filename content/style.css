@@ -190,20 +190,20 @@ h6 {
 @media screen and (min-width: 768px) {
     .sidenote {
         max-width: 320px;
-        margin: 0rem 0rem 2rem 1rem;
+        margin: 0rem 0rem 1rem 1rem;
     }
     .npc-sidenote {
         max-width: 370px;
-        margin: 0rem 0rem 2rem 1rem;
+        margin: 0rem 0rem 1rem 1rem;
     }
 }
 
 @media screen and (max-width: 767px) {
     .sidenote {
-        margin: 0rem 0rem 2rem 0rem;
+        margin: 0rem 0rem 1rem 0rem;
     }
     .npc-sidenote {
-        margin: 0rem 0rem 2rem 0rem;
+        margin: 0rem 0rem 1rem 0rem;
     }
 }
 

@@ -28,7 +28,8 @@ html(lang="en")
                             p: a(href='#Grover' style='margin-left: 1rem;') Grover
                             p: a(href='#Spacer' style='margin-left: 1rem;') Spacer
                             p: a(href='#Atlantean') Atlantean
-                            p: a(href='#Aven') Aven
+                            //-
+                                p: a(href='#Aven') Aven
                             p: a(href='#Chthonian') Chthonian
                             p: a(href='#Dwarf') Dwarf
                             p: a(href='#Elf') Elf
@@ -101,23 +102,30 @@ html(lang="en")
                         span.cun 1
                         span.wil 2
                         span.pre 3
-
-                    hr
-                    h3#Aven Aven
-                    h5 Species Ability
-                    .archetype
-                        span.bra 2
-                        span.agi 3
-                        span.int 2
-                        span.cun 1
-                        span.wil 2
-                        span.pre 2
                     ul 
-                        li #[strong Wound Threshold:] 9 + Brawn
-                        li #[strong Strain Threshold:] 11 + Willpower
+                        li #[strong Wound Threshold:] 12 + Brawn
+                        li #[strong Strain Threshold:] 12 + Willpower
                         li #[strong Starting Experience:] 90 XP
-                        li #[strong Starting Skills:] Aven begin with one rank in Perception. You still cannot train their Perception above rank 2 during character creation.
-                        li #[strong Flight:] Aven can fly. More on what this means soon.
+                        li #[strong Starting Skills:] Atlanteans begin with one rank in Athletics. You still cannot train their Athletics above rank 2 during character creation.
+                        li #[strong Perfection Manifest:] Atlanteans do not need to eat, sleep, or breathe, and they are unaffected by toxins and poisons.
+
+                    //-
+                        hr
+                        h3#Aven Aven
+                        h5 Species Ability
+                        .archetype
+                            span.bra 2
+                            span.agi 3
+                            span.int 2
+                            span.cun 1
+                            span.wil 2
+                            span.pre 2
+                        ul 
+                            li #[strong Wound Threshold:] 9 + Brawn
+                            li #[strong Strain Threshold:] 11 + Willpower
+                            li #[strong Starting Experience:] 90 XP
+                            li #[strong Starting Skills:] Aven begin with one rank in Perception. You still cannot train their Perception above rank 2 during character creation.
+                            li #[strong Flight:] Aven can fly. More on what this means soon.
 
                     hr
                     h3#Chthonian Chthonian
@@ -288,7 +296,7 @@ html(lang="en")
                     ul
                         li #[strong Starting Skills:] Shadowfoot Halflings begin with one rank in Stealth. You still cannot train their Stealth above rank 2 during character creation. 
                         li #[strong Nimble:] A Shadowfoot Halfling may purchase an extra maneuver for 1 strain, if they use that maneuver to disengage from an adversary with a Silhouette of 1 or greater. They still may not take more than two maneuvers in a turn.
-                        li #[strong Lucky:] Once per session, a Shadowfoot Halfling may reroll a dice roll, either one they made, or one that was made targeting them.
+                        li #[strong Lucky:] Once per session, a Shadowfoot Halfling may reroll any dice in a dice roll that do not show a #[span.genesys t] or #[span.genesys d], either a roll they made, or one that was made targeting them.
                     p #[strong Naming Conventions. ] Shadowfoot Halflings are named when they have a tale worth telling. Those who are present then give them a name. Who they invite to the telling is a delicate balancing act: they want people they trust to give them a good name, but also people of sufficient import in their community that the name will stick. They take the names of their mother and father's clans (often the same).
                     p 
                         button#generate-shadowfoothalfling-female.btn.btn-secondary(onclick="populate_name_label_random('shadowfoothalfling', 'female')") Generate Female Name 
@@ -300,6 +308,13 @@ html(lang="en")
 
                     hr
                     h3#Kua-Toa Kua-Toa
+                    p 
+                        img.img-fluid.img-right-floater(src='./../content/images/species_kuatoa.png')
+                        | The Kua-Toa are not a bright people. Not merely not intellectual, they are often perceived by their fellow species as just dumb. Many rise above this prejudice, but the stereotype remains. In the Federation there's a phrase for acting stupid: "Are you breathing water?"
+                    P And yet, Kua-Toa have made their mark on the stage of the universe. For they are natural practitioners of magic. Capable summoners, imbued with innate power when it comes to magic. And more importantly, for some unknown reason, their faith is just worth more. Their ability to feed the divine beings who feed off of worship is incredible. The supplications of the Kua-Toa dwarf that of any other race. Thanksfully, most of the gods worshipped by the Kua-Toa are as dumb as they are.
+                    p #[strong Physiology. ] It's possible Kua-Toa evolved from fish. Some theorists believe they were uplifted, though by whom is unknown.
+                    p #[strong Society. ]
+
                     h5 Species Ability
                     .archetype
                         span.bra 2
@@ -308,6 +323,20 @@ html(lang="en")
                         span.cun 2
                         span.wil 3
                         span.pre 2
+                    ul
+                        li #[strong Wound Threshold:] 10 + Brawn
+                        li #[strong Strain Threshold:] 10 + Willpower
+                        li #[strong Starting Experience:] 90 XP
+                        li #[strong Small:] Kua-Toa have a Silhouette of 0.
+                        li #[strong Starting Skills:] Kua-Toa start the game with one rank in Lore. They still may not train Lore above rank 2 during character creation.
+                        li #[strong Amphibious:] Kua-Toa can breathe in salt and fresh water, as well as in air.
+                        li #[strong Durable:] Kua-Toa start with 1 Rank of the #[em Durable] Talent.
+                        li #[strong Natural Summoners:] Once per session, a Kua-Toa may make the Concentration maneuver as an incidental.
+                        li #[strong Ritualists:] A Kua-Toa adds #[span.dice.boost b] to any rituals they participate in.
+                    .sidenote
+                        h6 Amphibious Design Note
+                        p I'm valuing the #[em Amphibious] ability as -5 XP, instead of -10, because it's a space fantasy game. There are many more places to suffocate or drown than in water.
+                    p #[strong Naming Convention. ]
 
                     hr
                     h3#Recog Recognitive

@@ -29,11 +29,11 @@ html(lang="en")
                             p: a(href='#Spacer' style='margin-left: 1rem;') Spacer
                             p: a(href='#Atlantean') Atlantean
                             p: a(href='#Aven') Aven
+                            p: a(href='#Chthonian') Chthonian
                             p: a(href='#Dwarf') Dwarf
                             p: a(href='#Elf') Elf
                             p: a(href='#Halfling') Halfling
                             p: a(href='#Kua-Toa') Kua-Toa
-                            p: a(href='#MindFlayer') Mind Flayer
                             p: a(href='#Recog') Recognitive
                             p: a(href='#Vrar') Vrar
 
@@ -120,6 +120,35 @@ html(lang="en")
                         li #[strong Flight:] Aven can fly. More on what this means soon.
 
                     hr
+                    h3#Chthonian.text-center Chthonian
+                    p 
+                        img.img-fluid.img-right-floater(src='./../content/images/species_mindflayer.png')
+                        | Reformed. Or so they say. Leaders of the mighty Commune. There was a time when the Chthonians consumed galaxies, spreading their empire in an endless quest for new sentient species to consume. Their endless hunger created weapons of terrible destruction and subjugation. They uplifted the #[strong Hulking Simians], turning them into fearsome warriors and strategists. They created the #[strong Oblex] from the remnants of their brain pods, stealthy liquid assassins. But it was the #[strong Shadowfoot Halflings] who ultimately changed the Commune into a... more #[em civilized] empire.
+                    p The Chthonians have not given up the conquests made when they were warlords. Their Commune is still vast, their weapons still very present. But their vassal species are now citizens, they no longer conquer mindlessly, and they no longer eat brains of the sentient. Usually.
+                    p #[strong Physiology. ]
+                    p #[strong Society. ]
+                    p 
+                        button#generate-mindflayer-female.btn.btn-secondary(onclick="populate_name_label_random('mindflayer', 'female')") Generate Name
+                    p
+                        strong Name: 
+                        label#label-mindflayer-name
+                    h5.text-center Species Ability
+                    .archetype
+                        span.bra 2
+                        span.agi 2
+                        span.int 2
+                        span.cun 3
+                        span.wil 1
+                        span.pre 2
+                    ul 
+                        li #[strong Wound Threshold:] 9 + Brawn
+                        li #[strong Strain Threshold:] 10 + Willpower
+                        li #[strong Starting Experience:] 100 XP
+                        li #[strong Starting Skills:] Chthonians start the game with one rank in Coercion. They still may not train Coercion above rank 2 during character creation.
+                        li #[strong Dark Vision:] When making skill checks, Chthonians remove up to #[span.dice.setback bb] imposed due to darkness.
+                        li #[strong Magic Resistance:] Upgrade the difficulty of #[em any] spell targeting the Chthonian.
+
+                    hr
                     h3#Dwarf.text-center Dwarf
                     p 
                         img.img-fluid.img-right-floater(src='./../content/images/species_dwarf.png')
@@ -176,7 +205,7 @@ html(lang="en")
                         img.img-fluid.img-right-floater(src='./../content/images/species_elf.png')
                         | Elves are an ancient race, masters of ancient magic. They are the only species capable of traveling via The Ways, and their ability to exist in places of dangerous purity is unsurpassed. They are curious beings, driven by purpose but enabled by their long lives to take moments, sometimes years, to enjoy themselves and to reflect.
                     p All elves once originated on the lost planet of Avalon, though that was tens of thousands of years ago. The species of elves have since diverged, yet more than any other species, they have a respect for each other, no matter their culture or nationality.
-                    p #[strong Physiology. ] Elves are exemplars of primal beauty. They are never ugly, merely #[em haunting] or #[em too beautiful], aesthetically compelling even to races wholly alien to Elves (like Vrar or Mind Flayers). They are a little shorter than Humans, between 4'10" and 6', and lighter, weighing between 100 and 160 pounds. Even without age-enhancement technology, Elves live between four and six hundred years. Elves exhibit even less sexual dimorphism than Humans, with the only differences being males weigh ever so slightly more, and females tend to live a few decades longer.
+                    p #[strong Physiology. ] Elves are exemplars of primal beauty. They are never ugly, merely #[em haunting] or #[em too beautiful], aesthetically compelling even to races wholly alien to Elves (like Vrar or Chthonians). They are a little shorter than Humans, between 4'10" and 6', and lighter, weighing between 100 and 160 pounds. Even without age-enhancement technology, Elves live between four and six hundred years. Elves exhibit even less sexual dimorphism than Humans, with the only differences being males weigh ever so slightly more, and females tend to live a few decades longer.
                     p #[strong Society. ] Elven society tends to value tradition above all else. Whether this is because they are #[em stuck in their ways] or #[em taking the long view] depends on who you ask. Held positions, whether appointed or elected, tend to be measured in decades. Projects are undertaken that may not see completion for a century, as a matter of course. Change is viewed as inevitable, but haste is viewed with suspicion.
                     h5.text-center Species Ability
                     .archetype
@@ -244,8 +273,8 @@ html(lang="en")
                         li #[strong Starting Experience:] 100 XP
                         li #[strong Small:] Halflings have a Silhouette of 0.
                     h5.text-center Shadowfoot Halfling
-                    p The Shadowfoot Halflings have always existed in the Commune. Originally, as slaves to the Mind Flayers, before eventually earning their independence. Their underground network of freed slaves, terrorists, and abolitionists, informs their culture to this day. Even as freed members of the Commune, many holding positions of great importance, as a people they still remember when they were second-class citizens of the Mind Flayers. And their food.
-                    p The Shadowfoot should have been extinct long ago. The fact that they survived in the face of the Mind Flayer Commune's purges of hunger is a miracle. The Shadowfoot Halflings know it is because they were able to keep themselves invisible. Not just through acts of stealth, but through magic, social engineering, and engineering. Shadowfoot Halflings believe in hiding from the world until they feel there is opportunity to reveal themselves.
+                    p The Shadowfoot Halflings have always existed in the Commune. Originally, as slaves to the Chthonians, before eventually earning their independence. Their underground network of freed slaves, terrorists, and abolitionists, informs their culture to this day. Even as freed members of the Commune, many holding positions of great importance, as a people they still remember when they were second-class citizens of the Chthonians. And their food.
+                    p The Shadowfoot should have been extinct long ago. The fact that they survived in the face of the Chthonian Commune's purges of hunger is a miracle. The Shadowfoot Halflings know it is because they were able to keep themselves invisible. Not just through acts of stealth, but through magic, social engineering, and engineering. Shadowfoot Halflings believe in hiding from the world until they feel there is opportunity to reveal themselves.
                     p Commune Shadowfoot tend to dress in very simple clothing. Historically, they favored blacks and dark purples, though reds and whites have become more popular as they have taken their place as full citizens of the Commune. Halflings favor pouches and purses to pockets, wanting to be able to shed weight as quickly as possible should they need to.
                     ul
                         li #[strong Starting Skills:] Shadowfoot Halflings begin with one rank in Stealth. You still cannot train their Stealth above rank 2 during character creation. 
@@ -270,35 +299,6 @@ html(lang="en")
                         span.cun 2
                         span.wil 3
                         span.pre 2
-
-                    hr
-                    h3#MindFlayer.text-center Mind Flayer
-                    p 
-                        img.img-fluid.img-right-floater(src='./../content/images/species_mindflayer.png')
-                        | Reformed. Or so they say. Leaders of the mighty Commune. There was a time when the Mind Flayers consumed galaxies, spreading their empire in an endless quest for new sentient species to consume. Their endless hunger created weapons of terrible destruction and subjugation. They uplifted the #[strong Hulking Simians], turning them into fearsome warriors and strategists. They created the #[strong Oblex] from the remnants of their brain pods, stealthy liquid assassins. But it was the #[strong Shadowfoot Halflings] who ultimately changed the Commune into a... more #[em civilized] empire.
-                    p The Mind Flayers have not given up the conquests made when they were warlords. Their Commune is still vast, their weapons still very present. But their vassal species are now citizens, they no longer conquer mindlessly, and they no longer eat brains of the sentient. Usually.
-                    p #[strong Physiology. ]
-                    p #[strong Society. ]
-                    p 
-                        button#generate-mindflayer-female.btn.btn-secondary(onclick="populate_name_label_random('mindflayer', 'female')") Generate Name
-                    p
-                        strong Name: 
-                        label#label-mindflayer-name
-                    h5.text-center Species Ability
-                    .archetype
-                        span.bra 2
-                        span.agi 2
-                        span.int 2
-                        span.cun 3
-                        span.wil 1
-                        span.pre 2
-                    ul 
-                        li #[strong Wound Threshold:] 9 + Brawn
-                        li #[strong Strain Threshold:] 10 + Willpower
-                        li #[strong Starting Experience:] 100 XP
-                        li #[strong Starting Skills:] Mind Flayers start the game with one rank in Coercion. They still may not train Coercion above rank 2 during character creation.
-                        li #[strong Dark Vision:] When making skill checks, Mind Flayers remove up to #[span.dice.setback bb] imposed due to darkness.
-                        li #[strong Magic Resistance:] Upgrade the difficulty of #[em any] spell targeting the Mind Flayer.
 
                     hr
                     h3#Recog.text-center Recognitive

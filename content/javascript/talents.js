@@ -1779,8 +1779,8 @@ var talent_list = [
         Tier: 3,
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'No',
-        Tags: ['Mind Flayer'],
-        Text: "<p><em>You must be a Mind Flayer to benefit from this talent.</em></p><p>As an out of turn incidental, you may allow a spellcaster to target you with their spell. If you do so, their next spell targeting you is not upgraded.</p>",
+        Tags: ['Chthonian'],
+        Text: "<p><em>You must be a Chthonian to benefit from this talent.</em></p><p>As an out of turn incidental, you may allow a spellcaster to target you with their spell. If you do so, their next spell targeting you is not upgraded.</p>",
         Source: 'PHE'
     },
     {

@@ -15,10 +15,25 @@ html(lang="en")
                 .hidden-xs.col-lg-2
                 .col-lg-8.col-12
                     h1 Gear
+                    p Here you'll find all the things a PC in the Osmium Universe needs to buy, that don't have wheels.
+                    .card.toc
+                        #div-toc-header
+                            div: strong Table of Contents
+                            div: label#btn-toc(data-toggle='collapse', data-target='#div-toc' onclick="toggleTOCArrow('toc');" ) [+]
+                        #div-toc.collapse
+                            p: a(href='#Weapons') Weapons
+                            p &nbsp; &nbsp; #[a(href='#Melee') Melee]
+                            p &nbsp; &nbsp; #[a(href='#Ranged') Ranged]
+                            p &nbsp; &nbsp; #[a(href='#Ammo') Ammunition]
+                            p: a(href='#Armor') Armor
+                            p: a(href='#Gear') Gear
+                            p &nbsp; &nbsp; #[a(href='#Implements') Implements]
+                            p &nbsp; &nbsp; #[a(href='#Other') Other Gear]
+                            p: a(href='#Manufacturers') Manufacturers
 
-                    h2 Weapons
+                    h2#Weapons Weapons
 
-                    h3 Melee Weapons
+                    h3#Ranged Melee Weapons
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Melee Weapons
@@ -58,7 +73,7 @@ html(lang="en")
                                         //-
                                             +gear-weapon('Baton', 'Melee', '+2', 5,'Engaged',2,50,3,1,'Disorient 2')
 
-                    h3 Ranged Weapons
+                    h3#Ranged Ranged Weapons
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Ranged Weapons
@@ -101,7 +116,7 @@ html(lang="en")
                     p #[strong Shield(s):] Shields consist of a bulky vambrace worn on the off-hand. With a moment's notice, a shield can form a localized force-field, protecting the wielder. The force-field may be toggled between being opaque and transparent.
                     p #[strong Sniper Guns (Blaster / Rifle):] You may not move after performing your Prepare maneuvers, or you have to take the maneuver(s) again.
 
-                    h3 Ammunition 
+                    h3#Ammo Ammunition 
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Ammunition
@@ -129,7 +144,7 @@ html(lang="en")
                     p #[strong Seeking:] Your weapon gains Accurate 2, or increases its Accurate rating by 2.
                     p #[strong Wraithkiller:] This ammunition is made from encapsulated prisms of sunlight, as well as various silver alloys and enchanted tinctures. Your character counts the Critical rating of their weapon as one lower (to a minimum of 1) when making an attack targeting an undead adversary.
 
-                    h2 Armor
+                    h2#Armor Armor
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Personal Armor
@@ -163,9 +178,9 @@ html(lang="en")
                                             +gear-armor('Power Armor', 2, 2, 2, 8, 10000, 10, 5, 'The wearer increases their Brawn attribute by +1. However, they apply two bb to any Coordination or Stealth checks.')
                                             +gear-armor('Wingsuit', 0, 0, 1, 3, 1500, 7, 1, "Wearer takes no falling damage, assuming they're able to open both arms to extend the gliding membrane. Wearer can also make extended gliding leaps if they're launching from a high enough point.")
 
-                    h2 Gear
+                    h2#Gear Gear
 
-                    h3 Implements 
+                    h3#Implements Implements 
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Implements
@@ -194,7 +209,7 @@ html(lang="en")
                     p In addition, Magical Attack spells cast by your character increase their base damage by two.
                     p #[strong Warcaster Shield:] This shield functions as a regular shield. In addition, it also functions as an implement (imposing no penalty for an object in hand). Also, it allows its caster to use the Add Defense ability of the Barrier action without adding any difficulty to the roll.
 
-                    h3 Other Gear
+                    h3#Other Other Gear
                     .card
                         .card-header.d-table-cell.align-middle
                             h5 Other Gear
@@ -250,7 +265,7 @@ html(lang="en")
                     p #[strong Traveler's Pack:] A pack including a bedroll, a tent, a canteen, a cooking stove and basic cooking supplies, 50' of rope, and a thermal blanket.
                     p #[strong Walkie Talkies:] Having little to do with ancient radio devices, the Translator Virus still refers to devices such as this as walkie talkies. This is an augment for a memescape interface (the price is the same whether you buy it as one device or as an additional piece of equipment) that allows for short-range synchronous communication between memescape interfaces. The general range is up to ten miles, subject to interference from cryptonodes, gravitic anomalies, and magic.
 
-                    h3 Manufacturers
+                    h2#Manufacturers Manufacturers
                     p For a complete list of manufacturers of goods in the Osmium Universe, click #[a(href='./../gms/manufacturers.html') here].
 
         +footer

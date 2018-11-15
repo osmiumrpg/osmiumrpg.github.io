@@ -2404,7 +2404,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Awareness', 'Knowledge'],
-        Text: "<p>Once per session, identify one enemy target and make an appropriate <strong>Hard (<span class='dice difficulty'>ddd</span) Science</strong> or <strong>Lore check</strong> (GM chooses). If successful, for the rest of the encounter, allies within short range of your character add <span class='genesys'>a</span> to attacks against the target equal to <span class='genesys'>s</span> generated on the check.</p>",
+        Text: "<p>Once per session, identify one enemy target and make an appropriate <strong>Hard (<span class='dice difficulty'>ddd</span>) Science</strong> or <strong>Lore check</strong> (GM chooses). If successful, for the rest of the encounter, allies within short range of your character add <span class='genesys'>a</span> to attacks against the target equal to <span class='genesys'>s</span> generated on the check.</p>",
         Source: 'DOR'
     },
     {

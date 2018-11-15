@@ -113,7 +113,13 @@ html(lang="en")
                         li #[strong Starting Experience:] 90 XP
                         li #[strong Starting Skills:] Atlanteans begin with one rank in Athletics. You still cannot train their Athletics above rank 2 during character creation.
                         li #[strong Perfection Manifest:] Atlanteans do not need to eat, sleep, or breathe, and they are unaffected by toxins and poisons.
-                    p #[strong Naming Convention. ]
+                    p #[strong Naming Convention. ] Atlanteans are named with a definite article and a noun. Parents, while raising their child, will search for something sufficiently unique. Uniqueness cannot be guaranteed, of course, and Atlanteans will qualify their existence as needed; i.e., "the Whisper" will refer to themselves as "the Whisper of Stormcrest" if their audience knows two Whispers.
+                    p 
+                        button#generate-atlantean-female.btn.btn-secondary(onclick="populate_name_label_random('atlantean', 'female')") Generate Name
+                    p
+                        strong Name: 
+                        label#label-atlantean-name
+
 
                     //-
                         hr
@@ -148,10 +154,10 @@ html(lang="en")
                     p #[strong Society. ] Chthonian society is one of paradox. It is a society that values conformity filled with people of no distinguishing characteristics who want, more than anything else, to be recognized as an individual. It is a society where everybody's instinct is to eat the brains of every non-Chthonian they meet, but one that is currently striving to atone for the atrocities of their ancestors and make their great Commune a force for justice and freedom in the universe. This paradox, this tension, defines the Commune. Everybody is trying to be noticeable, but without seeming weird. That conflict infects fashion, bureaucracy, even the laws of the land. Excellence is to be lauded, #[em oddity] is not.
                     p #[strong Naming Convention. ] A Chthonian's full name includes the name of the podmate who got a body before them, and after them. While the tadpoles emerging from a brain pod are one unbroken chain, and as such referring to both the first and the last is superfluous, it is tradition. It ties you to two other people, your closest 'siblings'.
                     p 
-                        button#generate-mindflayer-female.btn.btn-secondary(onclick="populate_name_label_random('mindflayer', 'female')") Generate Name
+                        button#generate-chthonian-female.btn.btn-secondary(onclick="populate_name_label_random('chthonian', 'female')") Generate Name
                     p
                         strong Name: 
-                        label#label-mindflayer-name
+                        label#label-chthonian-name
 
                     h5 Species Ability
                     .archetype

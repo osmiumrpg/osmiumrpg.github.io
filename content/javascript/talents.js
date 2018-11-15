@@ -2296,7 +2296,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Computers'],
-        Text: "<p>Once per encounter, may take a Reroute Processors action, make an <strong>Average (<span class='dice difficulty'>dd</span) Computers check</strong> to reduce one of an artificial life form's characteristics by 1 and increase another of its characteristics by 1.</p>",
+        Text: "<p>Once per encounter, may take a Reroute Processors action, make an <strong>Average (<span class='dice difficulty'>dd</span>) Computers check</strong> to reduce one of an artificial life form's characteristics by 1 and increase another of its characteristics by 1.</p>",
         Source: 'SM'
     },
     {
@@ -2314,7 +2314,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Social'],
-        Text: "<p>While engaged in a debate or argument, make a <strong>Hard (<span class='dice difficulty'>ddd</span) Negotiation check</strong>. If successful, a number of bystanders or observers equal to your Presence sees one of the opponent's points (chosen by your character) as maliciously unreasonable.</p><p>The GM has the final say as to whether bystanders could see a point as unreasonable, based on who those bystanders are and what the point is. In these cases, the GM can suggest a modified version of that argument that would be more believable.</p>",
+        Text: "<p>While engaged in a debate or argument, make a <strong>Hard (<span class='dice difficulty'>ddd</span>) Negotiation check</strong>. If successful, a number of bystanders or observers equal to your Presence sees one of the opponent's points (chosen by your character) as maliciously unreasonable.</p><p>The GM has the final say as to whether bystanders could see a point as unreasonable, based on who those bystanders are and what the point is. In these cases, the GM can suggest a modified version of that argument that would be more believable.</p>",
         Source: 'DOH'
     },
     {

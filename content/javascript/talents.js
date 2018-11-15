@@ -2532,7 +2532,7 @@ var talent_list = [
         Activation: 'Passive',
         Ranked: 'Yes',
         Tags: ['Adventurer'],
-        Text: "<p>Each rank of Dedication increases one of your character’s characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice.</p>",
+        Text: "<p>Each rank of Dedication increases one of your character's characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice.</p>",
         Source: 'GCRB'
     },
     {
@@ -2604,7 +2604,7 @@ var talent_list = [
         Activation: 'Active (Incidental)',
         Ranked: 'No',
         Tags: ['Adventurer', 'Combat', 'Mechanics'],
-        Text: "<p>When resolving an attack from a personal scale explosive or ordinance weapon, your character may spend <span class='genesys'>a</span> or <span class='genesys'>t</span> to have the weapon’s Blast quality affect all characters within short range (rather than engaged). If the weapon normally affects all characters within short range, then the range of the effect is increased to medium range instead. You must still activate the Blast quality.</p>",
+        Text: "<p>When resolving an attack from a personal scale explosive or ordinance weapon, your character may spend <span class='genesys'>a</span> or <span class='genesys'>t</span> to have the weapon's Blast quality affect all characters within short range (rather than engaged). If the weapon normally affects all characters within short range, then the range of the effect is increased to medium range instead. You must still activate the Blast quality.</p>",
         Source: 'FO'
     },
     {
@@ -2676,7 +2676,7 @@ var talent_list = [
         Activation: 'Active (Incidental, Out of Turn)',
         Ranked: 'No',
         Tags: ['Melee', 'Range'],
-        Text: "<p>Once per round when an adversary attacks an ally within medium range, your character may spend one Story Point to use this talent to automatically hit that enemy once with a weapon your character is wielding, if the enemy is within the weapon’s range. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities.</p>",
+        Text: "<p>Once per round when an adversary attacks an ally within medium range, your character may spend one Story Point to use this talent to automatically hit that enemy once with a weapon your character is wielding, if the enemy is within the weapon's range. The hit deals the weapon's base damage, plus any damage from applicable talents or abilities.</p>",
         Source: 'ROT'
     },
     {
@@ -2685,7 +2685,7 @@ var talent_list = [
         Activation: 'Active (Action)',
         Ranked: 'No',
         Tags: ['Social'],
-        Text: "<p>Once per encounter, your character may use this talent to make an <strong>opposed Charm or Coercion versus Discipline check</strong> targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character’s Presence, plus one additional strain per <span class='genesys'>s</span>. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character’s witty barbs.</p>",
+        Text: "<p>Once per encounter, your character may use this talent to make an <strong>opposed Charm or Coercion versus Discipline check</strong> targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character's Presence, plus one additional strain per <span class='genesys'>s</span>. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character's witty barbs.</p>",
         Source: 'GCRB'
     },
     {
